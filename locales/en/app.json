@@ -1,0 +1,88 @@
+{
+  "lang": "English",
+  "menu": {
+    "name": "Menu",
+    "about": "About Noi",
+    "hide": "Hide Noi",
+    "hideOthers": "Hide Others",
+    "quit": "Quit Noi",
+    "unhide": "Show All",
+    "checkUpdates": "Check for Updates…",
+
+    "settings": "Settings",
+    "languages": "Languages",
+    "theme": {
+      "name": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "stayOnTop": "Stay On Top",
+    "showSidebar": "Show Sidebar",
+    "hideSidebar": "Hide Sidebar",
+    "devTools": "Developer Tools",
+
+    "edit": "Edit",
+    "undo": "Undo",
+    "redo": "Redo",
+    "pasteAndMatchStyle": "Paste and Match Style",
+    "delete": "Delete",
+
+    "view": "View",
+    "refresh": "Refresh the Page",
+    "goBack": "Go Back",
+    "goForward": "Go Forward",
+    "resetZoom": "Actual Size",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "fullScreen": "Enter Full Screen",
+
+    "help": "Help",
+    "log": "Noi Log",
+    "gettingStarted": "Getting Started",
+    "issues": "GitHub Issues",
+    "shareIdeas": "Share Ideas and Feedback",
+
+    "learnSpelling": "Learn Spelling",
+    "lookUpSelection": "Look Up “{selection}”",
+    "searchWithGoogle": "Search with Google",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste",
+    "selectAll": "Select All",
+    "saveImage": "Save Image",
+    "saveImageAs": "Save Image As…",
+    "saveVideo": "Save Video",
+    "saveVideoAs": "Save Video As…",
+    "copyLink": "Copy Link",
+    "saveLinkAs": "Save Link As…",
+    "copyImage": "Copy Image",
+    "copyImageAddress": "Copy Image Address",
+    "copyVideoAddress": "Copy Video Address",
+    "inspect": "Inspect Element",
+    "services": "Services",
+    "reload": "Reload",
+    "rename": "Rename",
+    "user": "User",
+    "setSystemTray": "Set as System Tray",
+    "clearCache": "Clear Cache Data"
+  },
+  "form": {
+    "name": "Name",
+    "url": "URL",
+    "save": "Save",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "invalidURL": "Invalid URL, please re-enter.",
+    "nameNotEmpty": "Name cannot be empty."
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "The current URL cannot be deleted.",
+      "dir_delete": "The directory of the current URL cannot be deleted."
+    },
+    "tip": {
+      "delete": "Cannot be recovered after deletion, are you sure you want to delete?"
+    }
+  }
+}

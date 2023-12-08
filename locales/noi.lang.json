@@ -1,0 +1,18 @@
+{
+  "name": "Noi Languages",
+  "link": "https://github.com/lencx/noi/blob/main/locales/noi.lang.json",
+  "locales": [
+    { "code": "en", "label": "English" },
+    { "code": "zh", "label": "简体中文" },
+    { "code": "zh-TW", "label": "繁體中文" },
+    { "code": "ja", "label": "日本語" },
+    { "code": "ko", "label": "한국어" },
+    { "code": "fr", "label": "Français" },
+    { "code": "es", "label": "Español" },
+    { "code": "pt", "label": "Português" },
+    { "code": "ru", "label": "Русский" },
+    { "code": "de", "label": "Deutsch" },
+    { "code": "it", "label": "Italiano" },
+    { "code": "tr", "label": "Türkçe" }
+  ]
+}

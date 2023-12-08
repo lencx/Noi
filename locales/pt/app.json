@@ -1,0 +1,88 @@
+{
+  "lang": "Português",
+  "menu": {
+    "name": "Menu",
+    "about": "Sobre o Noi",
+    "hide": "Ocultar Noi",
+    "hideOthers": "Ocultar Outros",
+    "quit": "Sair do Noi",
+    "unhide": "Mostrar Tudo",
+    "checkUpdates": "Verificar Atualizações…",
+
+    "settings": "Configurações",
+    "languages": "Idiomas",
+    "theme": {
+      "name": "Tema",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "stayOnTop": "Manter no Topo",
+    "showSidebar": "Mostrar Barra Lateral",
+    "hideSidebar": "Ocultar Barra Lateral",
+    "devTools": "Ferramentas de Desenvolvedor",
+
+    "edit": "Editar",
+    "undo": "Desfazer",
+    "redo": "Refazer",
+    "pasteAndMatchStyle": "Colar e Combinar Estilo",
+    "delete": "Excluir",
+
+    "view": "Visualizar",
+    "refresh": "Atualizar Página",
+    "goBack": "Voltar",
+    "goForward": "Avançar",
+    "resetZoom": "Tamanho Real",
+    "zoomIn": "Ampliar",
+    "zoomOut": "Reduzir",
+    "fullScreen": "Tela Cheia",
+
+    "help": "Ajuda",
+    "log": "Log do Noi",
+    "gettingStarted": "Primeiros Passos",
+    "issues": "Problemas no GitHub",
+    "shareIdeas": "Compartilhar Ideias e Feedback",
+
+    "learnSpelling": "Aprender Ortografia",
+    "lookUpSelection": "Procurar “{selection}”",
+    "searchWithGoogle": "Pesquisar com Google",
+    "cut": "Cortar",
+    "copy": "Copiar",
+    "paste": "Colar",
+    "selectAll": "Selecionar Tudo",
+    "saveImage": "Salvar Imagem",
+    "saveImageAs": "Salvar Imagem Como…",
+    "saveVideo": "Salvar Vídeo",
+    "saveVideoAs": "Salvar Vídeo Como…",
+    "copyLink": "Copiar Link",
+    "saveLinkAs": "Salvar Link Como…",
+    "copyImage": "Copiar Imagem",
+    "copyImageAddress": "Copiar Endereço da Imagem",
+    "copyVideoAddress": "Copiar Endereço do Vídeo",
+    "inspect": "Inspecionar Elemento",
+    "services": "Serviços",
+    "reload": "Recarregar",
+    "rename": "Renomear",
+    "user": "Usuário",
+    "setSystemTray": "Definir como Bandeja do Sistema",
+    "clearCache": "Limpar Dados de Cache"
+  },
+  "form": {
+    "name": "Nome",
+    "url": "URL",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "reset": "Resetar",
+    "invalidURL": "URL inválida, por favor reinsira.",
+    "nameNotEmpty": "Nome não pode estar vazio."
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "A URL atual não pode ser excluída.",
+      "dir_delete": "O diretório da URL atual não pode ser excluído."
+    },
+    "tip": {
+      "delete": "Uma vez excluído não pode ser recuperado, tem certeza que deseja excluir?"
+    }
+  }
+}

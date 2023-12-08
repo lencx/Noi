@@ -1,0 +1,79 @@
+{
+  "name": "Noi Mode",
+  "version": "0.1.0",
+  "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
+  "modes": [
+    {
+      "id": "noi@ai",
+      "parent": 0,
+      "dir": true,
+      "text": "AI"
+    },
+    {
+      "id": "noi@dev",
+      "parent": 0,
+      "dir": true,
+      "text": "Dev"
+    },
+    {
+      "id": "noi@community",
+      "parent": 0,
+      "dir": true,
+      "text": "Community"
+    },
+    {
+      "id": "noi:chatgpt",
+      "parent": "noi@ai",
+      "text": "ChatGPT",
+      "url": "https://chat.openai.com"
+    },
+    {
+      "id": "noi:claude",
+      "parent": "noi@ai",
+      "text": "Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "noi:bard",
+      "parent": "noi@ai",
+      "text": "Bard",
+      "url": "https://bard.google.com"
+    },
+    {
+      "id": "noi:poe",
+      "parent": "noi@ai",
+      "text": "Poe",
+      "url": "https://poe.com"
+    },
+    {
+      "id": "noi:github",
+      "parent": "noi@dev",
+      "text": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "id": "noi:replit",
+      "parent": "noi@dev",
+      "text": "Replit",
+      "url": "https://replit.com"
+    },
+    {
+      "id": "noi:huggingface",
+      "parent": "noi@dev",
+      "text": "Hugging Face",
+      "url": "https://huggingface.co"
+    },
+    {
+      "id": "noi:x",
+      "parent": "noi@community",
+      "text": "X",
+      "url": "https://twitter.com"
+    },
+    {
+      "id": "noi:discord",
+      "parent": "noi@community",
+      "text": "Discord",
+      "url": "https://discord.com"
+    }
+  ]
+}

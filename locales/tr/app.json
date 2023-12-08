@@ -1,0 +1,88 @@
+{
+  "lang": "Türkçe",
+  "menu": {
+    "name": "Menü",
+    "about": "Noi Hakkında",
+    "hide": "Noi'yi Gizle",
+    "hideOthers": "Diğerlerini Gizle",
+    "quit": "Noi'den Çık",
+    "unhide": "Tümünü Göster",
+    "checkUpdates": "Güncellemeleri Kontrol Et…",
+
+    "settings": "Ayarlar",
+    "languages": "Diller",
+    "theme": {
+      "name": "Tema",
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
+    },
+    "stayOnTop": "Üstte Kal",
+    "showSidebar": "Kenar Çubuğunu Göster",
+    "hideSidebar": "Kenar Çubuğunu Gizle",
+    "devTools": "Geliştirici Araçları",
+
+    "edit": "Düzenle",
+    "undo": "Geri Al",
+    "redo": "Yinele",
+    "pasteAndMatchStyle": "Yapıştır ve Stili Uygula",
+    "delete": "Sil",
+
+    "view": "Görüntüle",
+    "refresh": "Sayfayı Yenile",
+    "goBack": "Geri Git",
+    "goForward": "İleri Git",
+    "resetZoom": "Gerçek Boyut",
+    "zoomIn": "Yakınlaştır",
+    "zoomOut": "Uzaklaştır",
+    "fullScreen": "Tam Ekran",
+
+    "help": "Yardım",
+    "log": "Noi Günlüğü",
+    "gettingStarted": "Başlarken",
+    "issues": "GitHub Sorunları",
+    "shareIdeas": "Fikir ve Geri Bildirim Paylaş",
+
+    "learnSpelling": "Yazım Öğren",
+    "lookUpSelection": "“{selection}” Ara",
+    "searchWithGoogle": "Google ile Ara",
+    "cut": "Kes",
+    "copy": "Kopyala",
+    "paste": "Yapıştır",
+    "selectAll": "Tümünü Seç",
+    "saveImage": "Görüntüyü Kaydet",
+    "saveImageAs": "Görüntüyü Farklı Kaydet…",
+    "saveVideo": "Videoyu Kaydet",
+    "saveVideoAs": "Videoyu Farklı Kaydet…",
+    "copyLink": "Bağlantıyı Kopyala",
+    "saveLinkAs": "Bağlantıyı Farklı Kaydet…",
+    "copyImage": "Görüntüyü Kopyala",
+    "copyImageAddress": "Görüntü Adresini Kopyala",
+    "copyVideoAddress": "Video Adresini Kopyala",
+    "inspect": "Öğeyi İncele",
+    "services": "Hizmetler",
+    "reload": "Yeniden Yükle",
+    "rename": "Yeniden Adlandır",
+    "user": "Kullanıcı",
+    "setSystemTray": "Sistem Tepsisi Olarak Ayarla",
+    "clearCache": "Önbellek Verilerini Temizle"
+  },
+  "form": {
+    "name": "Ad",
+    "url": "URL",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "reset": "Sıfırla",
+    "invalidURL": "Geçersiz URL, lütfen yeniden girin.",
+    "nameNotEmpty": "Ad boş bırakılamaz."
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "Mevcut URL silinemez.",
+      "dir_delete": "Mevcut URL'nin dizini silinemez."
+    },
+    "tip": {
+      "delete": "Silindikten sonra geri alınamaz, silmek istediğinizden emin misiniz?"
+    }
+  }
+}

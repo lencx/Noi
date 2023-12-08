@@ -1,0 +1,88 @@
+{
+  "lang": "한국어",
+  "menu": {
+    "name": "메뉴",
+    "about": "Noi 정보",
+    "hide": "Noi 숨기기",
+    "hideOthers": "기타 숨기기",
+    "quit": "Noi 종료",
+    "unhide": "모두 보기",
+    "checkUpdates": "업데이트 확인…",
+
+    "settings": "설정",
+    "languages": "언어",
+    "theme": {
+      "name": "테마",
+      "light": "라이트",
+      "dark": "다크",
+      "system": "시스템 기본"
+    },
+    "stayOnTop": "항상 위에 놓기",
+    "showSidebar": "사이드바 보기",
+    "hideSidebar": "사이드바 숨기기",
+    "devTools": "개발자 도구",
+
+    "edit": "편집",
+    "undo": "실행 취소",
+    "redo": "다시 실행",
+    "pasteAndMatchStyle": "스타일 맞추어 붙여넣기",
+    "delete": "삭제",
+
+    "view": "보기",
+    "refresh": "페이지 새로 고침",
+    "goBack": "뒤로 가기",
+    "goForward": "앞으로 가기",
+    "resetZoom": "실제 크기",
+    "zoomIn": "확대",
+    "zoomOut": "축소",
+    "fullScreen": "전체 화면으로",
+
+    "help": "도움말",
+    "log": "Noi 로그",
+    "gettingStarted": "시작하기",
+    "issues": "GitHub 문제",
+    "shareIdeas": "아이디어 및 피드백 공유",
+
+    "learnSpelling": "철자 배우기",
+    "lookUpSelection": "‘{selection}’ 검색",
+    "searchWithGoogle": "Google로 검색",
+    "cut": "잘라내기",
+    "copy": "복사",
+    "paste": "붙여넣기",
+    "selectAll": "전체 선택",
+    "saveImage": "이미지 저장",
+    "saveImageAs": "이미지 다른 이름으로 저장…",
+    "saveVideo": "비디오 저장",
+    "saveVideoAs": "비디오 다른 이름으로 저장…",
+    "copyLink": "링크 복사",
+    "saveLinkAs": "링크 다른 이름으로 저장…",
+    "copyImage": "이미지 복사",
+    "copyImageAddress": "이미지 주소 복사",
+    "copyVideoAddress": "비디오 주소 복사",
+    "inspect": "요소 검사",
+    "services": "서비스",
+    "reload": "다시 로드",
+    "rename": "이름 바꾸기",
+    "user": "사용자",
+    "setSystemTray": "시스템 트레이로 설정",
+    "clearCache": "캐시 데이터 지우기"
+  },
+  "form": {
+    "name": "이름",
+    "url": "URL",
+    "save": "저장",
+    "cancel": "취소",
+    "reset": "초기화",
+    "invalidURL": "유효하지 않은 URL입니다. 다시 입력해주세요.",
+    "nameNotEmpty": "이름은 비워둘 수 없습니다."
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "현재 URL은 삭제할 수 없습니다.",
+      "dir_delete": "현재 URL의 디렉토리를 삭제할 수 없습니다."
+    },
+    "tip": {
+      "delete": "삭제 후 복구할 수 없습니다. 정말 삭제하시겠습니까?"
+    }
+  }
+}

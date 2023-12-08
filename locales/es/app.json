@@ -1,0 +1,88 @@
+{
+  "lang": "Español",
+  "menu": {
+    "name": "Menú",
+    "about": "Acerca de Noi",
+    "hide": "Ocultar Noi",
+    "hideOthers": "Ocultar Otros",
+    "quit": "Salir de Noi",
+    "unhide": "Mostrar Todo",
+    "checkUpdates": "Buscar Actualizaciones…",
+
+    "settings": "Configuración",
+    "languages": "Idiomas",
+    "theme": {
+      "name": "Tema",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "stayOnTop": "Mantener al Frente",
+    "showSidebar": "Mostrar Barra Lateral",
+    "hideSidebar": "Ocultar Barra Lateral",
+    "devTools": "Herramientas para Desarrolladores",
+
+    "edit": "Editar",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "pasteAndMatchStyle": "Pegar y Coincidir Estilo",
+    "delete": "Eliminar",
+
+    "view": "Ver",
+    "refresh": "Refrescar la Página",
+    "goBack": "Retroceder",
+    "goForward": "Avanzar",
+    "resetZoom": "Tamaño Real",
+    "zoomIn": "Ampliar",
+    "zoomOut": "Reducir",
+    "fullScreen": "Pantalla Completa",
+
+    "help": "Ayuda",
+    "log": "Registro de Noi",
+    "gettingStarted": "Cómo Empezar",
+    "issues": "Problemas en GitHub",
+    "shareIdeas": "Compartir Ideas y Comentarios",
+
+    "learnSpelling": "Aprender Ortografía",
+    "lookUpSelection": "Buscar “{selection}”",
+    "searchWithGoogle": "Buscar con Google",
+    "cut": "Cortar",
+    "copy": "Copiar",
+    "paste": "Pegar",
+    "selectAll": "Seleccionar Todo",
+    "saveImage": "Guardar Imagen",
+    "saveImageAs": "Guardar Imagen Como…",
+    "saveVideo": "Guardar Video",
+    "saveVideoAs": "Guardar Video Como…",
+    "copyLink": "Copiar Enlace",
+    "saveLinkAs": "Guardar Enlace Como…",
+    "copyImage": "Copiar Imagen",
+    "copyImageAddress": "Copiar Dirección de la Imagen",
+    "copyVideoAddress": "Copiar Dirección del Video",
+    "inspect": "Inspeccionar Elemento",
+    "services": "Servicios",
+    "reload": "Recargar",
+    "rename": "Renombrar",
+    "user": "Usuario",
+    "setSystemTray": "Establecer como Bandeja del Sistema",
+    "clearCache": "Limpiar Datos de Caché"
+  },
+  "form": {
+    "name": "Nombre",
+    "url": "URL",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "reset": "Restablecer",
+    "invalidURL": "URL inválida, por favor reintroduzca.",
+    "nameNotEmpty": "El nombre no puede estar vacío."
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "La URL actual no puede ser eliminada.",
+      "dir_delete": "El directorio de la URL actual no puede ser eliminado."
+    },
+    "tip": {
+      "delete": "Una vez eliminado no se puede recuperar, ¿está seguro de que desea eliminar?"
+    }
+  }
+}

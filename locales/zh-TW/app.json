@@ -1,0 +1,88 @@
+{
+  "lang": "繁體中文",
+  "menu": {
+    "name": "選單",
+    "about": "關於 Noi",
+    "hide": "隱藏 Noi",
+    "hideOthers": "隱藏其他",
+    "quit": "退出 Noi",
+    "unhide": "顯示全部",
+    "checkUpdates": "檢查更新…",
+
+    "settings": "設定",
+    "languages": "語言",
+    "theme": {
+      "name": "主題",
+      "light": "淺色",
+      "dark": "深色",
+      "system": "系統"
+    },
+    "stayOnTop": "窗口置頂",
+    "showSidebar": "顯示側邊欄",
+    "hideSidebar": "隱藏側邊欄",
+    "devTools": "開發者工具",
+
+    "edit": "編輯",
+    "undo": "復原",
+    "redo": "重做",
+    "pasteAndMatchStyle": "貼上並符合樣式",
+    "delete": "刪除",
+
+    "view": "查看",
+    "refresh": "刷新頁面",
+    "goBack": "後退",
+    "goForward": "前進",
+    "resetZoom": "實際大小",
+    "zoomIn": "放大",
+    "zoomOut": "縮小",
+    "fullScreen": "進入全螢幕",
+
+    "help": "幫助",
+    "log": "Noi 日誌",
+    "gettingStarted": "入門指南",
+    "issues": "GitHub 問題反饋",
+    "shareIdeas": "分享想法和反饋",
+
+    "learnSpelling": "學習拼寫",
+    "lookUpSelection": "查詢 “{selection}”",
+    "searchWithGoogle": "用 Google 搜索",
+    "cut": "剪下",
+    "copy": "複製",
+    "paste": "貼上",
+    "selectAll": "全選",
+    "saveImage": "儲存圖片",
+    "saveImageAs": "圖片另存為…",
+    "saveVideo": "儲存影片",
+    "saveVideoAs": "影片另存為…",
+    "copyLink": "複製連結",
+    "saveLinkAs": "連結另存為…",
+    "copyImage": "複製圖片",
+    "copyImageAddress": "複製圖片地址",
+    "copyVideoAddress": "複製影片地址",
+    "inspect": "檢查元素",
+    "services": "服務",
+    "reload": "重新載入",
+    "rename": "重命名",
+    "user": "用戶",
+    "setSystemTray": "設為系統托盤",
+    "clearCache": "清除快取數據"
+  },
+  "form": {
+    "name": "名稱",
+    "url": "網址",
+    "save": "儲存",
+    "cancel": "取消",
+    "reset": "重置",
+    "invalidURL": "無效的網址，請重新輸入",
+    "nameNotEmpty": "名稱不能為空"
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "當前網址不能被刪除",
+      "dir_delete": "當前網址的目錄不能被刪除"
+    },
+    "tip": {
+      "delete": "刪除後無法恢復，確定要刪除嗎？"
+    }
+  }
+}

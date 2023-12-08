@@ -1,0 +1,88 @@
+{
+  "lang": "Deutsch",
+  "menu": {
+    "name": "Menü",
+    "about": "Über Noi",
+    "hide": "Noi verbergen",
+    "hideOthers": "Andere verbergen",
+    "quit": "Noi beenden",
+    "unhide": "Alles anzeigen",
+    "checkUpdates": "Nach Updates suchen…",
+
+    "settings": "Einstellungen",
+    "languages": "Sprachen",
+    "theme": {
+      "name": "Design",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "stayOnTop": "Im Vordergrund bleiben",
+    "showSidebar": "Seitenleiste anzeigen",
+    "hideSidebar": "Seitenleiste verbergen",
+    "devTools": "Entwicklerwerkzeuge",
+
+    "edit": "Bearbeiten",
+    "undo": "Rückgängig",
+    "redo": "Wiederherstellen",
+    "pasteAndMatchStyle": "Einfügen und Stil anpassen",
+    "delete": "Löschen",
+
+    "view": "Ansicht",
+    "refresh": "Seite aktualisieren",
+    "goBack": "Zurück",
+    "goForward": "Vorwärts",
+    "resetZoom": "Originalgröße",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "fullScreen": "Vollbild",
+
+    "help": "Hilfe",
+    "log": "Noi-Protokoll",
+    "gettingStarted": "Erste Schritte",
+    "issues": "GitHub-Probleme",
+    "shareIdeas": "Ideen und Feedback teilen",
+
+    "learnSpelling": "Rechtschreibung lernen",
+    "lookUpSelection": "„{selection}“ suchen",
+    "searchWithGoogle": "Mit Google suchen",
+    "cut": "Ausschneiden",
+    "copy": "Kopieren",
+    "paste": "Einfügen",
+    "selectAll": "Alles auswählen",
+    "saveImage": "Bild speichern",
+    "saveImageAs": "Bild speichern unter…",
+    "saveVideo": "Video speichern",
+    "saveVideoAs": "Video speichern unter…",
+    "copyLink": "Link kopieren",
+    "saveLinkAs": "Link speichern unter…",
+    "copyImage": "Bild kopieren",
+    "copyImageAddress": "Bildadresse kopieren",
+    "copyVideoAddress": "Videoadresse kopieren",
+    "inspect": "Element untersuchen",
+    "services": "Dienste",
+    "reload": "Neu laden",
+    "rename": "Umbenennen",
+    "user": "Benutzer",
+    "setSystemTray": "Im System-Tray einrichten",
+    "clearCache": "Cache-Daten löschen"
+  },
+  "form": {
+    "name": "Name",
+    "url": "URL",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "reset": "Zurücksetzen",
+    "invalidURL": "Ungültige URL, bitte erneut eingeben.",
+    "nameNotEmpty": "Name darf nicht leer sein."
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "Die aktuelle URL kann nicht gelöscht werden.",
+      "dir_delete": "Das Verzeichnis der aktuellen URL kann nicht gelöscht werden."
+    },
+    "tip": {
+      "delete": "Nach dem Löschen ist eine Wiederherstellung nicht möglich. Sind Sie sicher, dass Sie löschen möchten?"
+    }
+  }
+}

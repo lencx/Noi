@@ -1,0 +1,88 @@
+{
+  "lang": "Français",
+  "menu": {
+    "name": "Menu",
+    "about": "À propos de Noi",
+    "hide": "Cacher Noi",
+    "hideOthers": "Cacher les autres",
+    "quit": "Quitter Noi",
+    "unhide": "Tout afficher",
+    "checkUpdates": "Vérifier les mises à jour…",
+
+    "settings": "Paramètres",
+    "languages": "Langues",
+    "theme": {
+      "name": "Thème",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    },
+    "stayOnTop": "Rester au-dessus",
+    "showSidebar": "Afficher la barre latérale",
+    "hideSidebar": "Cacher la barre latérale",
+    "devTools": "Outils de développement",
+
+    "edit": "Éditer",
+    "undo": "Annuler",
+    "redo": "Rétablir",
+    "pasteAndMatchStyle": "Coller et adapter le style",
+    "delete": "Supprimer",
+
+    "view": "Affichage",
+    "refresh": "Rafraîchir la page",
+    "goBack": "Retour",
+    "goForward": "Avancer",
+    "resetZoom": "Taille réelle",
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière",
+    "fullScreen": "Plein écran",
+
+    "help": "Aide",
+    "log": "Journal Noi",
+    "gettingStarted": "Commencer",
+    "issues": "Problèmes GitHub",
+    "shareIdeas": "Partager idées et commentaires",
+
+    "learnSpelling": "Apprendre l'orthographe",
+    "lookUpSelection": "Rechercher « {selection} »",
+    "searchWithGoogle": "Rechercher avec Google",
+    "cut": "Couper",
+    "copy": "Copier",
+    "paste": "Coller",
+    "selectAll": "Tout sélectionner",
+    "saveImage": "Enregistrer l'image",
+    "saveImageAs": "Enregistrer l'image sous…",
+    "saveVideo": "Enregistrer la vidéo",
+    "saveVideoAs": "Enregistrer la vidéo sous…",
+    "copyLink": "Copier le lien",
+    "saveLinkAs": "Enregistrer le lien sous…",
+    "copyImage": "Copier l'image",
+    "copyImageAddress": "Copier l'adresse de l'image",
+    "copyVideoAddress": "Copier l'adresse de la vidéo",
+    "inspect": "Inspecter l'élément",
+    "services": "Services",
+    "reload": "Recharger",
+    "rename": "Renommer",
+    "user": "Utilisateur",
+    "setSystemTray": "Définir comme icône de la barre de tâches",
+    "clearCache": "Effacer les données en cache"
+  },
+  "form": {
+    "name": "Nom",
+    "url": "URL",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "reset": "Réinitialiser",
+    "invalidURL": "URL invalide, veuillez saisir à nouveau.",
+    "nameNotEmpty": "Le nom ne peut pas être vide."
+  },
+  "sidebar": {
+    "warn": {
+      "url_delete": "L'URL actuelle ne peut pas être supprimée.",
+      "dir_delete": "Le répertoire de l'URL actuelle ne peut pas être supprimé."
+    },
+    "tip": {
+      "delete": "Une fois supprimé, il est impossible de récupérer, êtes-vous sûr de vouloir supprimer ?"
+    }
+  }
+}
