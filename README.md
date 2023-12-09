@@ -1,8 +1,7 @@
 <h2 align="center">
   <img width="160" src="./assets/noi.png" />
+  <p>AI + Tools + Plugins + Community</p>
 </h2>
-
-> AI + Tools + Plugins + Community
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
@@ -12,8 +11,8 @@
 - Theme Mode (Light/Dark)
 - Multiple Languages
 
-![Noi](assets/noi-1.png)
-![Noi](assets/noi-2.png)
+![Noi](./website/static/img/noi-preview-1.png)
+![Noi](./website/static/img/noi-preview-2.png)
 
 ## TODO
 
