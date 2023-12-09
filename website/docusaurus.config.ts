@@ -76,7 +76,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://www.producthunt.com/posts/noi-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-noi&#0045;2',
+          href: 'https://www.producthunt.com/posts/noi-2',
           label: 'Product Hunt',
           position: 'right',
         },
