@@ -27,6 +27,8 @@ export default function Home(): JSX.Element {
           </div>
         </div>
 
+        <p className="font-bold text-red-500">Note: Final preparations for release are underway, please stay tuned.</p>
+
         <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-4">
           <img className="rounded-lg shadow-lg mb-4" src="/img/noi-preview-1.png" />
           <img className="rounded-lg shadow-lg" src="/img/noi-preview-2.png" />
