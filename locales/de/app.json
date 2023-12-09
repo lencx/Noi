@@ -1,5 +1,6 @@
 {
   "lang": "Deutsch",
+  "sponsor": "Noi sponsern",
   "menu": {
     "name": "Menü",
     "about": "Über Noi",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "Die aktuelle URL kann nicht gelöscht werden.",
-      "dir_delete": "Das Verzeichnis der aktuellen URL kann nicht gelöscht werden."
+      "dir_delete": "Das Verzeichnis der aktuellen URL kann nicht gelöscht werden.",
+      "tray_delete": "Die aktuelle URL ist als System-Tray eingestellt, bitte zuerst die Einstellung aufheben."
     },
     "tip": {
       "delete": "Nach dem Löschen ist eine Wiederherstellung nicht möglich. Sind Sie sicher, dass Sie löschen möchten?"

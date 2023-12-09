@@ -1,5 +1,6 @@
 {
   "lang": "Türkçe",
+  "sponsor": "Noi'yi Destekle",
   "menu": {
     "name": "Menü",
     "about": "Noi Hakkında",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "Mevcut URL silinemez.",
-      "dir_delete": "Mevcut URL'nin dizini silinemez."
+      "dir_delete": "Mevcut URL'nin dizini silinemez.",
+      "tray_delete": "Mevcut URL, sistem tepsisi olarak ayarlanmış, lütfen önce ayarı iptal edin."
     },
     "tip": {
       "delete": "Silindikten sonra geri alınamaz, silmek istediğinizden emin misiniz?"

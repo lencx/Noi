@@ -1,5 +1,6 @@
 {
   "lang": "繁體中文",
+  "sponsor": "贊助 Noi",
   "menu": {
     "name": "選單",
     "about": "關於 Noi",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "當前網址不能被刪除",
-      "dir_delete": "當前網址的目錄不能被刪除"
+      "dir_delete": "當前網址的目錄不能被刪除",
+      "tray_delete": "當前網址已設置為系統托盤，請先取消設置"
     },
     "tip": {
       "delete": "刪除後無法恢復，確定要刪除嗎？"

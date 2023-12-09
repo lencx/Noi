@@ -1,5 +1,6 @@
 {
   "lang": "简体中文",
+  "sponsor": "赞助 Noi",
   "menu": {
     "name": "菜单",
     "about": "关于 Noi",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "当前网址不能被删除",
-      "dir_delete": "当前网址的目录不能被删除"
+      "dir_delete": "当前网址的目录不能被删除",
+      "tray_delete": "当前网址已设置为系统托盘，请先取消设置"
     },
     "tip": {
       "delete": "删除后无法恢复，确定要删除吗？"

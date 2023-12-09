@@ -1,5 +1,6 @@
 {
   "lang": "English",
+  "sponsor": "Sponsor Noi",
   "menu": {
     "name": "Menu",
     "about": "About Noi",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "The current URL cannot be deleted.",
-      "dir_delete": "The directory of the current URL cannot be deleted."
+      "dir_delete": "The directory of the current URL cannot be deleted.",
+      "tray_delete": "The current URL is set as the system tray, please cancel the setting first."
     },
     "tip": {
       "delete": "Cannot be recovered after deletion, are you sure you want to delete?"

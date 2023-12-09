@@ -1,5 +1,6 @@
 {
   "lang": "한국어",
+  "sponsor": "Noi 후원하기",
   "menu": {
     "name": "메뉴",
     "about": "Noi 정보",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "현재 URL은 삭제할 수 없습니다.",
-      "dir_delete": "현재 URL의 디렉토리를 삭제할 수 없습니다."
+      "dir_delete": "현재 URL의 디렉토리를 삭제할 수 없습니다.",
+      "tray_delete": "현재 URL은 시스템 트레이로 설정되어 있습니다. 먼저 설정을 취소해 주세요."
     },
     "tip": {
       "delete": "삭제 후 복구할 수 없습니다. 정말 삭제하시겠습니까?"

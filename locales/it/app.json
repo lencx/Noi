@@ -1,5 +1,6 @@
 {
   "lang": "Italiano",
+  "sponsor": "Sponsorizzare Noi",
   "menu": {
     "name": "Menu",
     "about": "Informazioni su Noi",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "L'URL corrente non può essere eliminato.",
-      "dir_delete": "La cartella dell'URL corrente non può essere eliminata."
+      "dir_delete": "La cartella dell'URL corrente non può essere eliminata.",
+      "tray_delete": "L'URL corrente è impostato come tray di sistema, si prega di annullare prima l'impostazione."
     },
     "tip": {
       "delete": "Una volta eliminato non è possibile recuperare, sei sicuro di voler eliminare?"

@@ -1,5 +1,6 @@
 {
   "lang": "Español",
+  "sponsor": "Patrocinar Noi",
   "menu": {
     "name": "Menú",
     "about": "Acerca de Noi",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "La URL actual no puede ser eliminada.",
-      "dir_delete": "El directorio de la URL actual no puede ser eliminado."
+      "dir_delete": "El directorio de la URL actual no puede ser eliminado.",
+      "tray_delete": "La URL actual está configurada como bandeja del sistema, por favor, cancele la configuración primero."
     },
     "tip": {
       "delete": "Una vez eliminado no se puede recuperar, ¿está seguro de que desea eliminar?"

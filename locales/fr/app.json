@@ -1,5 +1,6 @@
 {
   "lang": "Français",
+  "sponsor": "Parrainer Noi",
   "menu": {
     "name": "Menu",
     "about": "À propos de Noi",
@@ -79,7 +80,8 @@
   "sidebar": {
     "warn": {
       "url_delete": "L'URL actuelle ne peut pas être supprimée.",
-      "dir_delete": "Le répertoire de l'URL actuelle ne peut pas être supprimé."
+      "dir_delete": "Le répertoire de l'URL actuelle ne peut pas être supprimé.",
+      "tray_delete": "L'URL actuelle est définie comme plateau système, veuillez d'abord annuler le paramètre."
     },
     "tip": {
       "delete": "Une fois supprimé, il est impossible de récupérer, êtes-vous sûr de vouloir supprimer ?"
