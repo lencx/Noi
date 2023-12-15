@@ -46,6 +46,12 @@
       "url": "https://poe.com"
     },
     {
+      "id": "noi:perplexity",
+      "parent": "noi@perplexity",
+      "text": "Perplexity",
+      "url": "https://www.perplexity.ai"
+    },
+    {
       "id": "noi:github",
       "parent": "noi@dev",
       "text": "GitHub",
