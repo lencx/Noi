@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
   "modes": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "id": "noi:perplexity",
-      "parent": "noi@perplexity",
+      "parent": "noi@ai",
       "text": "Perplexity",
       "url": "https://www.perplexity.ai"
     },
