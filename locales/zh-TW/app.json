@@ -22,6 +22,8 @@
     "showSidebar": "顯示側邊欄",
     "hideSidebar": "隱藏側邊欄",
     "devTools": "開發者工具",
+    "frosted_texture": "磨砂紋理",
+    "x_quit": "點擊 [X] 退出",
 
     "edit": "編輯",
     "undo": "復原",
@@ -84,7 +86,11 @@
       "tray_delete": "當前網址已設置為系統托盤，請先取消設置"
     },
     "tip": {
-      "delete": "刪除後無法恢復，確定要刪除嗎？"
+      "delete": "刪除後無法恢復，確定要刪除嗎？",
+      "sync_overwrite": "同步將覆蓋自定義數據以外的所有數據，是否繼續？",
+      "sync_reset": "當前已是最新版本，同步將重置自定義數據以外的所有數據，是否繼續？",
+      "sync_ok": "同步成功",
+      "sync_reset_ok": "重置成功"
     }
   }
 }

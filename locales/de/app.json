@@ -22,6 +22,8 @@
     "showSidebar": "Seitenleiste anzeigen",
     "hideSidebar": "Seitenleiste verbergen",
     "devTools": "Entwicklerwerkzeuge",
+    "frosted_texture": "Frosted Textur",
+    "x_quit": "Klicken Sie auf [X], um zu beenden",
 
     "edit": "Bearbeiten",
     "undo": "Rückgängig",
@@ -84,7 +86,11 @@
       "tray_delete": "Die aktuelle URL ist als System-Tray eingestellt, bitte zuerst die Einstellung aufheben."
     },
     "tip": {
-      "delete": "Nach dem Löschen ist eine Wiederherstellung nicht möglich. Sind Sie sicher, dass Sie löschen möchten?"
+      "delete": "Nach dem Löschen ist eine Wiederherstellung nicht möglich. Sind Sie sicher, dass Sie löschen möchten?",
+      "sync_overwrite": "Die Synchronisierung wird alle Daten außer den benutzerdefinierten Daten überschreiben. Möchten Sie fortfahren?",
+      "sync_reset": "Sie verwenden bereits die neueste Version. Die Synchronisierung wird alle Daten außer den benutzerdefinierten zurücksetzen. Möchten Sie fortfahren?",
+      "sync_ok": "Synchronisation erfolgreich",
+      "sync_reset_ok": "Zurücksetzung erfolgreich"
     }
   }
 }

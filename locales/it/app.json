@@ -22,6 +22,8 @@
     "showSidebar": "Mostra Barra Laterale",
     "hideSidebar": "Nascondi Barra Laterale",
     "devTools": "Strumenti per Sviluppatori",
+    "frosted_texture": "Texture Opacizzata",
+    "x_quit": "Clicca su [X] per uscire",
 
     "edit": "Modifica",
     "undo": "Annulla",
@@ -84,7 +86,11 @@
       "tray_delete": "L'URL corrente è impostato come tray di sistema, si prega di annullare prima l'impostazione."
     },
     "tip": {
-      "delete": "Una volta eliminato non è possibile recuperare, sei sicuro di voler eliminare?"
+      "delete": "Una volta eliminato non è possibile recuperare, sei sicuro di voler eliminare?",
+      "sync_overwrite": "La sincronizzazione sovrascriverà tutti i dati tranne quelli personalizzati. Vuoi continuare?",
+      "sync_reset": "Stai già utilizzando l'ultima versione. La sincronizzazione reimposterà tutti i dati tranne quelli personalizzati. Vuoi continuare?",
+      "sync_ok": "Sincronizzazione riuscita",
+      "sync_reset_ok": "Reimpostazione riuscita"
     }
   }
 }

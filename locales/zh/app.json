@@ -22,6 +22,8 @@
     "showSidebar": "显示侧边栏",
     "hideSidebar": "隐藏侧边栏",
     "devTools": "开发者工具",
+    "frosted_texture": "磨砂纹理",
+    "x_quit": "点击 [X] 退出",
 
     "edit": "编辑",
     "undo": "撤销",
@@ -84,7 +86,11 @@
       "tray_delete": "当前网址已设置为系统托盘，请先取消设置"
     },
     "tip": {
-      "delete": "删除后无法恢复，确定要删除吗？"
+      "delete": "删除后无法恢复，确定要删除吗？",
+      "sync_overwrite": "同步会覆盖除自定义数据外的其他数据，是否继续？",
+      "sync_reset": "当前已是最新版本，同步会重置除自定义数据外的其他数据，是否继续？",
+      "sync_ok": "同步成功",
+      "sync_reset_ok": "重置成功"
     }
   }
 }

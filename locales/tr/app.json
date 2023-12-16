@@ -22,6 +22,8 @@
     "showSidebar": "Kenar Çubuğunu Göster",
     "hideSidebar": "Kenar Çubuğunu Gizle",
     "devTools": "Geliştirici Araçları",
+    "frosted_texture": "Buzlu Doku",
+    "x_quit": "[X]'e tıklayarak çık",
 
     "edit": "Düzenle",
     "undo": "Geri Al",
@@ -84,7 +86,11 @@
       "tray_delete": "Mevcut URL, sistem tepsisi olarak ayarlanmış, lütfen önce ayarı iptal edin."
     },
     "tip": {
-      "delete": "Silindikten sonra geri alınamaz, silmek istediğinizden emin misiniz?"
+      "delete": "Silindikten sonra geri alınamaz, silmek istediğinizden emin misiniz?",
+      "sync_overwrite": "Senkronizasyon, özel veriler dışındaki tüm verilerin üzerine yazacaktır. Devam etmek istiyor musunuz?",
+      "sync_reset": "Zaten en güncel sürümü kullanıyorsunuz. Senkronizasyon, özel veriler dışındaki tüm verileri sıfırlayacaktır. Devam etmek istiyor musunuz?",
+      "sync_ok": "Senkronizasyon başarılı",
+      "sync_reset_ok": "Sıfırlama başarılı"
     }
   }
 }

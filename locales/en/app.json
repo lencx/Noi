@@ -22,6 +22,8 @@
     "showSidebar": "Show Sidebar",
     "hideSidebar": "Hide Sidebar",
     "devTools": "Developer Tools",
+    "frosted_texture": "Frosted Texture",
+    "x_quit": "Click [X] to Exit",
 
     "edit": "Edit",
     "undo": "Undo",
@@ -84,7 +86,11 @@
       "tray_delete": "The current URL is set as the system tray, please cancel the setting first."
     },
     "tip": {
-      "delete": "Cannot be recovered after deletion, are you sure you want to delete?"
+      "delete": "Cannot be recovered after deletion, are you sure you want to delete?",
+      "sync_overwrite": "Synchronization will overwrite all data except for custom data. Do you want to continue?",
+      "sync_reset": "You are already using the latest version. Synchronization will reset all data except for custom data. Do you want to continue?",
+      "sync_ok": "Synchronization successful",
+      "sync_reset_ok": "Reset successful"
     }
   }
 }

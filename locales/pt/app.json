@@ -22,6 +22,8 @@
     "showSidebar": "Mostrar Barra Lateral",
     "hideSidebar": "Ocultar Barra Lateral",
     "devTools": "Ferramentas de Desenvolvedor",
+    "frosted_texture": "Textura Fosca",
+    "x_quit": "Clique em [X] para Sair",
 
     "edit": "Editar",
     "undo": "Desfazer",
@@ -84,7 +86,11 @@
       "tray_delete": "A URL atual está configurada como bandeja do sistema, por favor, cancele a configuração primeiro."
     },
     "tip": {
-      "delete": "Uma vez excluído não pode ser recuperado, tem certeza que deseja excluir?"
+      "delete": "Uma vez excluído não pode ser recuperado, tem certeza que deseja excluir?",
+      "sync_overwrite": "A sincronização sobrescreverá todos os dados, exceto os dados personalizados. Deseja continuar?",
+      "sync_reset": "Você já está usando a versão mais recente. A sincronização irá redefinir todos os dados, exceto os dados personalizados. Deseja continuar?",
+      "sync_ok": "Sincronização bem-sucedida",
+      "sync_reset_ok": "Redefinição bem-sucedida"
     }
   }
 }

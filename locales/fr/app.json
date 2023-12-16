@@ -22,6 +22,8 @@
     "showSidebar": "Afficher la barre latérale",
     "hideSidebar": "Cacher la barre latérale",
     "devTools": "Outils de développement",
+    "frosted_texture": "Texture Givrée",
+    "x_quit": "Cliquer sur [X] pour quitter",
 
     "edit": "Éditer",
     "undo": "Annuler",
@@ -84,7 +86,11 @@
       "tray_delete": "L'URL actuelle est définie comme plateau système, veuillez d'abord annuler le paramètre."
     },
     "tip": {
-      "delete": "Une fois supprimé, il est impossible de récupérer, êtes-vous sûr de vouloir supprimer ?"
+      "delete": "Une fois supprimé, il est impossible de récupérer, êtes-vous sûr de vouloir supprimer ?",
+      "sync_overwrite": "La synchronisation remplacera toutes les données à l'exception des données personnalisées. Voulez-vous continuer?",
+      "sync_reset": "Vous utilisez déjà la version la plus récente. La synchronisation réinitialisera toutes les données sauf les données personnalisées. Voulez-vous continuer?",
+      "sync_ok": "Synchronisation réussie",
+      "sync_reset_ok": "Réinitialisation réussie"
     }
   }
 }
