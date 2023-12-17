@@ -92,5 +92,14 @@
       "sync_ok": "Sincronizzazione riuscita",
       "sync_reset_ok": "Reimpostazione riuscita"
     }
+  },
+  "network": {
+    "error": {
+      "title": "Impossibile raggiungere il sito",
+      "long_respond": "ha impiegato troppo tempo per rispondere.",
+      "try": "Prova:",
+      "check_1": "Verificare la connessione",
+      "check_2": "Controllare il proxy e il firewall"
+    }
   }
 }

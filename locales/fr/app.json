@@ -92,5 +92,14 @@
       "sync_ok": "Synchronisation réussie",
       "sync_reset_ok": "Réinitialisation réussie"
     }
+  },
+  "network": {
+    "error": {
+      "title": "Ce site est inaccessible",
+      "long_respond": "a mis trop de temps à répondre.",
+      "try": "Essayez de:",
+      "check_1": "Vérifier la connexion",
+      "check_2": "Vérifier le proxy et le pare-feu"
+    }
   }
 }

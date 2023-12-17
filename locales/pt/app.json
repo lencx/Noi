@@ -92,5 +92,14 @@
       "sync_ok": "Sincronização bem-sucedida",
       "sync_reset_ok": "Redefinição bem-sucedida"
     }
+  },
+  "network": {
+    "error": {
+      "title": "Não é possível acessar este site",
+      "long_respond": "demorou muito para responder.",
+      "try": "Tente:",
+      "check_1": "Verificar a conexão",
+      "check_2": "Verificar o proxy e o firewall"
+    }
   }
 }

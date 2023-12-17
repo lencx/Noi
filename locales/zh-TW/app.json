@@ -92,5 +92,14 @@
       "sync_ok": "同步成功",
       "sync_reset_ok": "重置成功"
     }
+  },
+  "network": {
+    "error": {
+      "title": "無法連接到此網站",
+      "long_respond": "響應時間過長。",
+      "try": "嘗試：",
+      "check_1": "檢查連接",
+      "check_2": "檢查代理和防火牆"
+    }
   }
 }

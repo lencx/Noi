@@ -92,5 +92,14 @@
       "sync_ok": "Senkronizasyon başarılı",
       "sync_reset_ok": "Sıfırlama başarılı"
     }
+  },
+  "network": {
+    "error": {
+      "title": "Bu siteye ulaşılamıyor",
+      "long_respond": "yanıt vermek için çok uzun sürdü.",
+      "try": "Deneyin:",
+      "check_1": "Bağlantıyı kontrol et",
+      "check_2": "Proxy ve güvenlik duvarını kontrol et"
+    }
   }
 }

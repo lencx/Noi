@@ -92,5 +92,14 @@
       "sync_ok": "Synchronization successful",
       "sync_reset_ok": "Reset successful"
     }
+  },
+  "network": {
+    "error": {
+      "title": "This site can’t be reached",
+      "long_respond": "took too long to respond.",
+      "try": "Try:",
+      "check_1": "Checking the connection",
+      "check_2": "Checking the proxy and the firewall"
+    }
   }
 }

@@ -92,5 +92,14 @@
       "sync_ok": "Sincronización exitosa",
       "sync_reset_ok": "Restablecimiento exitoso"
     }
+  },
+  "network": {
+    "error": {
+      "title": "No se puede acceder a este sitio",
+      "long_respond": "tardó demasiado en responder.",
+      "try": "Intenta:",
+      "check_1": "Revisar la conexión",
+      "check_2": "Revisar el proxy y el cortafuegos"
+    }
   }
 }

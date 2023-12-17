@@ -92,5 +92,14 @@
       "sync_ok": "Synchronisation erfolgreich",
       "sync_reset_ok": "Zurücksetzung erfolgreich"
     }
+  },
+  "network": {
+    "error": {
+      "title": "Diese Website ist nicht erreichbar",
+      "long_respond": "hat zu lange zum Antworten gebraucht.",
+      "try": "Versuchen Sie:",
+      "check_1": "Die Verbindung überprüfen",
+      "check_2": "Proxy und Firewall überprüfen"
+    }
   }
 }
