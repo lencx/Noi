@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "@noi/chatgpt",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.openai.com/*"],
+      "js": ["main.js"],
+      "css": ["style.css"],
+      "run_at": "document_end",
+      "world": "MAIN"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
   "modes": [
     {
@@ -44,6 +44,12 @@
       "parent": "noi@ai",
       "text": "Poe",
       "url": "https://poe.com"
+    },
+    {
+      "id": "noi:copilot",
+      "parent": "noi@ai",
+      "text": "Copilot",
+      "url": "https://copilot.microsoft.com"
     },
     {
       "id": "noi:perplexity",
