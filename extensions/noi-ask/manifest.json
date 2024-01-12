@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "@noi/ask",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://bard.google.com/*",
+        "https://poe.com/*",
+        "https://claude.ai/*",
+        "https://huggingface.co/chat/*",
+        "https://www.perplexity.ai/*"
+      ],
+      "js": ["main.js"],
+      "run_at": "document_end",
+      "world": "MAIN"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "@noi/chatgpt",
+  "name": "@noi/export-chatgpt",
   "version": "0.1.0",
+  "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-export-chatgpt",
   "content_scripts": [
     {
       "matches": ["https://*.openai.com/*"],
