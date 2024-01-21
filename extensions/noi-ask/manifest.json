@@ -11,7 +11,9 @@
         "https://poe.com/*",
         "https://claude.ai/*",
         "https://huggingface.co/chat/*",
-        "https://www.perplexity.ai/*"
+        "https://www.perplexity.ai/*",
+        "https://copilot.microsoft.com/*",
+        "https://pi.ai/talk/*"
       ],
       "js": ["main.js"],
       "run_at": "document_end",

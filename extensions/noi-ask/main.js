@@ -1,3 +1,10 @@
+/**
+ * NoiAsk: Batch send messages to AI Chat.
+ *
+ * This file is a modified version of the GodMode.
+ * ref: https://github.com/smol-ai/GodMode/tree/main/src/providers
+ */
+
 class NoiAsk {
   static sync(message) {
     const inputElement = document.querySelector(`textarea`);
@@ -10,6 +17,16 @@ class NoiAsk {
       });
       inputElement.dispatchEvent(inputEvent);
     }
+  }
+
+  static simulateUserInput(element, text) {
+    const inputEvent = new InputEvent('input', {
+      bubbles: true,
+      cancelable: true,
+    });
+    element.focus();
+    element.value = text;
+    element.dispatchEvent(inputEvent);
   }
 
   static autoClick(btn) {
@@ -123,6 +140,63 @@ class PerplexityAsk extends NoiAsk {
   }
 }
 
+class CopilotAsk extends NoiAsk {
+  static name = 'Copilot';
+  static url = 'https://copilot.microsoft.com';
+
+  static sync(message) {
+    // SERP Shadow DOM
+    const serpDOM = document.querySelector('.cib-serp-main');
+    // Action Bar Shadow DOM
+    const inputDOM = serpDOM.shadowRoot.querySelector('#cib-action-bar-main');
+    // Text Input Shadow DOM
+    const textInputDOM = inputDOM.shadowRoot.querySelector('cib-text-input');
+    // This inner cib-text-input Shadow DOM is not always present
+    const inputElement = textInputDOM ? textInputDOM.shadowRoot.querySelector('#searchbox') : inputDOM.shadowRoot.querySelector('#searchbox');
+    if (inputElement) {
+      this.simulateUserInput(inputElement, message);
+    }
+  }
+
+  static submit() {
+    try {
+      // Access SERP Shadow DOM
+      const serpDOM = document.querySelector('.cib-serp-main');
+      // Action Bar Shadow DOM
+      const actionDOM = serpDOM.shadowRoot.querySelector('#cib-action-bar-main');
+      // Submit Button
+      const submitButton = actionDOM.shadowRoot.querySelector('div.submit button');
+
+      if (submitButton) {
+        submitButton.click();
+        submitButton.focus();
+        setTimeout(() => {
+          submitButton.click();
+        }, 100)
+      }
+    } catch (e) {
+      console.error('Copilot submit error', e);
+    }
+  }
+}
+
+class PiAsk extends NoiAsk {
+  static name = 'Pi';
+  static url = 'https://pi.ai/talk';
+
+  static submit() {
+    const inputElement = document.querySelector('textarea[placeholder="Talk with Pi"]');
+    if (inputElement) {
+      const event = new KeyboardEvent('keydown', {
+        key: 'Enter',
+        view: window,
+        bubbles: true
+      });
+      inputElement.dispatchEvent(event);
+    }
+  }
+}
+
 window.NoiAsk = {
   OpenAIAsk,
   PoeAsk,
@@ -130,4 +204,6 @@ window.NoiAsk = {
   BardAsk,
   HuggingChatAsk,
   PerplexityAsk,
+  CopilotAsk,
+  PiAsk,
 };

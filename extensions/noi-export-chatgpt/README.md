@@ -1,1 +1,1 @@
-# Noi Export - ChatGPT
+# @noi/export-chatgpt

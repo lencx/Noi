@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "@noi/reset",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-reset",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://vscode.dev/*"
+      ],
+      "js": ["main.js"],
+      "run_at": "document_end",
+      "world": "MAIN"
+    }
+  ]
+}
