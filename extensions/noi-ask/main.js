@@ -78,7 +78,7 @@ class ClaudeAsk extends NoiAsk {
     if (!btn) { // last ditch attempt
       btn = document.querySelector(`button:has(svg)`);
     }
-		if (btn) this.autoClick(btn);
+    if (btn) this.autoClick(btn);
   }
 }
 
