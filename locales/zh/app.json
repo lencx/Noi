@@ -22,8 +22,8 @@
     "showSidebar": "显示侧边栏",
     "hideSidebar": "隐藏侧边栏",
     "devTools": "开发者工具",
-    "frosted_texture": "磨砂纹理",
-    "x_quit": "点击 [X] 退出",
+    "frostedTexture": "磨砂纹理",
+    "xQuit": "点击 [X] 退出",
 
     "edit": "编辑",
     "undo": "撤销",
@@ -100,6 +100,42 @@
       "try": "尝试：",
       "check_1": "检查连接",
       "check_2": "检查代理和防火墙"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "常规",
+      "extensions": "扩展",
+      "prompts": {
+        "name": "提示",
+        "userPrompts": "用户提示",
+        "promptTags": "提示标签",
+        "customSync": "自定义同步"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "您确定要使用这些提示吗？",
+        "delete": "您确定要删除这些提示吗？",
+        "disable": "您确定要禁用这些提示吗？",
+        "enable": "您确定要启用这些提示吗？"
+      }
+    },
+    "message": {
+      "add": "已添加",
+      "sync": "已同步",
+      "invalidData": "数据无效",
+      "missingActAndPrompt": "缺少字段：'act'、'prompt'。请使用 'Alias' 进行重命名。"
+    },
+    "table": {
+      "name": "名称",
+      "sync": "同步",
+      "description": "描述",
+      "tag": "标签",
+      "action": "操作",
+      "color": "颜色",
+      "lastUpdate": "最后更新",
+      "usageCount": "使用次数"
     }
   }
 }

@@ -22,8 +22,8 @@
     "showSidebar": "사이드바 보기",
     "hideSidebar": "사이드바 숨기기",
     "devTools": "개발자 도구",
-    "frosted_texture": "프로스티드 텍스쳐",
-    "x_quit": "[X] 클릭하여 종료",
+    "frostedTexture": "프로스티드 텍스쳐",
+    "xQuit": "[X] 클릭하여 종료",
 
     "edit": "편집",
     "undo": "실행 취소",
@@ -100,6 +100,42 @@
       "try": "시도:",
       "check_1": "연결 확인",
       "check_2": "프록시 및 방화벽 확인"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "일반",
+      "extensions": "확장 기능",
+      "prompts": {
+        "name": "프롬프트",
+        "userPrompts": "사용자 프롬프트",
+        "promptTags": "프롬프트 태그",
+        "customSync": "사용자 정의 동기화"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "이 프롬프트를 사용하시겠습니까?",
+        "delete": "이 프롬프트를 삭제하시겠습니까?",
+        "disable": "이 프롬프트를 비활성화하시겠습니까?",
+        "enable": "이 프롬프트를 활성화하시겠습니까?"
+      }
+    },
+    "message": {
+      "add": "추가됨",
+      "sync": "동기화됨",
+      "invalidData": "잘못된 데이터",
+      "missingActAndPrompt": "'act', 'prompt' 필드가 누락되었습니다. 'Alias'를 사용하여 이름을 변경하세요."
+    },
+    "table": {
+      "name": "이름",
+      "sync": "동기화",
+      "description": "설명",
+      "tag": "태그",
+      "action": "작업",
+      "color": "색상",
+      "lastUpdate": "마지막 업데이트",
+      "usageCount": "사용 횟수"
     }
   }
 }

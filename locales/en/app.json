@@ -22,8 +22,8 @@
     "showSidebar": "Show Sidebar",
     "hideSidebar": "Hide Sidebar",
     "devTools": "Developer Tools",
-    "frosted_texture": "Frosted Texture",
-    "x_quit": "Click [X] to Exit",
+    "frostedTexture": "Frosted Texture",
+    "xQuit": "Click [X] to Exit",
 
     "edit": "Edit",
     "undo": "Undo",
@@ -100,6 +100,42 @@
       "try": "Try:",
       "check_1": "Checking the connection",
       "check_2": "Checking the proxy and the firewall"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "General",
+      "extensions": "Extensions",
+      "prompts": {
+        "name": "Prompts",
+        "userPrompts": "User Prompts",
+        "promptTags": "Prompt Tags",
+        "customSync": "Custom Sync"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "Are you sure you want to use these prompts?",
+        "delete": "Are you sure you want to delete these prompts?",
+        "disable": "Are you sure you want to disable these prompts?",
+        "enable": "AAre you sure you want to enable these prompts?"
+      }
+    },
+    "message": {
+      "add": "Added",
+      "sync": "Synchronized",
+      "invalidData": "Invalid Data",
+      "missingActAndPrompt": "Missing fields: 'act', 'prompt'. Use 'Alias' to rename."
+    },
+    "table": {
+      "name": "Name",
+      "sync": "Sync",
+      "description": "Description",
+      "tag": "Tag",
+      "action": "Action",
+      "color": "Color",
+      "lastUpdate": "Last Update",
+      "usageCount": "Usage Count"
     }
   }
 }

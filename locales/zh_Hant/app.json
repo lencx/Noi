@@ -22,8 +22,8 @@
     "showSidebar": "顯示側邊欄",
     "hideSidebar": "隱藏側邊欄",
     "devTools": "開發者工具",
-    "frosted_texture": "磨砂紋理",
-    "x_quit": "點擊 [X] 退出",
+    "frostedTexture": "磨砂紋理",
+    "xQuit": "點擊 [X] 退出",
 
     "edit": "編輯",
     "undo": "復原",
@@ -100,6 +100,42 @@
       "try": "嘗試：",
       "check_1": "檢查連接",
       "check_2": "檢查代理和防火牆"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "一般",
+      "extensions": "擴展功能",
+      "prompts": {
+        "name": "提示",
+        "userPrompts": "用戶提示",
+        "promptTags": "提示標籤",
+        "customSync": "自定義同步"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "您確定要使用這些提示嗎？",
+        "delete": "您確定要刪除這些提示嗎？",
+        "disable": "您確定要禁用這些提示嗎？",
+        "enable": "您確定要啟用這些提示嗎？"
+      }
+    },
+    "message": {
+      "add": "已新增",
+      "sync": "已同步",
+      "invalidData": "資料無效",
+      "missingActAndPrompt": "缺少字段：'act', 'prompt'。請使用 'Alias' 進行重命名。"
+    },
+    "table": {
+      "name": "名稱",
+      "sync": "同步",
+      "description": "描述",
+      "tag": "標籤",
+      "action": "操作",
+      "color": "顏色",
+      "lastUpdate": "最後更新",
+      "usageCount": "使用次數"
     }
   }
 }

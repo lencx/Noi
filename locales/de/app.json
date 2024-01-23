@@ -22,8 +22,8 @@
     "showSidebar": "Seitenleiste anzeigen",
     "hideSidebar": "Seitenleiste verbergen",
     "devTools": "Entwicklerwerkzeuge",
-    "frosted_texture": "Frosted Textur",
-    "x_quit": "Klicken Sie auf [X], um zu beenden",
+    "frostedTexture": "Frosted Textur",
+    "xQuit": "Klicken Sie auf [X], um zu beenden",
 
     "edit": "Bearbeiten",
     "undo": "Rückgängig",
@@ -100,6 +100,42 @@
       "try": "Versuchen Sie:",
       "check_1": "Die Verbindung überprüfen",
       "check_2": "Proxy und Firewall überprüfen"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "Allgemein",
+      "extensions": "Erweiterungen",
+      "prompts": {
+        "name": "Aufforderungen",
+        "userPrompts": "Benutzer-Aufforderungen",
+        "promptTags": "Aufforderungs-Tags",
+        "customSync": "Benutzerdefinierte Synchronisation"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "Sind Sie sicher, dass Sie diese Aufforderungen verwenden möchten?",
+        "delete": "Sind Sie sicher, dass Sie diese Aufforderungen löschen möchten?",
+        "disable": "Sind Sie sicher, dass Sie diese Aufforderungen deaktivieren möchten?",
+        "enable": "Sind Sie sicher, dass Sie diese Aufforderungen aktivieren möchten?"
+      }
+    },
+    "message": {
+      "add": "Hinzugefügt",
+      "sync": "Synchronisiert",
+      "invalidData": "Ungültige Daten",
+      "missingActAndPrompt": "Fehlende Felder: 'act', 'prompt'. Verwenden Sie 'Alias' zum Umbenennen."
+    },
+    "table": {
+      "name": "Name",
+      "sync": "Synchronisierung",
+      "description": "Beschreibung",
+      "tag": "Tag",
+      "action": "Aktion",
+      "color": "Farbe",
+      "lastUpdate": "Letzte Aktualisierung",
+      "usageCount": "Nutzungszähler"
     }
   }
 }

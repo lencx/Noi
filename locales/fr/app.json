@@ -22,8 +22,8 @@
     "showSidebar": "Afficher la barre latérale",
     "hideSidebar": "Cacher la barre latérale",
     "devTools": "Outils de développement",
-    "frosted_texture": "Texture Givrée",
-    "x_quit": "Cliquer sur [X] pour quitter",
+    "frostedTexture": "Texture Givrée",
+    "xQuit": "Cliquer sur [X] pour quitter",
 
     "edit": "Éditer",
     "undo": "Annuler",
@@ -100,6 +100,42 @@
       "try": "Essayez de:",
       "check_1": "Vérifier la connexion",
       "check_2": "Vérifier le proxy et le pare-feu"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "Général",
+      "extensions": "Extensions",
+      "prompts": {
+        "name": "Invites",
+        "userPrompts": "Invites Utilisateur",
+        "promptTags": "Étiquettes d'Invite",
+        "customSync": "Synchronisation Personnalisée"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "Êtes-vous sûr de vouloir utiliser ces invites ?",
+        "delete": "Êtes-vous sûr de vouloir supprimer ces invites ?",
+        "disable": "Êtes-vous sûr de vouloir désactiver ces invites ?",
+        "enable": "Êtes-vous sûr de vouloir activer ces invites ?"
+      }
+    },
+    "message": {
+      "add": "Ajouté",
+      "sync": "Synchronisé",
+      "invalidData": "Données Invalides",
+      "missingActAndPrompt": "Champs manquants : 'act', 'prompt'. Utilisez 'Alias' pour renommer."
+    },
+    "table": {
+      "name": "Nom",
+      "sync": "Synchronisation",
+      "description": "Description",
+      "tag": "Étiquette",
+      "action": "Action",
+      "color": "Couleur",
+      "lastUpdate": "Dernière Mise à Jour",
+      "usageCount": "Nombre d'Utilisations"
     }
   }
 }

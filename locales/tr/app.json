@@ -22,8 +22,8 @@
     "showSidebar": "Kenar Çubuğunu Göster",
     "hideSidebar": "Kenar Çubuğunu Gizle",
     "devTools": "Geliştirici Araçları",
-    "frosted_texture": "Buzlu Doku",
-    "x_quit": "[X]'e tıklayarak çık",
+    "frostedTexture": "Buzlu Doku",
+    "xQuit": "[X]'e tıklayarak çık",
 
     "edit": "Düzenle",
     "undo": "Geri Al",
@@ -100,6 +100,42 @@
       "try": "Deneyin:",
       "check_1": "Bağlantıyı kontrol et",
       "check_2": "Proxy ve güvenlik duvarını kontrol et"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "Genel",
+      "extensions": "Eklentiler",
+      "prompts": {
+        "name": "İstemler",
+        "userPrompts": "Kullanıcı İstemleri",
+        "promptTags": "İstem Etiketleri",
+        "customSync": "Özel Senkronizasyon"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "Bu istemleri kullanmak istediğinizden emin misiniz?",
+        "delete": "Bu istemleri silmek istediğinizden emin misiniz?",
+        "disable": "Bu istemleri devre dışı bırakmak istediğinizden emin misiniz?",
+        "enable": "Bu istemleri etkinleştirmek istediğinizden emin misiniz?"
+      }
+    },
+    "message": {
+      "add": "Eklendi",
+      "sync": "Senkronize Edildi",
+      "invalidData": "Geçersiz Veri",
+      "missingActAndPrompt": "'act' ve 'prompt' alanları eksik. Yeniden adlandırmak için 'Alias' kullanın."
+    },
+    "table": {
+      "name": "İsim",
+      "sync": "Senkronizasyon",
+      "description": "Açıklama",
+      "tag": "Etiket",
+      "action": "Eylem",
+      "color": "Renk",
+      "lastUpdate": "Son Güncelleme",
+      "usageCount": "Kullanım Sayısı"
     }
   }
 }

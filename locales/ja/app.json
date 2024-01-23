@@ -22,8 +22,8 @@
     "showSidebar": "サイドバーを表示",
     "hideSidebar": "サイドバーを隠す",
     "devTools": "開発者ツール",
-    "frosted_texture": "霜降りテクスチャ",
-    "x_quit": "[X]をクリックして終了",
+    "frostedTexture": "霜降りテクスチャ",
+    "xQuit": "[X]をクリックして終了",
 
     "edit": "編集",
     "undo": "元に戻す",
@@ -100,6 +100,42 @@
       "try": "試してみてください：",
       "check_1": "接続を確認する",
       "check_2": "プロキシとファイアウォールを確認する"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "一般",
+      "extensions": "拡張機能",
+      "prompts": {
+        "name": "プロンプト",
+        "userPrompts": "ユーザープロンプト",
+        "promptTags": "プロンプトタグ",
+        "customSync": "カスタム同期"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "これらのプロンプトを使用しますか？",
+        "delete": "これらのプロンプトを削除しますか？",
+        "disable": "これらのプロンプトを無効にしますか？",
+        "enable": "これらのプロンプトを有効にしますか？"
+      }
+    },
+    "message": {
+      "add": "追加されました",
+      "sync": "同期されました",
+      "invalidData": "無効なデータ",
+      "missingActAndPrompt": "'act'、'prompt' のフィールドが足りません。'Alias'を使用して名前を変更してください。"
+    },
+    "table": {
+      "name": "名前",
+      "sync": "同期",
+      "description": "説明",
+      "tag": "タグ",
+      "action": "アクション",
+      "color": "色",
+      "lastUpdate": "最終更新",
+      "usageCount": "使用回数"
     }
   }
 }

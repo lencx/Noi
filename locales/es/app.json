@@ -22,8 +22,8 @@
     "showSidebar": "Mostrar Barra Lateral",
     "hideSidebar": "Ocultar Barra Lateral",
     "devTools": "Herramientas para Desarrolladores",
-    "frosted_texture": "Textura Escarchada",
-    "x_quit": "Hacer clic en [X] para salir",
+    "frostedTexture": "Textura Escarchada",
+    "xQuit": "Hacer clic en [X] para salir",
 
     "edit": "Editar",
     "undo": "Deshacer",
@@ -100,6 +100,42 @@
       "try": "Intenta:",
       "check_1": "Revisar la conexión",
       "check_2": "Revisar el proxy y el cortafuegos"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": "General",
+      "extensions": "Extensiones",
+      "prompts": {
+        "name": "Prompts",
+        "userPrompts": "Prompts de Usuario",
+        "promptTags": "Etiquetas de Prompt",
+        "customSync": "Sincronización Personalizada"
+      }
+    },
+    "confirm": {
+      "batch": {
+        "use": "¿Estás seguro de que quieres usar estos prompts?",
+        "delete": "¿Estás seguro de que quieres eliminar estos prompts?",
+        "disable": "¿Estás seguro de que quieres deshabilitar estos prompts?",
+        "enable": "¿Estás seguro de que quieres habilitar estos prompts?"
+      }
+    },
+    "message": {
+      "add": "Agregado",
+      "sync": "Sincronizado",
+      "invalidData": "Datos Inválidos",
+      "missingActAndPrompt": "Faltan campos: 'act', 'prompt'. Usa 'Alias' para renombrar."
+    },
+    "table": {
+      "name": "Nombre",
+      "sync": "Sincronización",
+      "description": "Descripción",
+      "tag": "Etiqueta",
+      "action": "Acción",
+      "color": "Color",
+      "lastUpdate": "Última Actualización",
+      "usageCount": "Conteo de Uso"
     }
   }
 }
