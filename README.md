@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img width="160" src="./assets/noi.png" />
+  <img width="160" src="./assets/noi-logo.png" />
   <p>AI + Tools + Plugins + Community</p>
 </h2>
 
