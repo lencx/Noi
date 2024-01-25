@@ -5,17 +5,43 @@
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
-> [!Note]
-> Final preparations for release are underway, please stay tuned.
-
 ## Feature
 
 - Support for loading any URL and system tray
 - Theme Mode (Light/Dark)
 - Multiple Languages
+- Prompt Management
+- AI Batch Questioning
+- ...
 
-![Noi](./website/static/img/noi-preview-1.png)
-![Noi](./website/static/img/noi-preview-2.png)
+## Install
+
+- **macOS**
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1.dmg)
+  - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1-arm64.dmg)
+- **Windows**
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/tag/v0.2.1/Noi-win32-x64-0.2.1-setup.exe)
+- **Linux**
+  - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_linux_0.2.1.AppImage)
+  - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.2.1/noi_linux_amd64_0.2.1.deb)
+
+|Preview|Preview|
+|---|---|
+|![theme-dark](./assets/noi-theme-dark.png)|![theme-light](./assets/noi-theme-light.png)|
+|![batch-ask](./assets/noi-batch-ask.png)|![settings-prompts](./assets/noi-settings-prompts.png)|
+
+
+## FAQ
+
+### macOS
+
+If you encounter the error message "Noi" is damaged and can't be opened. You should move it to the Trash. while installing software on macOS, it may be due to security settings restrictions in macOS. To solve this problem, please try the following command in Terminal:
+
+```bash
+xattr -cr /Applications/Noi.app
+```
+
+![mac-install-error](assets/mac-install-error.png)
 
 ## TODO
 
