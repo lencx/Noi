@@ -20,7 +20,7 @@
   - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1.dmg)
   - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1-arm64.dmg)
 - **Windows**
-  - [⬇️ x64](https://github.com/lencx/Noi/releases/tag/v0.2.1/Noi-win32-x64-0.2.1-setup.exe)
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi-win32-x64-0.2.1-setup.exe)
 - **Linux**
   - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_linux_0.2.1.AppImage)
   - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.2.1/noi_linux_amd64_0.2.1.deb)
