@@ -60,7 +60,7 @@ const config: Config = {
       title: 'Noi',
       logo: {
         alt: 'Noi Logo',
-        src: 'img/noi.png',
+        src: 'readme/noi.png',
       },
       items: [
         // {
@@ -84,7 +84,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} <a target="_blank" href="https://github.com/nofwl">NoFWL</a>.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a target="_blank" href="https://github.com/lencx">lencx</a>.`,
     },
     prism: {
       theme: prismThemes.github,

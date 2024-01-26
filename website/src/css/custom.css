@@ -18,7 +18,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(45, 45, 45, 0.1);
   --ifm-navbar-background-color: rgba(250, 247, 245, 0.9);
   --ifm-background-color: #fff;
 }
@@ -32,8 +32,8 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color: rgba(39, 41, 53, 0.9);
+  --docusaurus-highlighted-code-line-bg: rgba(45, 45, 45, 0.1);
+  --ifm-navbar-background-color: rgba(46, 47, 54, 0.1);
 }
 
 .navbar--fixed-top {
@@ -46,4 +46,8 @@
 
 .navbar-sidebar {
   backdrop-filter: blur(6px) saturate(1.5);
+}
+
+.navbar__title {
+  display: none;
 }
