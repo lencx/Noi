@@ -32,6 +32,9 @@
 |![theme-dark](./assets/noi-theme-dark.png)|![theme-light](./assets/noi-theme-light.png)|
 |![batch-ask](./assets/noi-batch-ask.png)|![settings-prompts](./assets/noi-settings-prompts.png)|
 
+---
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lencx/Noi&type=Timeline)](https://star-history.com/#lencx/Noi&Timeline)
 
 ## FAQ
 
