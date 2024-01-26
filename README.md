@@ -3,6 +3,8 @@
   <p>AI + Tools + Plugins + Community</p>
 </h2>
 
+[![Noi downloads](https://img.shields.io/github/downloads/lencx/Noi/total.svg?style=flat-square)](https://github.com/lencx/Noi/releases)
+
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
 ## Feature
