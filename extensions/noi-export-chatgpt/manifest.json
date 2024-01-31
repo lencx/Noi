@@ -3,6 +3,7 @@
   "name": "@noi/export-chatgpt",
   "version": "0.1.0",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-export-chatgpt",
+  "description": "ChatGPT chat history export, supports PDF, Image, and Markdown formats.",
   "content_scripts": [
     {
       "matches": ["https://*.openai.com/*"],

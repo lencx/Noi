@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
   "name": "@noi/ask",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
+  "description": "The best assistant for batch asking and quick typing of prompts.",
   "content_scripts": [
     {
       "matches": [
@@ -13,7 +14,9 @@
         "https://huggingface.co/chat/*",
         "https://www.perplexity.ai/*",
         "https://copilot.microsoft.com/*",
-        "https://pi.ai/talk/*"
+        "https://pi.ai/talk/*",
+        "https://www.coze.com/home/*",
+        "https://you.com/*"
       ],
       "js": ["main.js"],
       "run_at": "document_end",

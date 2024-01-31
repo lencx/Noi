@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
   "modes": [
     {
@@ -20,6 +20,12 @@
       "parent": 0,
       "dir": true,
       "text": "Community"
+    },
+    {
+      "id": "noi@design",
+      "parent": 0,
+      "dir": true,
+      "text": "Design"
     },
     {
       "id": "noi:chatgpt",
@@ -70,6 +76,18 @@
       "url": "https://pi.ai/talk"
     },
     {
+      "id": "noi:coze",
+      "parent": "noi@ai",
+      "text": "Coze",
+      "url": "https://www.coze.com/home"
+    },
+    {
+      "id": "noi:you",
+      "parent": "noi@ai",
+      "text": "YOU",
+      "url": "https://you.com"
+    },
+    {
       "id": "noi:github",
       "parent": "noi@dev",
       "text": "GitHub",
@@ -104,6 +122,24 @@
       "parent": "noi@community",
       "text": "Discord",
       "url": "https://discord.com"
+    },
+    {
+      "id": "noi:hackernews",
+      "parent": "noi@community",
+      "text": "Hacker News",
+      "url": "https://news.ycombinator.com"
+    },
+    {
+      "id": "noi:figma",
+      "parent": "noi@design",
+      "text": "Figma",
+      "url": "https://www.figma.com"
+    },
+    {
+      "id": "noi:dribbble",
+      "parent": "noi@design",
+      "text": "Dribbble",
+      "url": "https://dribbble.com"
     }
   ]
 }

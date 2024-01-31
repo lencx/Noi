@@ -3,6 +3,7 @@
   "name": "@noi/reset",
   "version": "0.1.0",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-reset",
+  "description": "Reset certain website styles to enhance compatibility with Noi.",
   "content_scripts": [
     {
       "matches": [

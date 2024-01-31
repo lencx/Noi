@@ -1,0 +1,27 @@
+{
+  "name": "Noi Extensions",
+  "homepage": "https://github.com/lencx/Noi/blob/main/extensions/noi.extensions.json",
+  "extensions": [
+    {
+      "name": "@noi/ask",
+      "description": "The best assistant for batch asking and quick typing of prompts.",
+      "version": "0.1.1",
+      "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
+      "disabled": false
+    },
+    {
+      "name": "@noi/export-chatgpt",
+      "description": "ChatGPT chat history export, supports PDF, Image, and Markdown formats.",
+      "version": "0.1.0",
+      "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-export-chatgpt",
+      "disabled": false
+    },
+    {
+      "name": "@noi/reset",
+      "description": "Reset certain website styles to enhance compatibility with Noi.",
+      "version": "0.1.0",
+      "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-reset",
+      "disabled": false
+    }
+  ]
+}

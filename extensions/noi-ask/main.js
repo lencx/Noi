@@ -7,7 +7,7 @@
 
 class NoiAsk {
   static sync(message) {
-    const inputElement = document.querySelector(`textarea`);
+    const inputElement = document.querySelector('textarea');
     if (inputElement) {
       const nativeTextareaSetter = Object.getOwnPropertyDescriptor(window.HTMLTextAreaElement.prototype, 'value').set;
       nativeTextareaSetter.call(inputElement, message);
@@ -41,7 +41,7 @@ class OpenAIAsk extends NoiAsk {
   static url = 'https://chat.openai.com';
 
   static submit() {
-    const btn = document.querySelector(`button[data-testid="send-button"]`);
+    const btn = document.querySelector('button[data-testid="send-button"]');
     if (btn) this.autoClick(btn);
   }
 }
@@ -51,7 +51,7 @@ class PoeAsk extends NoiAsk {
   static url = 'https://poe.com';
 
   static submit() {
-    const btn = document.querySelectorAll(`button[class*="ChatMessageSendButton_sendButton"]`)[0];
+    const btn = document.querySelectorAll('button[class*="ChatMessageSendButton_sendButton"]')[0];
     if (btn) this.autoClick(btn);
   }
 }
@@ -61,7 +61,7 @@ class ClaudeAsk extends NoiAsk {
   static url = 'https://claude.ai';
 
   static sync(message) {
-    const inputElement = document.querySelector(`div.ProseMirror`);
+    const inputElement = document.querySelector('div.ProseMirror');
     if (inputElement) {
       inputElement.focus();
       inputElement.innerHTML = '';
@@ -71,12 +71,12 @@ class ClaudeAsk extends NoiAsk {
 
   static submit() {
     // subsequent screens use this
-    let btn = document.querySelector(`button[aria-label*="Send Message"]`);
+    let btn = document.querySelector('button[aria-label*="Send Message"]');
     if (!btn) { // new chats use this
-      btn = document.querySelector(`button:has(div svg)`);
+      btn = document.querySelector('button:has(div svg)');
     }
     if (!btn) { // last ditch attempt
-      btn = document.querySelector(`button:has(svg)`);
+      btn = document.querySelector('button:has(svg)');
     }
     if (btn) this.autoClick(btn);
   }
@@ -87,7 +87,7 @@ class BardAsk extends NoiAsk {
   static url = 'https://bard.google.com';
 
   static sync(message) {
-    const inputElement = document.querySelector(`.ql-editor.textarea`);
+    const inputElement = document.querySelector('.ql-editor.textarea');
     if (inputElement) {
       const inputEvent = new Event('input', { bubbles: true });
       inputElement.value = message;
@@ -98,7 +98,7 @@ class BardAsk extends NoiAsk {
   }
 
   static submit() {
-    const btn = document.querySelector(`button[aria-label*="Send message"]`);
+    const btn = document.querySelector('button[aria-label*="Send message"]');
     if (btn) {
       btn.setAttribute('aria-disabled', 'false'); // doesn't work alone
       btn.focus();
@@ -112,7 +112,7 @@ class HuggingChatAsk extends NoiAsk {
   static url = 'https://huggingface.co/chat';
 
   static sync(message) {
-    var inputElement = document.querySelector(`textarea[placeholder*="Ask anything"]`);
+    var inputElement = document.querySelector('textarea[placeholder*="Ask anything"]');
     if (inputElement) {
       const inputEvent = new Event('input', { bubbles: true });
       inputElement.value = message;
@@ -121,7 +121,7 @@ class HuggingChatAsk extends NoiAsk {
   }
 
   static submit() {
-    var btn = document.querySelector(`form.relative > div > button[type="submit"]`);
+    var btn = document.querySelector('form.relative > div > button[type="submit"]');
     if (btn) this.autoClick(btn);
   }
 }
@@ -131,7 +131,7 @@ class PerplexityAsk extends NoiAsk {
   static url = 'https://www.perplexity.ai';
 
   static submit() {
-    const btns = Array.from(document.querySelectorAll(`button.bg-super`));
+    const btns = Array.from(document.querySelectorAll('button.bg-super'));
     if (btns[0]) {
       const btnsWithSvgPath = btns.filter(button => button.querySelector('svg path'));
       const btn = btnsWithSvgPath[btnsWithSvgPath.length - 1];
@@ -197,6 +197,32 @@ class PiAsk extends NoiAsk {
   }
 }
 
+class CozeAsk extends NoiAsk {
+  static name = 'Coze';
+  static url = 'https://www.coze.com/home';
+
+  static submit() {
+    const inputElement = document.querySelector('textarea');
+    if (inputElement) {
+      const nextElement = inputElement.nextElementSibling;
+      if (nextElement) {
+        const btn = nextElement.querySelector('button');
+        if (btn) btn.click();
+      }
+    }
+  }
+}
+
+class YouAsk extends NoiAsk {
+  static name = 'YouAsk';
+  static url = 'https://you.com';
+
+  static submit() {
+    const btn = document.querySelector('button[data-eventactionname="click_send"]');
+    if (btn) btn.click();
+  }
+}
+
 window.NoiAsk = {
   OpenAIAsk,
   PoeAsk,
@@ -206,4 +232,6 @@ window.NoiAsk = {
   PerplexityAsk,
   CopilotAsk,
   PiAsk,
+  CozeAsk,
+  YouAsk,
 };
