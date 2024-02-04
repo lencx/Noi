@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "@noi/ask",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
   "description": "The best assistant for batch asking and quick typing of prompts.",
   "content_scripts": [
@@ -16,7 +16,11 @@
         "https://copilot.microsoft.com/*",
         "https://pi.ai/talk/*",
         "https://www.coze.com/home/*",
-        "https://you.com/*"
+        "https://you.com/*",
+        "https://www.coze.cn/home/*",
+        "https://chatglm.cn/*",
+        "https://www.doubao.com/*",
+        "https://tongyi.aliyun.com/qianwen/*"
       ],
       "js": ["main.js"],
       "run_at": "document_end",

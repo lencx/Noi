@@ -5,8 +5,17 @@
     {
       "name": "@noi/ask",
       "description": "The best assistant for batch asking and quick typing of prompts.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
+      "dirname": "noi-ask",
+      "disabled": false
+    },
+    {
+      "name": "@noi/ask-custom",
+      "description": "The best assistant for batch asking and quick typing of prompts.",
+      "version": "0.1.0",
+      "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask-custom",
+      "dirname": "noi-ask-custom",
       "disabled": false
     },
     {
@@ -14,6 +23,7 @@
       "description": "ChatGPT chat history export, supports PDF, Image, and Markdown formats.",
       "version": "0.1.0",
       "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-export-chatgpt",
+      "dirname": "noi-export-chatgpt",
       "disabled": false
     },
     {
@@ -21,6 +31,7 @@
       "description": "Reset certain website styles to enhance compatibility with Noi.",
       "version": "0.1.0",
       "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-reset",
+      "dirname": "noi-reset",
       "disabled": false
     }
   ]

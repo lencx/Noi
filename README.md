@@ -32,6 +32,10 @@
 |![theme-dark](./website/static/readme/noi-theme-dark.png)|![theme-light](./website/static/readme/noi-theme-light.png)|
 |![batch-ask](./website/static/readme/noi-batch-ask.png)|![settings-prompts](./website/static/readme/noi-settings-prompts.png)|
 
+---
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lencx/Noi&type=Timeline)](https://star-history.com/#lencx/Noi&Timeline)
+
 ## FAQ
 
 ### macOS

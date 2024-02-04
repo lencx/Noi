@@ -6,7 +6,7 @@
   "description": "ChatGPT chat history export, supports PDF, Image, and Markdown formats.",
   "content_scripts": [
     {
-      "matches": ["https://*.openai.com/*"],
+      "matches": ["https://chat.openai.com/*"],
       "js": ["main.js"],
       "css": ["style.css"],
       "run_at": "document_end",

@@ -214,12 +214,64 @@ class CozeAsk extends NoiAsk {
 }
 
 class YouAsk extends NoiAsk {
-  static name = 'YouAsk';
+  static name = 'YOU';
   static url = 'https://you.com';
 
   static submit() {
     const btn = document.querySelector('button[data-eventactionname="click_send"]');
     if (btn) btn.click();
+  }
+}
+
+class CozeCNAsk extends NoiAsk {
+  static name = 'Coze';
+  static url = 'https://www.coze.cn/home';
+
+  static submit() {
+    const inputElement = document.querySelector('textarea');
+    if (inputElement) {
+      const nextElement = inputElement.nextElementSibling;
+      if (nextElement) {
+        const btn = nextElement.querySelector('button');
+        if (btn) btn.click();
+      }
+    }
+  }
+}
+
+class ChatGMLAsk extends NoiAsk {
+  static name = 'ChatGLM'; // 智谱清言
+  static url = 'https://chatglm.cn';
+
+  static submit() {
+    const btn = document.querySelector('#search-input-box .enter img');
+    if (btn) btn.click();
+  }
+}
+
+class DoubaoAsk extends NoiAsk {
+  static name = 'Doubao'; // 豆包
+  static url = 'https://www.doubao.com';
+
+  static submit() {
+    const btn = document.querySelector('#flow-end-msg-send');
+    if (btn) btn.click();
+  }
+}
+
+class TongyiAsk extends NoiAsk {
+  static name = 'TongYi'; // 通义千问
+  static url = 'https://tongyi.aliyun.com/qianwen';
+
+  static submit() {
+    const inputElement = document.querySelector('textarea');
+    if (inputElement) {
+      const nextElement = inputElement.nextElementSibling;
+      if (nextElement) {
+        const btn = nextElement.querySelector('div[class^="chatBtn"]');
+        if (btn) btn.click();
+      }
+    }
   }
 }
 
@@ -234,4 +286,8 @@ window.NoiAsk = {
   PiAsk,
   CozeAsk,
   YouAsk,
+  CozeCNAsk,
+  DoubaoAsk,
+  ChatGMLAsk,
+  TongyiAsk,
 };
