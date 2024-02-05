@@ -1,0 +1,133 @@
+{
+  "name": "Noi Mode",
+  "version": "0.1.0",
+  "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.zh.json",
+  "modes": [
+    {
+      "id": "noi@ai",
+      "parent": 0,
+      "dir": true,
+      "text": "AI"
+    },
+    {
+      "id": "noi@aiCN",
+      "parent": 0,
+      "dir": true,
+      "text": "AI（内陆版）"
+    },
+    {
+      "id": "noi@dev",
+      "parent": 0,
+      "dir": true,
+      "text": "Dev"
+    },
+    {
+      "id": "noi:chatgpt",
+      "parent": "noi@ai",
+      "text": "ChatGPT",
+      "url": "https://chat.openai.com"
+    },
+    {
+      "id": "noi:claude",
+      "parent": "noi@ai",
+      "text": "Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "noi:bard",
+      "parent": "noi@ai",
+      "text": "Bard",
+      "url": "https://bard.google.com"
+    },
+    {
+      "id": "noi:poe",
+      "parent": "noi@ai",
+      "text": "Poe",
+      "url": "https://poe.com"
+    },
+    {
+      "id": "noi:perplexity",
+      "parent": "noi@ai",
+      "text": "Perplexity",
+      "url": "https://www.perplexity.ai"
+    },
+    {
+      "id": "noi:copilot",
+      "parent": "noi@ai",
+      "text": "Copilot",
+      "url": "https://copilot.microsoft.com"
+    },
+    {
+      "id": "noi:huggingchat",
+      "parent": "noi@ai",
+      "text": "HuggingChat",
+      "url": "https://huggingface.co/chat"
+    },
+    {
+      "id": "noi:pi",
+      "parent": "noi@ai",
+      "text": "Pi",
+      "url": "https://pi.ai/talk"
+    },
+    {
+      "id": "noi:coze",
+      "parent": "noi@ai",
+      "text": "Coze",
+      "url": "https://www.coze.com/home"
+    },
+    {
+      "id": "noi:you",
+      "parent": "noi@ai",
+      "text": "YOU",
+      "url": "https://you.com"
+    },
+    {
+      "id": "noi:cozeCN",
+      "parent": "noi@aiCN",
+      "text": "扣子",
+      "url": "https://www.coze.cn/home"
+    },
+    {
+      "id": "noi:chatglm",
+      "parent": "noi@aiCN",
+      "text": "智谱清言",
+      "url": "https://chatglm.cn"
+    },
+    {
+      "id": "noi:doubao",
+      "parent": "noi@aiCN",
+      "text": "豆包",
+      "url": "https://www.doubao.com"
+    },
+    {
+      "id": "noi:tongyiqianwen",
+      "parent": "noi@aiCN",
+      "text": "通义千问",
+      "url": "https://tongyi.aliyun.com/qianwen"
+    },
+    {
+      "id": "noi:github",
+      "parent": "noi@dev",
+      "text": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "id": "noi:replit",
+      "parent": "noi@dev",
+      "text": "Replit",
+      "url": "https://replit.com"
+    },
+    {
+      "id": "noi:huggingface",
+      "parent": "noi@dev",
+      "text": "Hugging Face",
+      "url": "https://huggingface.co"
+    },
+    {
+      "id": "noi:vscode",
+      "parent": "noi@dev",
+      "text": "VS Code",
+      "url": "https://vscode.dev"
+    }
+  ]
+}
