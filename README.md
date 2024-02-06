@@ -3,7 +3,7 @@
   <p>AI + Tools + Plugins + Community</p>
 </h2>
 
-[![Noi downloads](https://img.shields.io/github/downloads/lencx/Noi/total.svg?style=flat-square)](https://github.com/lencx/Noi/releases)
+[![Noi downloads](https://img.shields.io/github/downloads/lencx/Noi/total.svg?style=flat)](https://github.com/lencx/Noi/releases) [![Noi](https://img.shields.io/badge/Noi-discord-blue?style=flat&logo=discord&logoColor=f2f0ea)](https://discord.gg/kq2HXcpJSQ)
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
