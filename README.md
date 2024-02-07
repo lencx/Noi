@@ -1,6 +1,6 @@
-<h2 align="center">
+<p align="center">
   <img width="160" src="./website/static/readme/noi.png" />
-  <p>AI + Tools + Plugins + Community</p>
+  <p align="center">🚀 Power Your World with AI - Explore, Extend, Empower.</p>
 </h2>
 
 [![Noi downloads](https://img.shields.io/github/downloads/lencx/Noi/total.svg?style=flat)](https://github.com/lencx/Noi/releases) [![Noi](https://img.shields.io/badge/Noi-discord-blue?style=flat&logo=discord&logoColor=f2f0ea)](https://discord.gg/kq2HXcpJSQ)
