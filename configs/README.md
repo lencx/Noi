@@ -40,3 +40,10 @@ Here is a detailed description of some fields:
   - `text`: Name
   - `url`: Link
   - `dir`: Whether it is a folder, default is `false`
+
+## Proxy
+
+Learn more: [electronjs/docs](https://www.electronjs.org/docs/latest/api/session#sessetproxyconfig)
+
+- `proxyRules`: Rules indicating which proxies to use.
+- `proxyBypassRules`: Rules indicating which URLs should bypass the proxy settings.
