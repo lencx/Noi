@@ -19,13 +19,13 @@
 ## Install
 
 - **macOS**
-  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1.dmg)
-  - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1-arm64.dmg)
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0.dmg)
+  - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0-arm64.dmg)
 - **Windows**
-  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi-win32-x64-0.2.1-setup.exe)
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi-win32-x64-0.3.0-setup.exe)
 - **Linux**
-  - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_linux_0.2.1.AppImage)
-  - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.2.1/noi_linux_amd64_0.2.1.deb)
+  - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_linux_0.3.0.AppImage)
+  - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.3.0/noi_linux_amd64_0.3.0.deb)
 
 |Preview|Preview|
 |---|---|
