@@ -18,6 +18,8 @@
 
 ## Install
 
+[🕒 History versions...](https://github.com/lencx/Noi/releases)
+
 - **macOS**
   - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0.dmg)
   - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0-arm64.dmg)
@@ -29,8 +31,8 @@
 
 |Preview|Preview|
 |---|---|
-|![theme-dark](./website/static/readme/noi-theme-dark.png)|![theme-light](./website/static/readme/noi-theme-light.png)|
-|![batch-ask](./website/static/readme/noi-batch-ask.png)|![settings-prompts](./website/static/readme/noi-settings-prompts.png)|
+|![theme-dark](./website/static/readme/noi-theme-dark.png)|![noi-settings](./website/static/readme/noi-settings.png)|
+|![settings-prompts](./website/static/readme/noi-prompt.png)|![batch-ask](./website/static/readme/noi-prompt-use.png)|
 
 ---
 
