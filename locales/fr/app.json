@@ -4,10 +4,10 @@
   "menu": {
     "name": "Menu",
     "about": "À propos de Noi",
-    "hide": "Cacher Noi",
-    "hideOthers": "Cacher les autres",
+    "hide": "Masquer Noi",
+    "hideOthers": "Masquer les autres",
     "quit": "Quitter Noi",
-    "unhide": "Tout afficher",
+    "unhide": "Afficher tout",
     "checkUpdates": "Vérifier les mises à jour…",
 
     "settings": "Paramètres",
@@ -20,12 +20,13 @@
     },
     "stayOnTop": "Rester au-dessus",
     "showSidebar": "Afficher la barre latérale",
-    "hideSidebar": "Cacher la barre latérale",
+    "hideSidebar": "Masquer la barre latérale",
     "devTools": "Outils de développement",
-    "frostedTexture": "Texture Givrée",
+    "frostedTexture": "Texture givrée",
     "xQuit": "Cliquer sur [X] pour quitter",
+    "systemTray": "Zone de notification",
 
-    "edit": "Éditer",
+    "edit": "Édition",
     "undo": "Annuler",
     "redo": "Rétablir",
     "pasteAndMatchStyle": "Coller et adapter le style",
@@ -36,18 +37,18 @@
     "goBack": "Retour",
     "goForward": "Avancer",
     "resetZoom": "Taille réelle",
-    "zoomIn": "Zoom avant",
-    "zoomOut": "Zoom arrière",
+    "zoomIn": "Zoomer",
+    "zoomOut": "Dézoomer",
     "fullScreen": "Plein écran",
 
     "help": "Aide",
-    "log": "Journal Noi",
+    "log": "Journal de Noi",
     "gettingStarted": "Commencer",
     "issues": "Problèmes GitHub",
-    "shareIdeas": "Partager idées et commentaires",
+    "shareIdeas": "Partager des idées et des retours",
 
     "learnSpelling": "Apprendre l'orthographe",
-    "lookUpSelection": "Rechercher « {selection} »",
+    "lookUpSelection": "Rechercher “{selection}”",
     "searchWithGoogle": "Rechercher avec Google",
     "cut": "Couper",
     "copy": "Copier",
@@ -67,75 +68,124 @@
     "reload": "Recharger",
     "rename": "Renommer",
     "user": "Utilisateur",
-    "setSystemTray": "Définir comme icône de la barre de tâches",
-    "clearCache": "Effacer les données en cache"
+    "setSystemTray": "Définir comme zone de notification",
+    "clearCache": "Effacer les données du cache"
   },
   "form": {
     "name": "Nom",
     "url": "URL",
-    "save": "Enregistrer",
-    "cancel": "Annuler",
-    "reset": "Réinitialiser",
     "invalidURL": "URL invalide, veuillez saisir à nouveau.",
     "nameNotEmpty": "Le nom ne peut pas être vide."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "L'URL actuelle ne peut pas être supprimée.",
-      "dir_delete": "Le répertoire de l'URL actuelle ne peut pas être supprimé.",
-      "tray_delete": "L'URL actuelle est définie comme plateau système, veuillez d'abord annuler le paramètre."
+      "urlDelete": "L'URL actuelle est en cours d'utilisation.",
+      "dirDelete": "Le répertoire actuel est en cours d'utilisation.",
+      "trayDelete": "La zone de notification utilise l'URL actuelle, elle ne peut pas être supprimée."
     },
     "tip": {
-      "delete": "Une fois supprimé, il est impossible de récupérer, êtes-vous sûr de vouloir supprimer ?",
-      "sync_overwrite": "La synchronisation remplacera toutes les données à l'exception des données personnalisées. Voulez-vous continuer?",
-      "sync_reset": "Vous utilisez déjà la version la plus récente. La synchronisation réinitialisera toutes les données sauf les données personnalisées. Voulez-vous continuer?",
-      "sync_ok": "Synchronisation réussie",
-      "sync_reset_ok": "Réinitialisation réussie"
+      "delete": "Impossible de récupérer après suppression, êtes-vous sûr de vouloir supprimer ?",
+      "syncOverwrite": "La synchronisation écrasera toutes les données sauf les données personnalisées. Voulez-vous continuer ?",
+      "syncReset": "Vous êtes actuellement sur la dernière version. La synchronisation réinitialisera toutes les données sauf les données personnalisées. Voulez-vous continuer ?",
+      "syncOk": "Synchronisation réussie",
+      "syncResetOk": "Réinitialisation réussie"
     }
   },
   "network": {
     "error": {
-      "title": "Ce site est inaccessible",
-      "long_respond": "a mis trop de temps à répondre.",
-      "try": "Essayez de:",
-      "check_1": "Vérifier la connexion",
-      "check_2": "Vérifier le proxy et le pare-feu"
+      "try": "Essayer :",
+      "title": "Ce site n’est pas accessible",
+      "longRespond": "a mis trop de temps à répondre.",
+      "checkConnection": "Vérification de la connexion",
+      "checkProxy": "Vérification du proxy et du pare-feu"
     }
   },
   "settings": {
     "menu": {
-      "general": "Général",
+      "general": {
+        "name": "Général",
+        "syncBookmarks": "Synchroniser les marque-pages",
+        "globalShortcut": "Raccourci global",
+        "recording": "Enregistrement…",
+        "proxy": "Proxy",
+        "proxyRules": "Règles",
+        "proxyBypassRules": "Règles de contournement"
+      },
       "extensions": "Extensions",
       "prompts": {
         "name": "Invites",
-        "userPrompts": "Invites Utilisateur",
-        "promptTags": "Étiquettes d'Invite",
-        "customSync": "Synchronisation Personnalisée"
+        "userPrompts": "Invites utilisateur",
+        "promptTags": "Tags d'invite",
+        "customSync": "Synchronisation personnalisée"
       }
     },
     "confirm": {
-      "batch": {
-        "use": "Êtes-vous sûr de vouloir utiliser ces invites ?",
-        "delete": "Êtes-vous sûr de vouloir supprimer ces invites ?",
-        "disable": "Êtes-vous sûr de vouloir désactiver ces invites ?",
-        "enable": "Êtes-vous sûr de vouloir activer ces invites ?"
-      }
+      "delete": "Êtes-vous sûr de vouloir supprimer cet enregistrement ?",
+      "batchEnable": "Êtes-vous sûr de vouloir activer ces invites ?",
+      "batchDelete": "Êtes-vous sûr de vouloir supprimer ces invites ?",
+      "batchDisable": "Êtes-vous sûr de vouloir désactiver ces invites ?",
+      "batchUse": "Êtes-vous sûr de vouloir utiliser ces invites ?"
     },
     "message": {
-      "add": "Ajouté",
-      "sync": "Synchronisé",
-      "invalidData": "Données Invalides",
-      "missingActAndPrompt": "Champs manquants : 'act', 'prompt'. Utilisez 'Alias' pour renommer."
+      "added": "Ajouté",
+      "synced": "Synchronisé",
+      "invalidData": "Données invalides",
+      "missingActAndPrompt": "Champs manquants : 'act', 'prompt'. Essayez d'utiliser 'Alias' pour renommer.",
+      "missingManifest": "Le fichier manifest.json est manquant ou invalide.",
+      "checkExtension": "Veuillez revérifier le répertoire de l'extension :",
+      "existExtension": "L'extension existe déjà."
+    },
+    "tip": {
+      "proxyRules": "Règles indiquant quels proxies utiliser.",
+      "proxyBypassRules": "Règles indiquant quelles URL doivent contourner les paramètres du proxy.",
+      "shortcutRule": "Règle de raccourci",
+      "modifierKeys": "Touches modificateurs",
+      "regularKeys": "Touches régulières",
+      "noiExtension": "Notez que Noi ne prend pas en charge la gamme complète des API d'extensions Chrome. Voir les API d'extensions prises en charge pour plus de détails sur ce qui est supporté."
     },
     "table": {
       "name": "Nom",
-      "sync": "Synchronisation",
+      "extension": "Extension",
       "description": "Description",
-      "tag": "Étiquette",
-      "action": "Action",
+      "version": "Version",
+      "tag": "Tag",
       "color": "Couleur",
-      "lastUpdate": "Dernière Mise à Jour",
-      "usageCount": "Nombre d'Utilisations"
+      "lastUpdate": "Dernière mise à jour",
+      "usageCount": "Nombre d'utilisations"
     }
+  },
+  "action": {
+    "name": "Action",
+    "add": "Ajouter",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "confirm": "Confirmer",
+    "detail": "Détail",
+    "delete": "Supprimer",
+    "disable": "Désactiver",
+    "edit": "Éditer",
+    "enable": "Activer",
+    "export": "Exporter",
+    "refresh": "Rafraîchir",
+    "reset": "Réinitialiser",
+    "sync": "Synchroniser",
+    "save": "Sauvegarder",
+    "search": "Rechercher",
+    "select": "Sélectionner",
+    "use": "Utiliser",
+    "batchDisable": "Désactivation en lot",
+    "batchEnable": "Activation en lot",
+    "batchDelete": "Suppression en lot",
+    "batchUse": "Utilisation en lot"
+  },
+  "prompt": {
+    "promptSend": "Envoi d'invite",
+    "newChat": "Nouveau chat",
+    "sendMessage": "Envoyer un message",
+    "resetPanel": "Réinitialiser le panneau",
+    "promptCmd": "Commande d'invite",
+    "sizeSmall": "Petit",
+    "sizeMedium": "Moyen",
+    "sizeLarge": "Grand"
   }
 }

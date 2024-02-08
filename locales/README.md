@@ -10,6 +10,5 @@
 - `pt`: Português
 - `ru`: Русский
 - `de`: Deutsch
-- `hu`: Magyar
 - `it`: Italiano
 - `tr`: Türkçe

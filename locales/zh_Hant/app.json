@@ -14,31 +14,32 @@
     "languages": "語言",
     "theme": {
       "name": "主題",
-      "light": "淺色",
-      "dark": "深色",
+      "light": "明亮",
+      "dark": "黑暗",
       "system": "系統"
     },
     "stayOnTop": "窗口置頂",
     "showSidebar": "顯示側邊欄",
     "hideSidebar": "隱藏側邊欄",
     "devTools": "開發者工具",
-    "frostedTexture": "磨砂紋理",
+    "frostedTexture": "磨砂質感",
     "xQuit": "點擊 [X] 退出",
+    "systemTray": "系統托盤",
 
     "edit": "編輯",
-    "undo": "復原",
+    "undo": "撤銷",
     "redo": "重做",
-    "pasteAndMatchStyle": "貼上並符合樣式",
+    "pasteAndMatchStyle": "粘貼時保留樣式",
     "delete": "刪除",
 
     "view": "查看",
     "refresh": "刷新頁面",
     "goBack": "後退",
     "goForward": "前進",
-    "resetZoom": "實際大小",
+    "resetZoom": "實際尺寸",
     "zoomIn": "放大",
     "zoomOut": "縮小",
-    "fullScreen": "進入全螢幕",
+    "fullScreen": "全螢幕",
 
     "help": "幫助",
     "log": "Noi 日誌",
@@ -47,65 +48,70 @@
     "shareIdeas": "分享想法和反饋",
 
     "learnSpelling": "學習拼寫",
-    "lookUpSelection": "查詢 “{selection}”",
-    "searchWithGoogle": "用 Google 搜索",
+    "lookUpSelection": "查找 “{selection}”",
+    "searchWithGoogle": "使用 Google 搜索",
     "cut": "剪下",
     "copy": "複製",
     "paste": "貼上",
     "selectAll": "全選",
     "saveImage": "儲存圖片",
     "saveImageAs": "圖片另存為…",
-    "saveVideo": "儲存影片",
-    "saveVideoAs": "影片另存為…",
+    "saveVideo": "儲存視頻",
+    "saveVideoAs": "視頻另存為…",
     "copyLink": "複製連結",
     "saveLinkAs": "連結另存為…",
     "copyImage": "複製圖片",
     "copyImageAddress": "複製圖片地址",
-    "copyVideoAddress": "複製影片地址",
+    "copyVideoAddress": "複製視頻地址",
     "inspect": "檢查元素",
     "services": "服務",
     "reload": "重新載入",
     "rename": "重命名",
     "user": "用戶",
-    "setSystemTray": "設為系統托盤",
+    "setSystemTray": "設置為系統托盤",
     "clearCache": "清除快取數據"
   },
   "form": {
     "name": "名稱",
-    "url": "網址",
-    "save": "儲存",
-    "cancel": "取消",
-    "reset": "重置",
-    "invalidURL": "無效的網址，請重新輸入",
+    "url": "URL",
+    "invalidURL": "無效 URL，請重新輸入",
     "nameNotEmpty": "名稱不能為空"
   },
   "sidebar": {
     "warn": {
-      "url_delete": "當前網址不能被刪除",
-      "dir_delete": "當前網址的目錄不能被刪除",
-      "tray_delete": "當前網址已設置為系統托盤，請先取消設置"
+      "urlDelete": "當前 URL 正在使用中",
+      "dirDelete": "當前目錄正在使用中",
+      "trayDelete": "系統托盤正在使用當前 URL，無法被刪除"
     },
     "tip": {
-      "delete": "刪除後無法恢復，確定要刪除嗎？",
-      "sync_overwrite": "同步將覆蓋自定義數據以外的所有數據，是否繼續？",
-      "sync_reset": "當前已是最新版本，同步將重置自定義數據以外的所有數據，是否繼續？",
-      "sync_ok": "同步成功",
-      "sync_reset_ok": "重置成功"
+      "delete": "刪除後無法恢復，您確定要刪除嗎？",
+      "syncOverwrite": "同步將覆蓋所有數據，除了自定義數據。您想繼續嗎？",
+      "syncReset": "您當前為最新版本，同步將重置除自定義數據外的所有數據。您想繼續嗎？",
+      "syncOk": "同步成功",
+      "syncResetOk": "重置成功"
     }
   },
   "network": {
     "error": {
-      "title": "無法連接到此網站",
-      "long_respond": "響應時間過長。",
       "try": "嘗試：",
-      "check_1": "檢查連接",
-      "check_2": "檢查代理和防火牆"
+      "title": "無法訪問此網站",
+      "longRespond": "響應時間過長",
+      "checkConnection": "檢查連線",
+      "checkProxy": "檢查代理和防火牆"
     }
   },
   "settings": {
     "menu": {
-      "general": "一般",
-      "extensions": "擴展功能",
+      "general": {
+        "name": "通用",
+        "syncBookmarks": "同步書簽",
+        "globalShortcut": "全域快捷鍵",
+        "recording": "正在錄制…",
+        "proxy": "代理",
+        "proxyRules": "規則",
+        "proxyBypassRules": "繞過規則"
+      },
+      "extensions": "擴展",
       "prompts": {
         "name": "提示",
         "userPrompts": "用戶提示",
@@ -114,28 +120,72 @@
       }
     },
     "confirm": {
-      "batch": {
-        "use": "您確定要使用這些提示嗎？",
-        "delete": "您確定要刪除這些提示嗎？",
-        "disable": "您確定要禁用這些提示嗎？",
-        "enable": "您確定要啟用這些提示嗎？"
-      }
+      "delete": "您確定要刪除這條記錄嗎？",
+      "batchEnable": "您確定要啟用這些提示嗎？",
+      "batchDelete": "您確定要刪除這些提示嗎？",
+      "batchDisable": "您確定要禁用這些提示嗎？",
+      "batchUse": "您確定要使用這些提示嗎？"
     },
     "message": {
-      "add": "已新增",
-      "sync": "已同步",
-      "invalidData": "資料無效",
-      "missingActAndPrompt": "缺少字段：'act', 'prompt'。請使用 'Alias' 進行重命名。"
+      "added": "已添加",
+      "synced": "已同步",
+      "invalidData": "數據無效",
+      "missingActAndPrompt": "缺少字段：'act', 'prompt'。嘗試使用 'Alias' 重命名",
+      "missingManifest": "manifest.json 文件缺失或無效",
+      "checkExtension": "請重新檢查擴展目錄：",
+      "existExtension": "擴展已存在"
+    },
+    "tip": {
+      "proxyRules": "使用哪些代理規則",
+      "proxyBypassRules": "哪些 URL 應繞過代理設置規則",
+      "shortcutRule": "快捷鍵規則",
+      "modifierKeys": "修飾鍵",
+      "regularKeys": "常規鍵",
+      "noiExtension": "注意，Noi 不支持 Chrome 擴展 API 的全部範圍。有關支持的詳細信息，請參閱支持的擴展 API。"
     },
     "table": {
       "name": "名稱",
-      "sync": "同步",
+      "extension": "擴展",
       "description": "描述",
+      "version": "版本",
       "tag": "標籤",
-      "action": "操作",
       "color": "顏色",
       "lastUpdate": "最後更新",
       "usageCount": "使用次數"
     }
+  },
+  "action": {
+    "name": "操作",
+    "add": "添加",
+    "cancel": "取消",
+    "create": "創建",
+    "confirm": "確認",
+    "detail": "詳情",
+    "delete": "刪除",
+    "disable": "禁用",
+    "edit": "編輯",
+    "enable": "啟用",
+    "export": "匯出",
+    "refresh": "刷新",
+    "reset": "重置",
+    "sync": "同步",
+    "save": "儲存",
+    "search": "搜索",
+    "select": "選擇",
+    "use": "使用",
+    "batchDisable": "批量禁用",
+    "batchEnable": "批量啟用",
+    "batchDelete": "批量刪除",
+    "batchUse": "批量使用"
+  },
+  "prompt": {
+    "promptSend": "提示發送",
+    "newChat": "新聊天",
+    "sendMessage": "發送消息",
+    "resetPanel": "重置面板",
+    "promptCmd": "提示指令",
+    "sizeSmall": "小",
+    "sizeMedium": "中",
+    "sizeLarge": "大"
   }
 }

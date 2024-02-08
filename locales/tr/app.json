@@ -14,8 +14,8 @@
     "languages": "Diller",
     "theme": {
       "name": "Tema",
-      "light": "Açık",
-      "dark": "Koyu",
+      "light": "Aydınlık",
+      "dark": "Karanlık",
       "system": "Sistem"
     },
     "stayOnTop": "Üstte Kal",
@@ -23,28 +23,29 @@
     "hideSidebar": "Kenar Çubuğunu Gizle",
     "devTools": "Geliştirici Araçları",
     "frostedTexture": "Buzlu Doku",
-    "xQuit": "[X]'e tıklayarak çık",
+    "xQuit": "[X]'e Tıklayarak Çık",
+    "systemTray": "Sistem Tepsisi",
 
     "edit": "Düzenle",
     "undo": "Geri Al",
     "redo": "Yinele",
-    "pasteAndMatchStyle": "Yapıştır ve Stili Uygula",
+    "pasteAndMatchStyle": "Yapıştır ve Stili Eşle",
     "delete": "Sil",
 
-    "view": "Görüntüle",
+    "view": "Görünüm",
     "refresh": "Sayfayı Yenile",
     "goBack": "Geri Git",
     "goForward": "İleri Git",
     "resetZoom": "Gerçek Boyut",
     "zoomIn": "Yakınlaştır",
     "zoomOut": "Uzaklaştır",
-    "fullScreen": "Tam Ekran",
+    "fullScreen": "Tam Ekran Gir",
 
     "help": "Yardım",
     "log": "Noi Günlüğü",
     "gettingStarted": "Başlarken",
     "issues": "GitHub Sorunları",
-    "shareIdeas": "Fikir ve Geri Bildirim Paylaş",
+    "shareIdeas": "Fikir ve Geribildirim Paylaş",
 
     "learnSpelling": "Yazım Öğren",
     "lookUpSelection": "“{selection}” Ara",
@@ -53,16 +54,16 @@
     "copy": "Kopyala",
     "paste": "Yapıştır",
     "selectAll": "Tümünü Seç",
-    "saveImage": "Görüntüyü Kaydet",
-    "saveImageAs": "Görüntüyü Farklı Kaydet…",
+    "saveImage": "Resmi Kaydet",
+    "saveImageAs": "Resmi Farklı Kaydet…",
     "saveVideo": "Videoyu Kaydet",
     "saveVideoAs": "Videoyu Farklı Kaydet…",
     "copyLink": "Bağlantıyı Kopyala",
     "saveLinkAs": "Bağlantıyı Farklı Kaydet…",
-    "copyImage": "Görüntüyü Kopyala",
-    "copyImageAddress": "Görüntü Adresini Kopyala",
+    "copyImage": "Resmi Kopyala",
+    "copyImageAddress": "Resim Adresini Kopyala",
     "copyVideoAddress": "Video Adresini Kopyala",
-    "inspect": "Öğeyi İncele",
+    "inspect": "Öğeyi Denetle",
     "services": "Hizmetler",
     "reload": "Yeniden Yükle",
     "rename": "Yeniden Adlandır",
@@ -73,69 +74,118 @@
   "form": {
     "name": "Ad",
     "url": "URL",
-    "save": "Kaydet",
-    "cancel": "İptal",
-    "reset": "Sıfırla",
     "invalidURL": "Geçersiz URL, lütfen yeniden girin.",
-    "nameNotEmpty": "Ad boş bırakılamaz."
+    "nameNotEmpty": "Ad boş olamaz."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "Mevcut URL silinemez.",
-      "dir_delete": "Mevcut URL'nin dizini silinemez.",
-      "tray_delete": "Mevcut URL, sistem tepsisi olarak ayarlanmış, lütfen önce ayarı iptal edin."
+      "urlDelete": "Mevcut URL kullanımda.",
+      "dirDelete": "Mevcut dizin kullanımda.",
+      "trayDelete": "Sistem tepsisi mevcut URL'yi kullanıyor, silinemez."
     },
     "tip": {
       "delete": "Silindikten sonra geri alınamaz, silmek istediğinizden emin misiniz?",
-      "sync_overwrite": "Senkronizasyon, özel veriler dışındaki tüm verilerin üzerine yazacaktır. Devam etmek istiyor musunuz?",
-      "sync_reset": "Zaten en güncel sürümü kullanıyorsunuz. Senkronizasyon, özel veriler dışındaki tüm verileri sıfırlayacaktır. Devam etmek istiyor musunuz?",
-      "sync_ok": "Senkronizasyon başarılı",
-      "sync_reset_ok": "Sıfırlama başarılı"
+      "syncOverwrite": "Senkronizasyon, özel veriler dışındaki tüm verileri üzerine yazar. Devam etmek istiyor musunuz?",
+      "syncReset": "Şu anda en son sürümü kullanıyorsunuz. Senkronizasyon, özel veriler dışındaki tüm verileri sıfırlar. Devam etmek istiyor musunuz?",
+      "syncOk": "Senkronizasyon başarılı",
+      "syncResetOk": "Sıfırlama başarılı"
     }
   },
   "network": {
     "error": {
-      "title": "Bu siteye ulaşılamıyor",
-      "long_respond": "yanıt vermek için çok uzun sürdü.",
       "try": "Deneyin:",
-      "check_1": "Bağlantıyı kontrol et",
-      "check_2": "Proxy ve güvenlik duvarını kontrol et"
+      "title": "Bu siteye ulaşılamıyor",
+      "longRespond": "yanıt vermesi çok uzun sürdü.",
+      "checkConnection": "Bağlantıyı kontrol et",
+      "checkProxy": "Proxy'yi ve güvenlik duvarını kontrol et"
     }
   },
   "settings": {
     "menu": {
-      "general": "Genel",
+      "general": {
+        "name": "Genel",
+        "syncBookmarks": "Yer İşaretlerini Senkronize Et",
+        "globalShortcut": "Küresel kısayol",
+        "recording": "Kaydediliyor...",
+        "proxy": "Proxy",
+        "proxyRules": "Kurallar",
+        "proxyBypassRules": "Proxy'yi Atlayan Kurallar"
+      },
       "extensions": "Eklentiler",
       "prompts": {
-        "name": "İstemler",
-        "userPrompts": "Kullanıcı İstemleri",
-        "promptTags": "İstem Etiketleri",
+        "name": "İstekler",
+        "userPrompts": "Kullanıcı İstekleri",
+        "promptTags": "İstek Etiketleri",
         "customSync": "Özel Senkronizasyon"
       }
     },
     "confirm": {
-      "batch": {
-        "use": "Bu istemleri kullanmak istediğinizden emin misiniz?",
-        "delete": "Bu istemleri silmek istediğinizden emin misiniz?",
-        "disable": "Bu istemleri devre dışı bırakmak istediğinizden emin misiniz?",
-        "enable": "Bu istemleri etkinleştirmek istediğinizden emin misiniz?"
-      }
+      "delete": "Bu kaydı silmek istediğinizden emin misiniz?",
+      "batchEnable": "Bu istekleri etkinleştirmek istediğinizden emin misiniz?",
+      "batchDelete": "Bu istekleri silmek istediğinizden emin misiniz?",
+      "batchDisable": "Bu istekleri devre dışı bırakmak istediğinizden emin misiniz?",
+      "batchUse": "Bu istekleri kullanmak istediğinizden emin misiniz?"
     },
     "message": {
-      "add": "Eklendi",
-      "sync": "Senkronize Edildi",
+      "added": "Eklendi",
+      "synced": "Senkronize Edildi",
       "invalidData": "Geçersiz Veri",
-      "missingActAndPrompt": "'act' ve 'prompt' alanları eksik. Yeniden adlandırmak için 'Alias' kullanın."
+      "missingActAndPrompt": "'act', 'prompt' alanları eksik. 'Alias' kullanarak yeniden adlandırmayı deneyin.",
+      "missingManifest": "manifest.json dosyası eksik veya geçersiz.",
+      "checkExtension": "Lütfen eklenti dizinini tekrar kontrol edin:",
+      "existExtension": "Eklenti zaten var."
+    },
+    "tip": {
+      "proxyRules": "Hangi proxy'lerin kullanılacağını gösteren kurallar.",
+      "proxyBypassRules": "Hangi URL'lerin proxy ayarlarını atlayacağını gösteren kurallar.",
+      "shortcutRule": "Kısayol Kuralı",
+      "modifierKeys": "Değiştirici tuşlar",
+      "regularKeys": "Normal tuşlar",
+      "noiExtension": "Noi'nin Chrome eklentileri API'lerinin tamamını desteklemediğini unutmayın. Desteklenen Eklentiler API'leri için daha fazla detay görmek üzere bakınız."
     },
     "table": {
-      "name": "İsim",
-      "sync": "Senkronizasyon",
+      "name": "Ad",
+      "extension": "Eklenti",
       "description": "Açıklama",
+      "version": "Sürüm",
       "tag": "Etiket",
-      "action": "Eylem",
       "color": "Renk",
       "lastUpdate": "Son Güncelleme",
       "usageCount": "Kullanım Sayısı"
     }
+  },
+  "action": {
+    "name": "Aksiyon",
+    "add": "Ekle",
+    "cancel": "İptal",
+    "create": "Oluştur",
+    "confirm": "Onayla",
+    "detail": "Detay",
+    "delete": "Sil",
+    "disable": "Devre Dışı Bırak",
+    "edit": "Düzenle",
+    "enable": "Etkinleştir",
+    "export": "Dışa Aktar",
+    "refresh": "Yenile",
+    "reset": "Sıfırla",
+    "sync": "Senkronize Et",
+    "save": "Kaydet",
+    "search": "Ara",
+    "select": "Seç",
+    "use": "Kullan",
+    "batchDisable": "Toplu Devre Dışı Bırakma",
+    "batchEnable": "Toplu Etkinleştirme",
+    "batchDelete": "Toplu Silme",
+    "batchUse": "Toplu Kullanım"
+  },
+  "prompt": {
+    "promptSend": "İstek Gönder",
+    "newChat": "Yeni sohbet",
+    "sendMessage": "Mesaj gönder",
+    "resetPanel": "Paneli Sıfırla",
+    "promptCmd": "İstek komutu",
+    "sizeSmall": "Küçük",
+    "sizeMedium": "Orta",
+    "sizeLarge": "Büyük"
   }
 }

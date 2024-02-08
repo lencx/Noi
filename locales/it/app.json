@@ -18,30 +18,31 @@
       "dark": "Scuro",
       "system": "Sistema"
     },
-    "stayOnTop": "Mantieni in Primo Piano",
+    "stayOnTop": "Rimani in primo piano",
     "showSidebar": "Mostra Barra Laterale",
     "hideSidebar": "Nascondi Barra Laterale",
     "devTools": "Strumenti per Sviluppatori",
-    "frostedTexture": "Texture Opacizzata",
-    "xQuit": "Clicca su [X] per uscire",
+    "frostedTexture": "Texture Glassata",
+    "xQuit": "Clicca [X] per Uscire",
+    "systemTray": "Area di Notifica",
 
     "edit": "Modifica",
     "undo": "Annulla",
-    "redo": "Ripristina",
-    "pasteAndMatchStyle": "Incolla e Abbina Stile",
+    "redo": "Ripeti",
+    "pasteAndMatchStyle": "Incolla e Adatta Stile",
     "delete": "Elimina",
 
     "view": "Visualizza",
-    "refresh": "Aggiorna Pagina",
+    "refresh": "Aggiorna la Pagina",
     "goBack": "Indietro",
     "goForward": "Avanti",
-    "resetZoom": "Dimensione Originale",
+    "resetZoom": "Dimensione Reale",
     "zoomIn": "Ingrandisci",
     "zoomOut": "Riduci",
     "fullScreen": "Schermo Intero",
 
     "help": "Aiuto",
-    "log": "Registro di Noi",
+    "log": "Registro Noi",
     "gettingStarted": "Introduzione",
     "issues": "Problemi su GitHub",
     "shareIdeas": "Condividi Idee e Feedback",
@@ -67,75 +68,124 @@
     "reload": "Ricarica",
     "rename": "Rinomina",
     "user": "Utente",
-    "setSystemTray": "Imposta come Icona di Sistema",
-    "clearCache": "Pulisci Dati Cache"
+    "setSystemTray": "Imposta come Area di Notifica",
+    "clearCache": "Pulisci Cache"
   },
   "form": {
     "name": "Nome",
     "url": "URL",
-    "save": "Salva",
-    "cancel": "Annulla",
-    "reset": "Reimposta",
-    "invalidURL": "URL non valido, si prega di reinserire.",
+    "invalidURL": "URL non valido, si prega di reinserirlo.",
     "nameNotEmpty": "Il nome non può essere vuoto."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "L'URL corrente non può essere eliminato.",
-      "dir_delete": "La cartella dell'URL corrente non può essere eliminata.",
-      "tray_delete": "L'URL corrente è impostato come tray di sistema, si prega di annullare prima l'impostazione."
+      "urlDelete": "L'URL corrente è in uso.",
+      "dirDelete": "La directory corrente è in uso.",
+      "trayDelete": "L'area di notifica sta utilizzando l'URL corrente, non può essere eliminato."
     },
     "tip": {
-      "delete": "Una volta eliminato non è possibile recuperare, sei sicuro di voler eliminare?",
-      "sync_overwrite": "La sincronizzazione sovrascriverà tutti i dati tranne quelli personalizzati. Vuoi continuare?",
-      "sync_reset": "Stai già utilizzando l'ultima versione. La sincronizzazione reimposterà tutti i dati tranne quelli personalizzati. Vuoi continuare?",
-      "sync_ok": "Sincronizzazione riuscita",
-      "sync_reset_ok": "Reimpostazione riuscita"
+      "delete": "Non può essere recuperato dopo l'eliminazione, sei sicuro di voler eliminare?",
+      "syncOverwrite": "La sincronizzazione sovrascriverà tutti i dati eccetto i dati personalizzati. Vuoi continuare?",
+      "syncReset": "Attualmente sei sulla versione più recente. La sincronizzazione reimposterà tutti i dati eccetto i dati personalizzati. Vuoi continuare?",
+      "syncOk": "Sincronizzazione riuscita",
+      "syncResetOk": "Reimpostazione riuscita"
     }
   },
   "network": {
     "error": {
-      "title": "Impossibile raggiungere il sito",
-      "long_respond": "ha impiegato troppo tempo per rispondere.",
       "try": "Prova:",
-      "check_1": "Verificare la connessione",
-      "check_2": "Controllare il proxy e il firewall"
+      "title": "Impossibile raggiungere il sito",
+      "longRespond": "ha impiegato troppo tempo per rispondere.",
+      "checkConnection": "Verifica la connessione",
+      "checkProxy": "Verifica il proxy e il firewall"
     }
   },
   "settings": {
     "menu": {
-      "general": "Generale",
+      "general": {
+        "name": "Generale",
+        "syncBookmarks": "Sincronizza Segnalibri",
+        "globalShortcut": "Scorciatoia globale",
+        "recording": "Registrazione…",
+        "proxy": "Proxy",
+        "proxyRules": "Regole",
+        "proxyBypassRules": "Regole di Bypass"
+      },
       "extensions": "Estensioni",
       "prompts": {
         "name": "Prompt",
         "userPrompts": "Prompt Utente",
-        "promptTags": "Tag dei Prompt",
+        "promptTags": "Tag Prompt",
         "customSync": "Sincronizzazione Personalizzata"
       }
     },
     "confirm": {
-      "batch": {
-        "use": "Sei sicuro di voler utilizzare questi prompt?",
-        "delete": "Sei sicuro di voler eliminare questi prompt?",
-        "disable": "Sei sicuro di voler disattivare questi prompt?",
-        "enable": "Sei sicuro di voler attivare questi prompt?"
-      }
+      "delete": "Sei sicuro di voler eliminare questo record?",
+      "batchEnable": "Sei sicuro di voler abilitare questi prompt?",
+      "batchDelete": "Sei sicuro di voler eliminare questi prompt?",
+      "batchDisable": "Sei sicuro di voler disabilitare questi prompt?",
+      "batchUse": "Sei sicuro di voler utilizzare questi prompt?"
     },
     "message": {
-      "add": "Aggiunto",
-      "sync": "Sincronizzato",
-      "invalidData": "Dati Non Validi",
-      "missingActAndPrompt": "Mancano i campi: 'act', 'prompt'. Usa 'Alias' per rinominarli."
+      "added": "Aggiunto",
+      "synced": "Sincronizzato",
+      "invalidData": "Dati non validi",
+      "missingActAndPrompt": "Campi mancanti: 'act', 'prompt'. Prova ad usare 'Alias' per rinominare.",
+      "missingManifest": "Il file manifest.json manca o è non valido.",
+      "checkExtension": "Si prega di ricontrollare la directory dell'estensione:",
+      "existExtension": "L'estensione esiste già."
+    },
+    "tip": {
+      "proxyRules": "Regole che indicano quali proxy utilizzare.",
+      "proxyBypassRules": "Regole che indicano quali URL dovrebbero bypassare le impostazioni del proxy.",
+      "shortcutRule": "Regola scorciatoia",
+      "modifierKeys": "Tasti modificatori",
+      "regularKeys": "Tasti regolari",
+      "noiExtension": "Nota che Noi non supporta la gamma completa delle API delle estensioni Chrome. Vedi le API delle Estensioni Supportate per maggiori dettagli su cosa è supportato."
     },
     "table": {
       "name": "Nome",
-      "sync": "Sincronizzazione",
+      "extension": "Estensione",
       "description": "Descrizione",
+      "version": "Versione",
       "tag": "Tag",
-      "action": "Azione",
       "color": "Colore",
       "lastUpdate": "Ultimo Aggiornamento",
-      "usageCount": "Conteggio Utilizzi"
+      "usageCount": "Conteggio Utilizzo"
     }
+  },
+  "action": {
+    "name": "Azione",
+    "add": "Aggiungi",
+    "cancel": "Annulla",
+    "create": "Crea",
+    "confirm": "Conferma",
+    "detail": "Dettaglio",
+    "delete": "Elimina",
+    "disable": "Disabilita",
+    "edit": "Modifica",
+    "enable": "Abilita",
+    "export": "Esporta",
+    "refresh": "Aggiorna",
+    "reset": "Reimposta",
+    "sync": "Sincronizza",
+    "save": "Salva",
+    "search": "Cerca",
+    "select": "Seleziona",
+    "use": "Usa",
+    "batchDisable": "Disabilita in Batch",
+    "batchEnable": "Abilita in Batch",
+    "batchDelete": "Elimina in Batch",
+    "batchUse": "Usa in Batch"
+  },
+  "prompt": {
+    "promptSend": "Invio Prompt",
+    "newChat": "Nuova chat",
+    "sendMessage": "Invia messaggio",
+    "resetPanel": "Reimposta Pannello",
+    "promptCmd": "Comando prompt",
+    "sizeSmall": "Piccolo",
+    "sizeMedium": "Medio",
+    "sizeLarge": "Grande"
   }
 }

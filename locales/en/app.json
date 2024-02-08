@@ -24,6 +24,7 @@
     "devTools": "Developer Tools",
     "frostedTexture": "Frosted Texture",
     "xQuit": "Click [X] to Exit",
+    "systemTray": "System Tray",
 
     "edit": "Edit",
     "undo": "Undo",
@@ -73,38 +74,43 @@
   "form": {
     "name": "Name",
     "url": "URL",
-    "save": "Save",
-    "cancel": "Cancel",
-    "reset": "Reset",
     "invalidURL": "Invalid URL, please re-enter.",
     "nameNotEmpty": "Name cannot be empty."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "The current URL cannot be deleted.",
-      "dir_delete": "The directory of the current URL cannot be deleted.",
-      "tray_delete": "The current URL is set as the system tray, please cancel the setting first."
+      "urlDelete": "The current URL is in use.",
+      "dirDelete": "The current directory is in use.",
+      "trayDelete": "The system tray is using the current URL, it cannot be deleted."
     },
     "tip": {
       "delete": "Cannot be recovered after deletion, are you sure you want to delete?",
-      "sync_overwrite": "Synchronization will overwrite all data except for custom data. Do you want to continue?",
-      "sync_reset": "You are already using the latest version. Synchronization will reset all data except for custom data. Do you want to continue?",
-      "sync_ok": "Synchronization successful",
-      "sync_reset_ok": "Reset successful"
+      "syncOverwrite": "Synchronization will overwrite all data except for custom data. Do you want to continue?",
+      "syncReset": "You are currently on the latest version. Synchronization will reset all data except for custom data. Do you want to continue?",
+      "syncOk": "Synchronization successful",
+      "syncResetOk": "Reset successful"
     }
   },
   "network": {
     "error": {
-      "title": "This site can’t be reached",
-      "long_respond": "took too long to respond.",
       "try": "Try:",
-      "check_1": "Checking the connection",
-      "check_2": "Checking the proxy and the firewall"
+      "title": "This site can’t be reached",
+      "longRespond": "took too long to respond.",
+      "checkConnection": "Checking the connection",
+      "checkProxy": "Checking the proxy and the firewall"
     }
   },
   "settings": {
     "menu": {
-      "general": "General",
+      "general": {
+        "name": "General",
+        "syncBookmarks": "Sync Bookmarks",
+        "globalShortcut": "Global shortcut",
+        "recording": "Recording...",
+        "proxy": "Proxy",
+        "proxyRules": "Rules",
+        "proxyBypassRules": "BypassRules"
+      },
       "extensions": "Extensions",
       "prompts": {
         "name": "Prompts",
@@ -114,28 +120,72 @@
       }
     },
     "confirm": {
-      "batch": {
-        "use": "Are you sure you want to use these prompts?",
-        "delete": "Are you sure you want to delete these prompts?",
-        "disable": "Are you sure you want to disable these prompts?",
-        "enable": "AAre you sure you want to enable these prompts?"
-      }
+      "delete": "Are you sure you want to delete this record?",
+      "batchEnable": "Are you sure you want to enable these prompts?",
+      "batchDelete": "Are you sure you want to delete these prompts?",
+      "batchDisable": "Are you sure you want to disable these prompts?",
+      "batchUse": "Are you sure you want to use these prompts?"
     },
     "message": {
-      "add": "Added",
-      "sync": "Synchronized",
+      "added": "Added",
+      "synced": "Synchronized",
       "invalidData": "Invalid Data",
-      "missingActAndPrompt": "Missing fields: 'act', 'prompt'. Use 'Alias' to rename."
+      "missingActAndPrompt": "Missing fields: 'act', 'prompt'. Try using 'Alias' to rename.",
+      "missingManifest": "The manifest.json file is missing or invalid.",
+      "checkExtension": "Please recheck the extension directory:",
+      "existExtension": "The extension already exists."
+    },
+    "tip": {
+      "proxyRules": "Rules indicating which proxies to use.",
+      "proxyBypassRules": "Rules indicating which URLs should bypass the proxy settings.",
+      "shortcutRule": "Shortcut Rule",
+      "modifierKeys": "Modifier keys",
+      "regularKeys": "Regular keys",
+      "noiExtension": "Note that Noi does not support the full range of Chrome extensions APIs. See Supported Extensions APIs for more details on what is supported."
     },
     "table": {
       "name": "Name",
-      "sync": "Sync",
+      "extension": "Extension",
       "description": "Description",
+      "version": "Version",
       "tag": "Tag",
-      "action": "Action",
       "color": "Color",
       "lastUpdate": "Last Update",
       "usageCount": "Usage Count"
     }
+  },
+  "action": {
+    "name": "Action",
+    "add": "Add",
+    "cancel": "Cancel",
+    "create": "Create",
+    "confirm": "Confirm",
+    "detail": "Detail",
+    "delete": "Delete",
+    "disable": "Disable",
+    "edit": "Edit",
+    "enable": "Enable",
+    "export": "Export",
+    "refresh": "Refresh",
+    "reset": "Reset",
+    "sync": "Sync",
+    "save": "Save",
+    "search": "Search",
+    "select": "Select",
+    "use": "Use",
+    "batchDisable": "Batch Disable",
+    "batchEnable": "Batch Enable",
+    "batchDelete": "Batch Delete",
+    "batchUse": "Batch Use"
+  },
+  "prompt": {
+    "promptSend": "Prompt Send",
+    "newChat": "New chat",
+    "sendMessage": "Send message",
+    "resetPanel": "Reset Panel",
+    "promptCmd": "Prompt command",
+    "sizeSmall": "Small",
+    "sizeMedium": "Medium",
+    "sizeLarge": "Large"
   }
 }

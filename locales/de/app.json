@@ -1,33 +1,34 @@
 {
   "lang": "Deutsch",
-  "sponsor": "Noi sponsern",
+  "sponsor": "Noi unterstützen",
   "menu": {
     "name": "Menü",
     "about": "Über Noi",
-    "hide": "Noi verbergen",
-    "hideOthers": "Andere verbergen",
+    "hide": "Noi verstecken",
+    "hideOthers": "Andere verstecken",
     "quit": "Noi beenden",
-    "unhide": "Alles anzeigen",
+    "unhide": "Alle anzeigen",
     "checkUpdates": "Nach Updates suchen…",
 
     "settings": "Einstellungen",
     "languages": "Sprachen",
     "theme": {
-      "name": "Design",
+      "name": "Thema",
       "light": "Hell",
       "dark": "Dunkel",
       "system": "System"
     },
     "stayOnTop": "Im Vordergrund bleiben",
     "showSidebar": "Seitenleiste anzeigen",
-    "hideSidebar": "Seitenleiste verbergen",
-    "devTools": "Entwicklerwerkzeuge",
-    "frostedTexture": "Frosted Textur",
-    "xQuit": "Klicken Sie auf [X], um zu beenden",
+    "hideSidebar": "Seitenleiste verstecken",
+    "devTools": "Entwicklertools",
+    "frostedTexture": "Mattierte Textur",
+    "xQuit": "Klicken Sie auf [X] zum Beenden",
+    "systemTray": "Systemtray",
 
     "edit": "Bearbeiten",
     "undo": "Rückgängig",
-    "redo": "Wiederherstellen",
+    "redo": "Wiederholen",
     "pasteAndMatchStyle": "Einfügen und Stil anpassen",
     "delete": "Löschen",
 
@@ -35,19 +36,19 @@
     "refresh": "Seite aktualisieren",
     "goBack": "Zurück",
     "goForward": "Vorwärts",
-    "resetZoom": "Originalgröße",
+    "resetZoom": "Tatsächliche Größe",
     "zoomIn": "Vergrößern",
     "zoomOut": "Verkleinern",
-    "fullScreen": "Vollbild",
+    "fullScreen": "Vollbildmodus",
 
     "help": "Hilfe",
-    "log": "Noi-Protokoll",
+    "log": "Noi-Log",
     "gettingStarted": "Erste Schritte",
     "issues": "GitHub-Probleme",
     "shareIdeas": "Ideen und Feedback teilen",
 
     "learnSpelling": "Rechtschreibung lernen",
-    "lookUpSelection": "„{selection}“ suchen",
+    "lookUpSelection": "„{selection}“ nachschlagen",
     "searchWithGoogle": "Mit Google suchen",
     "cut": "Ausschneiden",
     "copy": "Kopieren",
@@ -67,75 +68,124 @@
     "reload": "Neu laden",
     "rename": "Umbenennen",
     "user": "Benutzer",
-    "setSystemTray": "Im System-Tray einrichten",
+    "setSystemTray": "Als Systemtray festlegen",
     "clearCache": "Cache-Daten löschen"
   },
   "form": {
     "name": "Name",
     "url": "URL",
-    "save": "Speichern",
-    "cancel": "Abbrechen",
-    "reset": "Zurücksetzen",
     "invalidURL": "Ungültige URL, bitte erneut eingeben.",
     "nameNotEmpty": "Name darf nicht leer sein."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "Die aktuelle URL kann nicht gelöscht werden.",
-      "dir_delete": "Das Verzeichnis der aktuellen URL kann nicht gelöscht werden.",
-      "tray_delete": "Die aktuelle URL ist als System-Tray eingestellt, bitte zuerst die Einstellung aufheben."
+      "urlDelete": "Die aktuelle URL wird verwendet.",
+      "dirDelete": "Das aktuelle Verzeichnis wird verwendet.",
+      "trayDelete": "Das Systemtray verwendet die aktuelle URL, sie kann nicht gelöscht werden."
     },
     "tip": {
-      "delete": "Nach dem Löschen ist eine Wiederherstellung nicht möglich. Sind Sie sicher, dass Sie löschen möchten?",
-      "sync_overwrite": "Die Synchronisierung wird alle Daten außer den benutzerdefinierten Daten überschreiben. Möchten Sie fortfahren?",
-      "sync_reset": "Sie verwenden bereits die neueste Version. Die Synchronisierung wird alle Daten außer den benutzerdefinierten zurücksetzen. Möchten Sie fortfahren?",
-      "sync_ok": "Synchronisation erfolgreich",
-      "sync_reset_ok": "Zurücksetzung erfolgreich"
+      "delete": "Nach dem Löschen nicht wiederherstellbar, sind Sie sicher, dass Sie löschen möchten?",
+      "syncOverwrite": "Die Synchronisierung überschreibt alle Daten außer benutzerdefinierten Daten. Möchten Sie fortfahren?",
+      "syncReset": "Sie befinden sich derzeit auf der neuesten Version. Die Synchronisierung setzt alle Daten außer benutzerdefinierten Daten zurück. Möchten Sie fortfahren?",
+      "syncOk": "Synchronisierung erfolgreich",
+      "syncResetOk": "Zurücksetzen erfolgreich"
     }
   },
   "network": {
     "error": {
-      "title": "Diese Website ist nicht erreichbar",
-      "long_respond": "hat zu lange zum Antworten gebraucht.",
       "try": "Versuchen Sie:",
-      "check_1": "Die Verbindung überprüfen",
-      "check_2": "Proxy und Firewall überprüfen"
+      "title": "Diese Seite kann nicht erreicht werden",
+      "longRespond": "hat zu lange zum Antworten gebraucht.",
+      "checkConnection": "Verbindung prüfen",
+      "checkProxy": "Proxy und Firewall prüfen"
     }
   },
   "settings": {
     "menu": {
-      "general": "Allgemein",
+      "general": {
+        "name": "Allgemein",
+        "syncBookmarks": "Lesezeichen synchronisieren",
+        "globalShortcut": "Globales Kürzel",
+        "recording": "Aufnahme...",
+        "proxy": "Proxy",
+        "proxyRules": "Regeln",
+        "proxyBypassRules": "Umgehungsregeln"
+      },
       "extensions": "Erweiterungen",
       "prompts": {
         "name": "Aufforderungen",
-        "userPrompts": "Benutzer-Aufforderungen",
-        "promptTags": "Aufforderungs-Tags",
-        "customSync": "Benutzerdefinierte Synchronisation"
+        "userPrompts": "Benutzeraufforderungen",
+        "promptTags": "Prompt-Tags",
+        "customSync": "Benutzerdefinierte Synchronisierung"
       }
     },
     "confirm": {
-      "batch": {
-        "use": "Sind Sie sicher, dass Sie diese Aufforderungen verwenden möchten?",
-        "delete": "Sind Sie sicher, dass Sie diese Aufforderungen löschen möchten?",
-        "disable": "Sind Sie sicher, dass Sie diese Aufforderungen deaktivieren möchten?",
-        "enable": "Sind Sie sicher, dass Sie diese Aufforderungen aktivieren möchten?"
-      }
+      "delete": "Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?",
+      "batchEnable": "Sind Sie sicher, dass Sie diese Aufforderungen aktivieren möchten?",
+      "batchDelete": "Sind Sie sicher, dass Sie diese Aufforderungen löschen möchten?",
+      "batchDisable": "Sind Sie sicher, dass Sie diese Aufforderungen deaktivieren möchten?",
+      "batchUse": "Sind Sie sicher, dass Sie diese Aufforderungen verwenden möchten?"
     },
     "message": {
-      "add": "Hinzugefügt",
-      "sync": "Synchronisiert",
+      "added": "Hinzugefügt",
+      "synced": "Synchronisiert",
       "invalidData": "Ungültige Daten",
-      "missingActAndPrompt": "Fehlende Felder: 'act', 'prompt'. Verwenden Sie 'Alias' zum Umbenennen."
+      "missingActAndPrompt": "Fehlende Felder: 'act', 'prompt'. Versuchen Sie, 'Alias' zum Umbenennen zu verwenden.",
+      "missingManifest": "Die Datei manifest.json fehlt oder ist ungültig.",
+      "checkExtension": "Bitte das Erweiterungsverzeichnis erneut überprüfen:",
+      "existExtension": "Die Erweiterung existiert bereits."
+    },
+    "tip": {
+      "proxyRules": "Regeln, die angeben, welche Proxies zu verwenden sind.",
+      "proxyBypassRules": "Regeln, die angeben, welche URLs die Proxy-Einstellungen umgehen sollen.",
+      "shortcutRule": "Kürzelregel",
+      "modifierKeys": "Modifikatortasten",
+      "regularKeys": "Reguläre Tasten",
+      "noiExtension": "Beachten Sie, dass Noi nicht den vollen Umfang der Chrome-Erweiterungs-APIs unterstützt. Siehe Unterstützte Erweiterungs-APIs für weitere Details dazu, was unterstützt wird."
     },
     "table": {
       "name": "Name",
-      "sync": "Synchronisierung",
+      "extension": "Erweiterung",
       "description": "Beschreibung",
+      "version": "Version",
       "tag": "Tag",
-      "action": "Aktion",
       "color": "Farbe",
-      "lastUpdate": "Letzte Aktualisierung",
-      "usageCount": "Nutzungszähler"
+      "lastUpdate": "Letztes Update",
+      "usageCount": "Nutzungsanzahl"
     }
+  },
+  "action": {
+    "name": "Aktion",
+    "add": "Hinzufügen",
+    "cancel": "Abbrechen",
+    "create": "Erstellen",
+    "confirm": "Bestätigen",
+    "detail": "Detail",
+    "delete": "Löschen",
+    "disable": "Deaktivieren",
+    "edit": "Bearbeiten",
+    "enable": "Aktivieren",
+    "export": "Exportieren",
+    "refresh": "Aktualisieren",
+    "reset": "Zurücksetzen",
+    "sync": "Synchronisieren",
+    "save": "Speichern",
+    "search": "Suchen",
+    "select": "Auswählen",
+    "use": "Verwenden",
+    "batchDisable": "Batch-Deaktivierung",
+    "batchEnable": "Batch-Aktivierung",
+    "batchDelete": "Batch-Löschung",
+    "batchUse": "Batch-Verwendung"
+  },
+  "prompt": {
+    "promptSend": "Prompt Senden",
+    "newChat": "Neuer Chat",
+    "sendMessage": "Nachricht senden",
+    "resetPanel": "Panel zurücksetzen",
+    "promptCmd": "Prompt-Befehl",
+    "sizeSmall": "Klein",
+    "sizeMedium": "Mittel",
+    "sizeLarge": "Groß"
   }
 }

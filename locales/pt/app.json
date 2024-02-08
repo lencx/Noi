@@ -3,10 +3,10 @@
   "sponsor": "Patrocinar Noi",
   "menu": {
     "name": "Menu",
-    "about": "Sobre o Noi",
+    "about": "Sobre Noi",
     "hide": "Ocultar Noi",
     "hideOthers": "Ocultar Outros",
-    "quit": "Sair do Noi",
+    "quit": "Sair de Noi",
     "unhide": "Mostrar Tudo",
     "checkUpdates": "Verificar Atualizações…",
 
@@ -18,12 +18,13 @@
       "dark": "Escuro",
       "system": "Sistema"
     },
-    "stayOnTop": "Manter no Topo",
+    "stayOnTop": "Manter Acima",
     "showSidebar": "Mostrar Barra Lateral",
     "hideSidebar": "Ocultar Barra Lateral",
     "devTools": "Ferramentas de Desenvolvedor",
     "frostedTexture": "Textura Fosca",
-    "xQuit": "Clique em [X] para Sair",
+    "xQuit": "Clicar em [X] para Sair",
+    "systemTray": "Bandeja do Sistema",
 
     "edit": "Editar",
     "undo": "Desfazer",
@@ -32,22 +33,22 @@
     "delete": "Excluir",
 
     "view": "Visualizar",
-    "refresh": "Atualizar Página",
+    "refresh": "Atualizar a Página",
     "goBack": "Voltar",
     "goForward": "Avançar",
     "resetZoom": "Tamanho Real",
-    "zoomIn": "Ampliar",
-    "zoomOut": "Reduzir",
-    "fullScreen": "Tela Cheia",
+    "zoomIn": "Aumentar Zoom",
+    "zoomOut": "Diminuir Zoom",
+    "fullScreen": "Entrar em Tela Cheia",
 
     "help": "Ajuda",
     "log": "Log do Noi",
-    "gettingStarted": "Primeiros Passos",
+    "gettingStarted": "Começando",
     "issues": "Problemas no GitHub",
     "shareIdeas": "Compartilhar Ideias e Feedback",
 
     "learnSpelling": "Aprender Ortografia",
-    "lookUpSelection": "Procurar “{selection}”",
+    "lookUpSelection": "Pesquisar “{selection}”",
     "searchWithGoogle": "Pesquisar com Google",
     "cut": "Cortar",
     "copy": "Copiar",
@@ -73,69 +74,118 @@
   "form": {
     "name": "Nome",
     "url": "URL",
-    "save": "Salvar",
-    "cancel": "Cancelar",
-    "reset": "Resetar",
-    "invalidURL": "URL inválida, por favor reinsira.",
-    "nameNotEmpty": "Nome não pode estar vazio."
+    "invalidURL": "URL inválida, por favor digite novamente.",
+    "nameNotEmpty": "O nome não pode estar vazio."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "A URL atual não pode ser excluída.",
-      "dir_delete": "O diretório da URL atual não pode ser excluído.",
-      "tray_delete": "A URL atual está configurada como bandeja do sistema, por favor, cancele a configuração primeiro."
+      "urlDelete": "A URL atual está em uso.",
+      "dirDelete": "O diretório atual está em uso.",
+      "trayDelete": "A bandeja do sistema está usando a URL atual, ela não pode ser deletada."
     },
     "tip": {
-      "delete": "Uma vez excluído não pode ser recuperado, tem certeza que deseja excluir?",
-      "sync_overwrite": "A sincronização sobrescreverá todos os dados, exceto os dados personalizados. Deseja continuar?",
-      "sync_reset": "Você já está usando a versão mais recente. A sincronização irá redefinir todos os dados, exceto os dados personalizados. Deseja continuar?",
-      "sync_ok": "Sincronização bem-sucedida",
-      "sync_reset_ok": "Redefinição bem-sucedida"
+      "delete": "Não pode ser recuperado após a exclusão, tem certeza de que deseja excluir?",
+      "syncOverwrite": "A sincronização sobrescreverá todos os dados exceto os dados personalizados. Deseja continuar?",
+      "syncReset": "Você está atualmente na versão mais recente. A sincronização resetará todos os dados exceto os dados personalizados. Deseja continuar?",
+      "syncOk": "Sincronização bem-sucedida",
+      "syncResetOk": "Redefinição bem-sucedida"
     }
   },
   "network": {
     "error": {
-      "title": "Não é possível acessar este site",
-      "long_respond": "demorou muito para responder.",
-      "try": "Tente:",
-      "check_1": "Verificar a conexão",
-      "check_2": "Verificar o proxy e o firewall"
+      "try": "Tentar:",
+      "title": "Não foi possível acessar este site",
+      "longRespond": "demorou muito para responder.",
+      "checkConnection": "Verificando a conexão",
+      "checkProxy": "Verificando o proxy e o firewall"
     }
   },
   "settings": {
     "menu": {
-      "general": "Geral",
+      "general": {
+        "name": "Geral",
+        "syncBookmarks": "Sincronizar Favoritos",
+        "globalShortcut": "Atalho global",
+        "recording": "Gravando...",
+        "proxy": "Proxy",
+        "proxyRules": "Regras",
+        "proxyBypassRules": "Regras de Bypass"
+      },
       "extensions": "Extensões",
       "prompts": {
         "name": "Prompts",
-        "userPrompts": "Prompts de Usuários",
-        "promptTags": "Tags de Prompts",
+        "userPrompts": "Prompts do Usuário",
+        "promptTags": "Tags de Prompt",
         "customSync": "Sincronização Personalizada"
       }
     },
     "confirm": {
-      "batch": {
-        "use": "Tem certeza de que deseja usar estes prompts?",
-        "delete": "Tem certeza de que deseja deletar estes prompts?",
-        "disable": "Tem certeza de que deseja desativar estes prompts?",
-        "enable": "Tem certeza de que deseja ativar estes prompts?"
-      }
+      "delete": "Tem certeza de que deseja excluir este registro?",
+      "batchEnable": "Tem certeza de que deseja habilitar esses prompts?",
+      "batchDelete": "Tem certeza de que deseja excluir esses prompts?",
+      "batchDisable": "Tem certeza de que deseja desabilitar esses prompts?",
+      "batchUse": "Tem certeza de que deseja usar esses prompts?"
     },
     "message": {
-      "add": "Adicionado",
-      "sync": "Sincronizado",
+      "added": "Adicionado",
+      "synced": "Sincronizado",
       "invalidData": "Dados Inválidos",
-      "missingActAndPrompt": "Faltam campos: 'act', 'prompt'. Use 'Alias' para renomear."
+      "missingActAndPrompt": "Campos ausentes: 'act', 'prompt'. Tente usar 'Alias' para renomear.",
+      "missingManifest": "O arquivo manifest.json está faltando ou é inválido.",
+      "checkExtension": "Por favor, verifique novamente o diretório da extensão:",
+      "existExtension": "A extensão já existe."
+    },
+    "tip": {
+      "proxyRules": "Regras indicando quais proxies usar.",
+      "proxyBypassRules": "Regras indicando quais URLs devem ignorar as configurações de proxy.",
+      "shortcutRule": "Regra de Atalho",
+      "modifierKeys": "Teclas modificadoras",
+      "regularKeys": "Teclas regulares",
+      "noiExtension": "Observe que Noi não suporta a gama completa de APIs de extensões do Chrome. Veja APIs de Extensões Suportadas para mais detalhes sobre o que é suportado."
     },
     "table": {
       "name": "Nome",
-      "sync": "Sincronização",
+      "extension": "Extensão",
       "description": "Descrição",
+      "version": "Versão",
       "tag": "Tag",
-      "action": "Ação",
       "color": "Cor",
       "lastUpdate": "Última Atualização",
       "usageCount": "Contagem de Uso"
     }
+  },
+  "action": {
+    "name": "Ação",
+    "add": "Adicionar",
+    "cancel": "Cancelar",
+    "create": "Criar",
+    "confirm": "Confirmar",
+    "detail": "Detalhe",
+    "delete": "Excluir",
+    "disable": "Desabilitar",
+    "edit": "Editar",
+    "enable": "Habilitar",
+    "export": "Exportar",
+    "refresh": "Atualizar",
+    "reset": "Redefinir",
+    "sync": "Sincronizar",
+    "save": "Salvar",
+    "search": "Pesquisar",
+    "select": "Selecionar",
+    "use": "Usar",
+    "batchDisable": "Desabilitação em Lote",
+    "batchEnable": "Habilitação em Lote",
+    "batchDelete": "Exclusão em Lote",
+    "batchUse": "Uso em Lote"
+  },
+  "prompt": {
+    "promptSend": "Envio de Prompt",
+    "newChat": "Nova conversa",
+    "sendMessage": "Enviar mensagem",
+    "resetPanel": "Redefinir Painel",
+    "promptCmd": "Comando de Prompt",
+    "sizeSmall": "Pequeno",
+    "sizeMedium": "Médio",
+    "sizeLarge": "Grande"
   }
 }

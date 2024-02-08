@@ -7,7 +7,7 @@
     "hide": "Noi 숨기기",
     "hideOthers": "기타 숨기기",
     "quit": "Noi 종료",
-    "unhide": "모두 보기",
+    "unhide": "모두 표시",
     "checkUpdates": "업데이트 확인…",
 
     "settings": "설정",
@@ -16,14 +16,15 @@
       "name": "테마",
       "light": "라이트",
       "dark": "다크",
-      "system": "시스템 기본"
+      "system": "시스템"
     },
-    "stayOnTop": "항상 위에 놓기",
-    "showSidebar": "사이드바 보기",
+    "stayOnTop": "항상 위에 표시",
+    "showSidebar": "사이드바 표시",
     "hideSidebar": "사이드바 숨기기",
     "devTools": "개발자 도구",
-    "frostedTexture": "프로스티드 텍스쳐",
-    "xQuit": "[X] 클릭하여 종료",
+    "frostedTexture": "서리 질감",
+    "xQuit": "[X] 클릭으로 종료",
+    "systemTray": "시스템 트레이",
 
     "edit": "편집",
     "undo": "실행 취소",
@@ -32,18 +33,18 @@
     "delete": "삭제",
 
     "view": "보기",
-    "refresh": "페이지 새로 고침",
+    "refresh": "페이지 새로고침",
     "goBack": "뒤로 가기",
     "goForward": "앞으로 가기",
     "resetZoom": "실제 크기",
     "zoomIn": "확대",
     "zoomOut": "축소",
-    "fullScreen": "전체 화면으로",
+    "fullScreen": "전체 화면으로 전환",
 
     "help": "도움말",
     "log": "Noi 로그",
     "gettingStarted": "시작하기",
-    "issues": "GitHub 문제",
+    "issues": "GitHub 이슈",
     "shareIdeas": "아이디어 및 피드백 공유",
 
     "learnSpelling": "철자 배우기",
@@ -52,19 +53,19 @@
     "cut": "잘라내기",
     "copy": "복사",
     "paste": "붙여넣기",
-    "selectAll": "전체 선택",
+    "selectAll": "모두 선택",
     "saveImage": "이미지 저장",
-    "saveImageAs": "이미지 다른 이름으로 저장…",
+    "saveImageAs": "다른 이름으로 이미지 저장…",
     "saveVideo": "비디오 저장",
-    "saveVideoAs": "비디오 다른 이름으로 저장…",
+    "saveVideoAs": "다른 이름으로 비디오 저장…",
     "copyLink": "링크 복사",
-    "saveLinkAs": "링크 다른 이름으로 저장…",
+    "saveLinkAs": "다른 이름으로 링크 저장…",
     "copyImage": "이미지 복사",
     "copyImageAddress": "이미지 주소 복사",
     "copyVideoAddress": "비디오 주소 복사",
     "inspect": "요소 검사",
     "services": "서비스",
-    "reload": "다시 로드",
+    "reload": "다시 불러오기",
     "rename": "이름 바꾸기",
     "user": "사용자",
     "setSystemTray": "시스템 트레이로 설정",
@@ -73,69 +74,118 @@
   "form": {
     "name": "이름",
     "url": "URL",
-    "save": "저장",
-    "cancel": "취소",
-    "reset": "초기화",
-    "invalidURL": "유효하지 않은 URL입니다. 다시 입력해주세요.",
+    "invalidURL": "잘못된 URL입니다. 다시 입력해주세요.",
     "nameNotEmpty": "이름은 비워둘 수 없습니다."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "현재 URL은 삭제할 수 없습니다.",
-      "dir_delete": "현재 URL의 디렉토리를 삭제할 수 없습니다.",
-      "tray_delete": "현재 URL은 시스템 트레이로 설정되어 있습니다. 먼저 설정을 취소해 주세요."
+      "urlDelete": "현재 URL은 사용 중입니다.",
+      "dirDelete": "현재 디렉토리는 사용 중입니다.",
+      "trayDelete": "시스템 트레이가 현재 URL을 사용 중이므로 삭제할 수 없습니다."
     },
     "tip": {
       "delete": "삭제 후 복구할 수 없습니다. 정말 삭제하시겠습니까?",
-      "sync_overwrite": "동기화는 사용자 정의 데이터를 제외한 모든 데이터를 덮어씁니다. 계속하시겠습니까?",
-      "sync_reset": "현재 최신 버전을 사용 중입니다. 동기화는 사용자 정의 데이터를 제외한 모든 데이터를 초기화합니다. 계속하시겠습니까?",
-      "sync_ok": "동기화 성공",
-      "sync_reset_ok": "초기화 성공"
+      "syncOverwrite": "동기화는 사용자 데이터를 제외한 모든 데이터를 덮어씁니다. 계속하시겠습니까?",
+      "syncReset": "현재 최신 버전입니다. 동기화는 사용자 데이터를 제외한 모든 데이터를 초기화합니다. 계속하시겠습니까?",
+      "syncOk": "동기화 성공",
+      "syncResetOk": "초기화 성공"
     }
   },
   "network": {
     "error": {
-      "title": "이 사이트에 연결할 수 없음",
-      "long_respond": "응답하는 데 시간이 너무 오래 걸림.",
       "try": "시도:",
-      "check_1": "연결 확인",
-      "check_2": "프록시 및 방화벽 확인"
+      "title": "사이트에 연결할 수 없음",
+      "longRespond": "응답하는 데 너무 오래 걸림.",
+      "checkConnection": "연결 확인 중",
+      "checkProxy": "프록시 및 방화벽 확인 중"
     }
   },
   "settings": {
     "menu": {
-      "general": "일반",
-      "extensions": "확장 기능",
+      "general": {
+        "name": "일반",
+        "syncBookmarks": "북마크 동기화",
+        "globalShortcut": "전역 단축키",
+        "recording": "녹음 중…",
+        "proxy": "프록시",
+        "proxyRules": "규칙",
+        "proxyBypassRules": "우회 규칙"
+      },
+      "extensions": "확장 프로그램",
       "prompts": {
         "name": "프롬프트",
         "userPrompts": "사용자 프롬프트",
         "promptTags": "프롬프트 태그",
-        "customSync": "사용자 정의 동기화"
+        "customSync": "사용자 지정 동기화"
       }
     },
     "confirm": {
-      "batch": {
-        "use": "이 프롬프트를 사용하시겠습니까?",
-        "delete": "이 프롬프트를 삭제하시겠습니까?",
-        "disable": "이 프롬프트를 비활성화하시겠습니까?",
-        "enable": "이 프롬프트를 활성화하시겠습니까?"
-      }
+      "delete": "이 기록을 삭제하시겠습니까?",
+      "batchEnable": "이 프롬프트들을 활성화하시겠습니까?",
+      "batchDelete": "이 프롬프트들을 삭제하시겠습니까?",
+      "batchDisable": "이 프롬프트들을 비활성화하시겠습니까?",
+      "batchUse": "이 프롬프트들을 사용하시겠습니까?"
     },
     "message": {
-      "add": "추가됨",
-      "sync": "동기화됨",
+      "added": "추가됨",
+      "synced": "동기화됨",
       "invalidData": "잘못된 데이터",
-      "missingActAndPrompt": "'act', 'prompt' 필드가 누락되었습니다. 'Alias'를 사용하여 이름을 변경하세요."
+      "missingActAndPrompt": "'act', 'prompt' 필드가 누락되었습니다. 'Alias'를 사용하여 이름을 변경해보세요.",
+      "missingManifest": "manifest.json 파일이 없거나 잘못되었습니다.",
+      "checkExtension": "확장 프로그램 디렉토리를 다시 확인해주세요:",
+      "existExtension": "확장 프로그램이 이미 존재합니다."
+    },
+    "tip": {
+      "proxyRules": "어떤 프록시를 사용할지를 나타내는 규칙.",
+      "proxyBypassRules": "프록시 설정을 우회할 URL을 나타내는 규칙.",
+      "shortcutRule": "단축키 규칙",
+      "modifierKeys": "수정 키",
+      "regularKeys": "일반 키",
+      "noiExtension": "Noi가 Chrome 확장 프로그램 API의 전 범위를 지원하지 않는다는 점을 유의하세요. 지원되는 확장 프로그램 API에 대한 자세한 내용은 지원되는 확장 프로그램 API 문서를 참조하세요."
     },
     "table": {
       "name": "이름",
-      "sync": "동기화",
+      "extension": "확장 프로그램",
       "description": "설명",
+      "version": "버전",
       "tag": "태그",
-      "action": "작업",
       "color": "색상",
       "lastUpdate": "마지막 업데이트",
       "usageCount": "사용 횟수"
     }
+  },
+  "action": {
+    "name": "액션",
+    "add": "추가",
+    "cancel": "취소",
+    "create": "생성",
+    "confirm": "확인",
+    "detail": "세부 정보",
+    "delete": "삭제",
+    "disable": "비활성화",
+    "edit": "편집",
+    "enable": "활성화",
+    "export": "내보내기",
+    "refresh": "새로고침",
+    "reset": "초기화",
+    "sync": "동기화",
+    "save": "저장",
+    "search": "검색",
+    "select": "선택",
+    "use": "사용",
+    "batchDisable": "일괄 비활성화",
+    "batchEnable": "일괄 활성화",
+    "batchDelete": "일괄 삭제",
+    "batchUse": "일괄 사용"
+  },
+  "prompt": {
+    "promptSend": "프롬프트 전송",
+    "newChat": "새 채팅",
+    "sendMessage": "메시지 보내기",
+    "resetPanel": "패널 초기화",
+    "promptCmd": "프롬프트 명령",
+    "sizeSmall": "작음",
+    "sizeMedium": "중간",
+    "sizeLarge": "큼"
   }
 }

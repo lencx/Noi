@@ -11,8 +11,8 @@
     { "code": "es", "label": "Español" },
     { "code": "pt", "label": "Português" },
     { "code": "ru", "label": "Русский" },
-    { "code": "de", "label": "Deutsch" },
     { "code": "hu", "label": "Magyar" },
+    { "code": "de", "label": "Deutsch" },
     { "code": "it", "label": "Italiano" },
     { "code": "tr", "label": "Türkçe" }
   ]

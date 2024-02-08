@@ -22,8 +22,9 @@
     "showSidebar": "サイドバーを表示",
     "hideSidebar": "サイドバーを隠す",
     "devTools": "開発者ツール",
-    "frostedTexture": "霜降りテクスチャ",
+    "frostedTexture": "フロステッドテクスチャ",
     "xQuit": "[X]をクリックして終了",
+    "systemTray": "システムトレイ",
 
     "edit": "編集",
     "undo": "元に戻す",
@@ -38,7 +39,7 @@
     "resetZoom": "実際のサイズ",
     "zoomIn": "拡大",
     "zoomOut": "縮小",
-    "fullScreen": "全画面表示",
+    "fullScreen": "全画面表示にする",
 
     "help": "ヘルプ",
     "log": "Noiログ",
@@ -46,7 +47,7 @@
     "issues": "GitHubの問題",
     "shareIdeas": "アイデアとフィードバックを共有",
 
-    "learnSpelling": "スペルを学ぶ",
+    "learnSpelling": "スペリングを学ぶ",
     "lookUpSelection": "「{selection}」を調べる",
     "searchWithGoogle": "Googleで検索",
     "cut": "切り取り",
@@ -54,57 +55,62 @@
     "paste": "貼り付け",
     "selectAll": "すべて選択",
     "saveImage": "画像を保存",
-    "saveImageAs": "画像を名前をつけて保存…",
-    "saveVideo": "動画を保存",
-    "saveVideoAs": "動画を名前をつけて保存…",
+    "saveImageAs": "名前を付けて画像を保存…",
+    "saveVideo": "ビデオを保存",
+    "saveVideoAs": "名前を付けてビデオを保存…",
     "copyLink": "リンクをコピー",
-    "saveLinkAs": "リンクを名前をつけて保存…",
+    "saveLinkAs": "名前を付けてリンクを保存…",
     "copyImage": "画像をコピー",
     "copyImageAddress": "画像のアドレスをコピー",
-    "copyVideoAddress": "動画のアドレスをコピー",
+    "copyVideoAddress": "ビデオのアドレスをコピー",
     "inspect": "要素を検証",
     "services": "サービス",
-    "reload": "リロード",
+    "reload": "再読み込み",
     "rename": "名前を変更",
     "user": "ユーザー",
-    "setSystemTray": "システムトレイに設定",
+    "setSystemTray": "システムトレイとして設定",
     "clearCache": "キャッシュデータをクリア"
   },
   "form": {
     "name": "名前",
     "url": "URL",
-    "save": "保存",
-    "cancel": "キャンセル",
-    "reset": "リセット",
     "invalidURL": "無効なURLです。再入力してください。",
     "nameNotEmpty": "名前は空にできません。"
   },
   "sidebar": {
     "warn": {
-      "url_delete": "現在のURLは削除できません。",
-      "dir_delete": "現在のURLのディレクトリは削除できません。",
-      "tray_delete": "現在のURLはシステムトレイとして設定されています。まず設定を解除してください。"
+      "urlDelete": "現在のURLは使用中です。",
+      "dirDelete": "現在のディレクトリは使用中です。",
+      "trayDelete": "システムトレイが現在のURLを使用しているため、削除できません。"
     },
     "tip": {
       "delete": "削除後は復元できません。本当に削除しますか？",
-      "sync_overwrite": "同期はカスタムデータを除くすべてのデータを上書きします。続行しますか？",
-      "sync_reset": "現在、最新バージョンを使用中です。同期によりカスタムデータを除くすべてのデータがリセットされます。続行しますか？",
-      "sync_ok": "同期成功",
-      "sync_reset_ok": "リセット成功"
+      "syncOverwrite": "同期はカスタムデータを除くすべてのデータを上書きします。続行しますか？",
+      "syncReset": "現在、最新バージョンを使用しています。同期はカスタムデータを除くすべてのデータをリセットします。続行しますか？",
+      "syncOk": "同期に成功しました",
+      "syncResetOk": "リセットに成功しました"
     }
   },
   "network": {
     "error": {
-      "title": "このサイトにアクセスできません",
-      "long_respond": "の応答に時間がかかりすぎます。",
       "try": "試してみてください：",
-      "check_1": "接続を確認する",
-      "check_2": "プロキシとファイアウォールを確認する"
+      "title": "このサイトにアクセスできません",
+      "longRespond": "応答に時間がかかりすぎます。",
+      "checkConnection": "接続を確認中",
+      "checkProxy": "プロキシとファイアウォールを確認中"
     }
   },
   "settings": {
     "menu": {
-      "general": "一般",
+      "general": {
+        "name": "一般",
+        "syncBookmarks": "ブックマークを同期",
+        "globalShortcut": "グローバルショートカット",
+        "recording": "録音中…",
+        "proxy": "プロキシ",
+        "proxyRules": "ルール",
+        "proxyBypassRules": "バイパスルール"
+      },
       "extensions": "拡張機能",
       "prompts": {
         "name": "プロンプト",
@@ -114,28 +120,72 @@
       }
     },
     "confirm": {
-      "batch": {
-        "use": "これらのプロンプトを使用しますか？",
-        "delete": "これらのプロンプトを削除しますか？",
-        "disable": "これらのプロンプトを無効にしますか？",
-        "enable": "これらのプロンプトを有効にしますか？"
-      }
+      "delete": "このレコードを削除してもよろしいですか？",
+      "batchEnable": "これらのプロンプトを有効にしてもよろしいですか？",
+      "batchDelete": "これらのプロンプトを削除してもよろしいですか？",
+      "batchDisable": "これらのプロンプトを無効にしてもよろしいですか？",
+      "batchUse": "これらのプロンプトを使用してもよろしいですか？"
     },
     "message": {
-      "add": "追加されました",
-      "sync": "同期されました",
+      "added": "追加されました",
+      "synced": "同期されました",
       "invalidData": "無効なデータ",
-      "missingActAndPrompt": "'act'、'prompt' のフィールドが足りません。'Alias'を使用して名前を変更してください。"
+      "missingActAndPrompt": "'act', 'prompt'のフィールドが不足しています。'Alias'を使用して名前を変更してみてください。",
+      "missingManifest": "manifest.jsonファイルが不足しているか無効です。",
+      "checkExtension": "拡張機能ディレクトリを再確認してください：",
+      "existExtension": "拡張機能は既に存在します。"
+    },
+    "tip": {
+      "proxyRules": "どのプロキシを使用するかを示すルール。",
+      "proxyBypassRules": "プロキシ設定をバイパスするURLを示すルール。",
+      "shortcutRule": "ショートカットルール",
+      "modifierKeys": "修飾キー",
+      "regularKeys": "通常キー",
+      "noiExtension": "NoiはChrome拡張機能APIの全範囲をサポートしていないことに注意してください。サポートされている拡張機能APIの詳細については、サポートされている拡張機能APIを参照してください。"
     },
     "table": {
       "name": "名前",
-      "sync": "同期",
+      "extension": "拡張機能",
       "description": "説明",
+      "version": "バージョン",
       "tag": "タグ",
-      "action": "アクション",
       "color": "色",
       "lastUpdate": "最終更新",
       "usageCount": "使用回数"
     }
+  },
+  "action": {
+    "name": "アクション",
+    "add": "追加",
+    "cancel": "キャンセル",
+    "create": "作成",
+    "confirm": "確認",
+    "detail": "詳細",
+    "delete": "削除",
+    "disable": "無効",
+    "edit": "編集",
+    "enable": "有効",
+    "export": "エクスポート",
+    "refresh": "更新",
+    "reset": "リセット",
+    "sync": "同期",
+    "save": "保存",
+    "search": "検索",
+    "select": "選択",
+    "use": "使用",
+    "batchDisable": "一括無効",
+    "batchEnable": "一括有効",
+    "batchDelete": "一括削除",
+    "batchUse": "一括使用"
+  },
+  "prompt": {
+    "promptSend": "Prompt送信",
+    "newChat": "新規チャット",
+    "sendMessage": "メッセージを送信",
+    "resetPanel": "パネルをリセット",
+    "promptCmd": "Promptコマンド",
+    "sizeSmall": "小",
+    "sizeMedium": "中",
+    "sizeLarge": "大"
   }
 }

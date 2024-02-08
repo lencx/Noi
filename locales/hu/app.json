@@ -3,12 +3,13 @@
   "sponsor": "Támogasd a Noi-t",
   "menu": {
     "name": "Menü",
-    "about": "Noiról",
-    "hide": "Elrejtés",
-    "hideOthers": "Többi Elrejtése",
-    "quit": "Kilépés",
-    "unhide": "Minden mutatása",
-    "checkUpdates": "Frissítések keresése",
+    "about": "A Noiról",
+    "hide": "Noi elrejtése",
+    "hideOthers": "Mások elrejtése",
+    "quit": "Noi bezárása",
+    "unhide": "Minden megjelenítése",
+    "checkUpdates": "Frissítések keresése…",
+
     "settings": "Beállítások",
     "languages": "Nyelvek",
     "theme": {
@@ -17,124 +18,174 @@
       "dark": "Sötét",
       "system": "Rendszer"
     },
-    "stayOnTop": "Ablak Rögzítése",
-    "showSidebar": "Oldalsáv Mutatása",
-    "hideSidebar": "Oldalsáv Elrejtése",
-    "devTools": "Fejlesztői Eszközök",
-    "frostedTexture": "Jégborítás Textúra",
-    "xQuit": "Kattints az [X]-re a Kilépéshez",
+    "stayOnTop": "Mindig felül",
+    "showSidebar": "Oldalsáv megjelenítése",
+    "hideSidebar": "Oldalsáv elrejtése",
+    "devTools": "Fejlesztői eszközök",
+    "frostedTexture": "Fagyott textúra",
+    "xQuit": "Kilépéshez kattintson a [X]-re",
+    "systemTray": "Rendszertálca",
 
     "edit": "Szerkesztés",
     "undo": "Visszavonás",
     "redo": "Újra",
-    "pasteAndMatchStyle": "Beillesztés és Stílus Illesztése",
+    "pasteAndMatchStyle": "Beillesztés és stílus illesztése",
     "delete": "Törlés",
 
     "view": "Nézet",
-    "refresh": "Oldal Frissítése",
+    "refresh": "Oldal frissítése",
     "goBack": "Vissza",
     "goForward": "Előre",
-    "resetZoom": "Valós Méret",
+    "resetZoom": "Tényleges méret",
     "zoomIn": "Nagyítás",
     "zoomOut": "Kicsinyítés",
     "fullScreen": "Teljes Képernyő",
 
-    "help": "Segítség",
-    "log": "Noi Log",
-    "gettingStarted": "Kezdés",
-    "issues": "GitHub Problémák",
-    "shareIdeas": "Ötletek és Visszajelzések Megosztása",
+    "help": "Súgó",
+    "log": "Noi napló",
+    "gettingStarted": "Első lépések",
+    "issues": "GitHub Hibalista",
+    "shareIdeas": "Ötletek és visszajelzések megosztása",
 
-    "learnSpelling": "Helyesírás Tanulása",
-    "lookUpSelection": "Keresés a(z) „{selection}”-ben",
-    "searchWithGoogle": "Keresés a Google-lel",
+    "learnSpelling": "Helyesírás elsajátítása",
+    "lookUpSelection": "„{selection}” keresése",
+    "searchWithGoogle": "Keresés a Google-lal",
     "cut": "Kivágás",
     "copy": "Másolás",
     "paste": "Beillesztés",
-    "selectAll": "Összes Kijelölése",
-    "saveImage": "Kép Mentése",
-    "saveImageAs": "Kép Mentése Mint…",
-    "saveVideo": "Videó Mentése",
-    "saveVideoAs": "Videó Mentése Mint…",
-    "copyLink": "Link Másolása",
-    "saveLinkAs": "Link Mentése Mint…",
-    "copyImage": "Kép Másolása",
-    "copyImageAddress": "Kép Címének Másolása",
-    "copyVideoAddress": "Videó Címének Másolása",
-    "inspect": "Elem Vizsgálata",
+    "selectAll": "Összes kijelölése",
+    "saveImage": "Kép mentése",
+    "saveImageAs": "Kép mentése mint…",
+    "saveVideo": "Videó mentése",
+    "saveVideoAs": "Videó mentése mint…",
+    "copyLink": "Hivatkozás másolása",
+    "saveLinkAs": "Hivatkozás mentése mint…",
+    "copyImage": "Kép másolása",
+    "copyImageAddress": "Kép címének másolása",
+    "copyVideoAddress": "Videó címének másolása",
+    "inspect": "Elem vizsgálata",
     "services": "Szolgáltatások",
     "reload": "Újratöltés",
     "rename": "Átnevezés",
     "user": "Felhasználó",
-    "setSystemTray": "Beállítás Rendszer Tálcaként",
-    "clearCache": "Gyorsítótáradatok Törlése"
+    "setSystemTray": "Beállítás rendszertálcaként",
+    "clearCache": "Gyorsítótár adatok törlése"
   },
   "form": {
     "name": "Név",
     "url": "URL",
-    "save": "Mentés",
-    "cancel": "Mégse",
-    "reset": "Visszaállítás",
-    "invalidURL": "Érvénytelen URL, kérjük, írja újra.",
+    "invalidURL": "Érvénytelen URL, kérjük, írja be újra.",
     "nameNotEmpty": "A név nem lehet üres."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "A jelenlegi URL nem törölhető.",
-      "dir_delete": "A jelenlegi URL könyvtára nem törölhető.",
-      "tray_delete": "A jelenlegi URL be van állítva rendszer tálkaként, először törölje ezt a beállítást."
+      "urlDelete": "Az aktuális URL használatban van.",
+      "dirDelete": "Az aktuális könyvtár használatban van.",
+      "trayDelete": "A rendszertálca az aktuális URL-t használja, nem törölhető."
     },
     "tip": {
-      "delete": "A törlés után nem lehet visszaállítani, biztosan törölni szeretné?",
-      "sync_overwrite": "A szinkronizáció felülírja az összes adatot, kivéve a testreszabott adatokat. Folytatja?",
-      "sync_reset": "Már a legfrissebb verziót használja. A szinkronizáció visszaállítja az összes adatot, kivéve a testreszabott adatokat. Folytatja?",
-      "sync_ok": "Szinkronizáció sikeres",
-      "sync_reset_ok": "Visszaállítás sikeres"
+      "delete": "A törlés után nem állítható helyre, biztosan törölni szeretné?",
+      "syncOverwrite": "A szinkronizáció minden adatot felülír a testreszabott adatok kivételével. Folytatja?",
+      "syncReset": "Jelenleg a legfrissebb verziót használja. A szinkronizáció minden adatot alaphelyzetbe állít a testreszabott adatok kivételével. Folytatja?",
+      "syncOk": "Szinkronizáció sikeres",
+      "syncResetOk": "Alaphelyzetbe állítás sikeres"
     }
   },
   "network": {
     "error": {
-      "title": "Ez az oldal nem érhető el",
-      "long_respond": "túl hosszú volt a válaszidő.",
       "try": "Próbálja meg:",
-      "check_1": "Az internetkapcsolat ellenőrzése",
-      "check_2": "Az átjáró és a tűzfal ellenőrzése"
+      "title": "Ez az oldal nem érhető el",
+      "longRespond": "túl hosszú ideig tartott a válaszadás.",
+      "checkConnection": "Kapcsolat ellenőrzése",
+      "checkProxy": "Proxy és tűzfal ellenőrzése"
     }
   },
   "settings": {
     "menu": {
-      "general": "Általános",
-      "extensions": "Kiegészítők",
+      "general": {
+        "name": "Általános",
+        "syncBookmarks": "Könyvjelzők szinkronizálása",
+        "globalShortcut": "Globális gyorsbillentyű",
+        "recording": "Felvétel...",
+        "proxy": "Proxy",
+        "proxyRules": "Szabályok",
+        "proxyBypassRules": "Kivételek szabályai"
+      },
+      "extensions": "Bővítmények",
       "prompts": {
-        "name": "Felugró ablakok",
-        "userPrompts": "Felhasználói Felugró ablakok",
-        "promptTags": "Felugró ablak Címkék",
-        "customSync": "Testreszabott Szinkronizáció"
+        "name": "Felszólítások",
+        "userPrompts": "Felhasználói felszólítások",
+        "promptTags": "Felszólítás címkék",
+        "customSync": "Egyéni szinkronizáció"
       }
     },
     "confirm": {
-      "batch": {
-        "use": "Biztosan használni szeretné ezeket a felugró ablakokat?",
-        "delete": "Biztosan törölni szeretné ezeket a felugró ablakokat?",
-        "disable": "Biztosan kikapcsolni szeretné ezeket a felugró ablakokat?",
-        "enable": "Biztosan bekapcsolni szeretné ezeket a felugró ablakokat?"
-      }
+      "delete": "Biztosan törölni szeretné ezt a bejegyzést?",
+      "batchEnable": "Biztosan engedélyezni szeretné ezeket a felszólításokat?",
+      "batchDelete": "Biztosan törölni szeretné ezeket a felszólításokat?",
+      "batchDisable": "Biztosan letiltani szeretné ezeket a felszólításokat?",
+      "batchUse": "Biztosan használni szeretné ezeket a felszólításokat?"
     },
     "message": {
-      "add": "Hozzáadva",
-      "sync": "Szinkronizálva",
+      "added": "Hozzáadva",
+      "synced": "Szinkronizálva",
       "invalidData": "Érvénytelen adat",
-      "missingActAndPrompt": "Hiányzó mezők: 'act', 'prompt'. Használja az 'Alias'-t az átnevezéshez."
+      "missingActAndPrompt": "Hiányzó mezők: 'act', 'prompt'. Használja az 'Alias' funkciót az átnevezéshez.",
+      "missingManifest": "A manifest.json fájl hiányzik vagy érvénytelen.",
+      "checkExtension": "Kérjük, ellenőrizze újra a bővítmény könyvtárát:",
+      "existExtension": "A bővítmény már létezik."
+    },
+    "tip": {
+      "proxyRules": "Szabályok, amelyek meghatározzák, mely proxykat kell használni.",
+      "proxyBypassRules": "Szabályok, amelyek meghatározzák, mely URL-ek kerüljék meg a proxy beállításokat.",
+      "shortcutRule": "Gyorsbillentyű szabály",
+      "modifierKeys": "Módosító billentyűk",
+      "regularKeys": "Rendszeres billentyűk",
+      "noiExtension": "Vegye figyelembe, hogy a Noi nem támogatja a Chrome bővítmények API-jainak teljes körét. A támogatott bővítmények API-jai részleteiért lásd a Támogatott bővítmények API-jai részt."
     },
     "table": {
       "name": "Név",
-      "sync": "Szinkronizál",
+      "extension": "Bővítmény",
       "description": "Leírás",
+      "version": "Verzió",
       "tag": "Címke",
-      "action": "Művelet",
       "color": "Szín",
-      "lastUpdate": "Utolsó Frissítés",
-      "usageCount": "Használat Szám"
+      "lastUpdate": "Utolsó frissítés",
+      "usageCount": "Használati szám"
     }
+  },
+  "action": {
+    "name": "Művelet",
+    "add": "Hozzáadás",
+    "cancel": "Mégse",
+    "create": "Létrehozás",
+    "confirm": "Megerősítés",
+    "detail": "Részletek",
+    "delete": "Törlés",
+    "disable": "Letiltás",
+    "edit": "Szerkesztés",
+    "enable": "Engedélyezés",
+    "export": "Exportálás",
+    "refresh": "Frissítés",
+    "reset": "Alaphelyzetbe állítás",
+    "sync": "Szinkronizáció",
+    "save": "Mentés",
+    "search": "Keresés",
+    "select": "Kiválasztás",
+    "use": "Használat",
+    "batchDisable": "Tömeges letiltás",
+    "batchEnable": "Tömeges engedélyezés",
+    "batchDelete": "Tömeges törlés",
+    "batchUse": "Tömeges használat"
+  },
+  "prompt": {
+    "promptSend": "Felszólítás küldése",
+    "newChat": "Új csevegés",
+    "sendMessage": "Üzenet küldése",
+    "resetPanel": "Panel alaphelyzetbe állítása",
+    "promptCmd": "Felszólítás parancs",
+    "sizeSmall": "Kicsi",
+    "sizeMedium": "Közepes",
+    "sizeLarge": "Nagy"
   }
 }

@@ -22,8 +22,9 @@
     "showSidebar": "Mostrar Barra Lateral",
     "hideSidebar": "Ocultar Barra Lateral",
     "devTools": "Herramientas para Desarrolladores",
-    "frostedTexture": "Textura Escarchada",
-    "xQuit": "Hacer clic en [X] para salir",
+    "frostedTexture": "Textura Esmerilada",
+    "xQuit": "Clic en [X] para Salir",
+    "systemTray": "Bandeja del Sistema",
 
     "edit": "Editar",
     "undo": "Deshacer",
@@ -31,20 +32,20 @@
     "pasteAndMatchStyle": "Pegar y Coincidir Estilo",
     "delete": "Eliminar",
 
-    "view": "Ver",
-    "refresh": "Refrescar la Página",
+    "view": "Vista",
+    "refresh": "Actualizar la Página",
     "goBack": "Retroceder",
     "goForward": "Avanzar",
     "resetZoom": "Tamaño Real",
-    "zoomIn": "Ampliar",
-    "zoomOut": "Reducir",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar",
     "fullScreen": "Pantalla Completa",
 
     "help": "Ayuda",
     "log": "Registro de Noi",
-    "gettingStarted": "Cómo Empezar",
-    "issues": "Problemas en GitHub",
-    "shareIdeas": "Compartir Ideas y Comentarios",
+    "gettingStarted": "Empezando",
+    "issues": "Incidencias en GitHub",
+    "shareIdeas": "Compartir Ideas y Retroalimentación",
 
     "learnSpelling": "Aprender Ortografía",
     "lookUpSelection": "Buscar “{selection}”",
@@ -73,38 +74,43 @@
   "form": {
     "name": "Nombre",
     "url": "URL",
-    "save": "Guardar",
-    "cancel": "Cancelar",
-    "reset": "Restablecer",
-    "invalidURL": "URL inválida, por favor reintroduzca.",
+    "invalidURL": "URL inválida, por favor ingrese de nuevo.",
     "nameNotEmpty": "El nombre no puede estar vacío."
   },
   "sidebar": {
     "warn": {
-      "url_delete": "La URL actual no puede ser eliminada.",
-      "dir_delete": "El directorio de la URL actual no puede ser eliminado.",
-      "tray_delete": "La URL actual está configurada como bandeja del sistema, por favor, cancele la configuración primero."
+      "urlDelete": "La URL actual está en uso.",
+      "dirDelete": "El directorio actual está en uso.",
+      "trayDelete": "La bandeja del sistema está utilizando la URL actual, no se puede eliminar."
     },
     "tip": {
-      "delete": "Una vez eliminado no se puede recuperar, ¿está seguro de que desea eliminar?",
-      "sync_overwrite": "La sincronización sobrescribirá todos los datos excepto los datos personalizados. ¿Desea continuar?",
-      "sync_reset": "Ya está utilizando la versión más reciente. La sincronización restablecerá todos los datos excepto los datos personalizados. ¿Desea continuar?",
-      "sync_ok": "Sincronización exitosa",
-      "sync_reset_ok": "Restablecimiento exitoso"
+      "delete": "No se puede recuperar después de eliminar, ¿está seguro de que desea eliminar?",
+      "syncOverwrite": "La sincronización sobrescribirá todos los datos excepto los datos personalizados. ¿Desea continuar?",
+      "syncReset": "Actualmente está en la última versión. La sincronización restablecerá todos los datos excepto los datos personalizados. ¿Desea continuar?",
+      "syncOk": "Sincronización exitosa",
+      "syncResetOk": "Reinicio exitoso"
     }
   },
   "network": {
     "error": {
-      "title": "No se puede acceder a este sitio",
-      "long_respond": "tardó demasiado en responder.",
-      "try": "Intenta:",
-      "check_1": "Revisar la conexión",
-      "check_2": "Revisar el proxy y el cortafuegos"
+      "try": "Intentar:",
+      "title": "Este sitio no puede ser alcanzado",
+      "longRespond": "tardó demasiado en responder.",
+      "checkConnection": "Comprobando la conexión",
+      "checkProxy": "Comprobando el proxy y el firewall"
     }
   },
   "settings": {
     "menu": {
-      "general": "General",
+      "general": {
+        "name": "General",
+        "syncBookmarks": "Sincronizar Marcadores",
+        "globalShortcut": "Atajo global",
+        "recording": "Grabando…",
+        "proxy": "Proxy",
+        "proxyRules": "Reglas",
+        "proxyBypassRules": "Reglas de Omisión"
+      },
       "extensions": "Extensiones",
       "prompts": {
         "name": "Prompts",
@@ -114,28 +120,72 @@
       }
     },
     "confirm": {
-      "batch": {
-        "use": "¿Estás seguro de que quieres usar estos prompts?",
-        "delete": "¿Estás seguro de que quieres eliminar estos prompts?",
-        "disable": "¿Estás seguro de que quieres deshabilitar estos prompts?",
-        "enable": "¿Estás seguro de que quieres habilitar estos prompts?"
-      }
+      "delete": "¿Está seguro de que desea eliminar este registro?",
+      "batchEnable": "¿Está seguro de que desea habilitar estos prompts?",
+      "batchDelete": "¿Está seguro de que desea eliminar estos prompts?",
+      "batchDisable": "¿Está seguro de que desea deshabilitar estos prompts?",
+      "batchUse": "¿Está seguro de que desea usar estos prompts?"
     },
     "message": {
-      "add": "Agregado",
-      "sync": "Sincronizado",
+      "added": "Añadido",
+      "synced": "Sincronizado",
       "invalidData": "Datos Inválidos",
-      "missingActAndPrompt": "Faltan campos: 'act', 'prompt'. Usa 'Alias' para renombrar."
+      "missingActAndPrompt": "Faltan campos: 'act', 'prompt'. Intente usar 'Alias' para renombrar.",
+      "missingManifest": "El archivo manifest.json falta o es inválido.",
+      "checkExtension": "Por favor, vuelva a comprobar el directorio de extensión:",
+      "existExtension": "La extensión ya existe."
+    },
+    "tip": {
+      "proxyRules": "Reglas que indican qué proxies usar.",
+      "proxyBypassRules": "Reglas que indican qué URLs deben omitir la configuración de proxy.",
+      "shortcutRule": "Regla de Atajo",
+      "modifierKeys": "Teclas Modificadoras",
+      "regularKeys": "Teclas Regulares",
+      "noiExtension": "Tenga en cuenta que Noi no soporta la gama completa de APIs de extensiones de Chrome. Vea APIs de Extensiones Soportadas para más detalles sobre lo que se soporta."
     },
     "table": {
       "name": "Nombre",
-      "sync": "Sincronización",
+      "extension": "Extensión",
       "description": "Descripción",
+      "version": "Versión",
       "tag": "Etiqueta",
-      "action": "Acción",
       "color": "Color",
       "lastUpdate": "Última Actualización",
       "usageCount": "Conteo de Uso"
     }
+  },
+  "action": {
+    "name": "Acción",
+    "add": "Añadir",
+    "cancel": "Cancelar",
+    "create": "Crear",
+    "confirm": "Confirmar",
+    "detail": "Detalle",
+    "delete": "Eliminar",
+    "disable": "Deshabilitar",
+    "edit": "Editar",
+    "enable": "Habilitar",
+    "export": "Exportar",
+    "refresh": "Actualizar",
+    "reset": "Restablecer",
+    "sync": "Sincronizar",
+    "save": "Guardar",
+    "search": "Buscar",
+    "select": "Seleccionar",
+    "use": "Usar",
+    "batchDisable": "Deshabilitación en Lote",
+    "batchEnable": "Habilitación en Lote",
+    "batchDelete": "Eliminación en Lote",
+    "batchUse": "Uso en Lote"
+  },
+  "prompt": {
+    "promptSend": "Enviar Prompt",
+    "newChat": "Chat Nuevo",
+    "sendMessage": "Enviar Mensaje",
+    "resetPanel": "Restablecer Panel",
+    "promptCmd": "Comando de Prompt",
+    "sizeSmall": "Pequeño",
+    "sizeMedium": "Mediano",
+    "sizeLarge": "Grande"
   }
 }
