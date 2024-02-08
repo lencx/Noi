@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Noi',
-  tagline: 'AI + Tools + Plugins + Community',
+  tagline: '🚀 Power Your World with AI - Explore, Extend, Empower.',
   favicon: 'img/noi.png',
 
   // Set the production url of your site here

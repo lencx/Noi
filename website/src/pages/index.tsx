@@ -44,9 +44,9 @@ export default function Home(): JSX.Element {
         <h2 className="mt-5">Preview</h2>
         <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 max-w-[960px] m-auto">
           <img className="rounded-lg shadow-lg" src="/readme/noi-theme-dark.png" />
-          <img className="rounded-lg shadow-lg" src="/readme/noi-theme-light.png" />
-          <img className="rounded-lg shadow-lg" src="/readme/noi-batch-ask.png" />
-          <img className="rounded-lg shadow-lg" src="/readme/noi-settings-prompts.png" />
+          <img className="rounded-lg shadow-lg" src="/readme/noi-settings.png" />
+          <img className="rounded-lg shadow-lg" src="/readme/noi-prompt.png" />
+          <img className="rounded-lg shadow-lg" src="/readme/noi-prompt-use.png" />
         </div>
 
         <h2 className="mt-5">FAQ</h2>
