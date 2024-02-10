@@ -6,7 +6,9 @@
   "description": "The best assistant for batch asking and quick typing of prompts.",
   "content_scripts": [
     {
-      "matches": [],
+      "matches": [
+        "https://example.com/*"
+      ],
       "js": ["main.js"],
       "run_at": "document_end",
       "world": "MAIN"

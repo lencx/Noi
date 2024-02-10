@@ -82,9 +82,9 @@ class ClaudeAsk extends NoiAsk {
   }
 }
 
-class BardAsk extends NoiAsk {
-  static name = 'Bard';
-  static url = 'https://bard.google.com';
+class GeminiAsk extends NoiAsk {
+  static name = 'Gemini';
+  static url = 'https://gemini.google.com';
 
   static sync(message) {
     const inputElement = document.querySelector('.ql-editor.textarea');
@@ -279,7 +279,7 @@ window.NoiAsk = {
   OpenAIAsk,
   PoeAsk,
   ClaudeAsk,
-  BardAsk,
+  GeminiAsk,
   HuggingChatAsk,
   PerplexityAsk,
   CopilotAsk,
