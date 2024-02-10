@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.zh.json",
   "modes": [
     {
@@ -34,10 +34,10 @@
       "url": "https://claude.ai"
     },
     {
-      "id": "noi:bard",
+      "id": "noi:gemini",
       "parent": "noi@ai",
-      "text": "Bard",
-      "url": "https://bard.google.com"
+      "text": "gemini",
+      "url": "https://gemini.google.com"
     },
     {
       "id": "noi:poe",
