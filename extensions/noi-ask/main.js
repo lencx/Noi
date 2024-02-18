@@ -116,7 +116,7 @@ class GeminiAsk extends NoiAsk {
   }
 
   static submit() {
-    const btn = document.querySelector('button[aria-label*="Send message"]');
+    const btn = document.querySelector('button[aria-label*="Send message"]') || document.querySelector('button.send-button');
     if (btn) {
       btn.setAttribute('aria-disabled', 'false'); // doesn't work alone
       btn.focus();
