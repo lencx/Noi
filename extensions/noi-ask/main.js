@@ -116,7 +116,9 @@ class GeminiAsk extends NoiAsk {
   }
 
   static submit() {
-    const btn = document.querySelector('button[aria-label*="Send message"]');
+    const userLang = navigator.language || navigator.userLanguage;
+    const ariaLabel = userLang.indexOf('zh') !== -1 ? '发送消息' : 'Send message';
+    const btn = document.querySelector(`button[aria-label*="${ariaLabel}"]`);
     if (btn) {
       btn.setAttribute('aria-disabled', 'false'); // doesn't work alone
       btn.focus();
