@@ -22,6 +22,7 @@
     "showSidebar": "显示侧边栏",
     "hideSidebar": "隐藏侧边栏",
     "devTools": "开发者工具",
+    "monochromatic": "单色",
     "frostedTexture": "磨砂纹理",
     "xQuit": "点击 [X] 退出",
     "systemTray": "系统托盘",
@@ -69,7 +70,13 @@
     "rename": "重命名",
     "user": "用户",
     "setSystemTray": "设置为系统托盘",
-    "clearCache": "清除缓存数据"
+    "clearCache": "清除缓存数据",
+    "find": {
+      "name": "查找",
+      "findNext": "查找下一个",
+      "findPrevious": "查找上一个",
+      "jumpToSelection": "跳转到选择"
+    }
   },
   "form": {
     "name": "名称",
@@ -106,6 +113,7 @@
         "name": "通用",
         "syncBookmarks": "同步书签",
         "globalShortcut": "全局快捷键",
+        "trayShortcut": "系统托盘快捷键",
         "recording": "正在录制…",
         "proxy": "代理",
         "proxyRules": "规则",

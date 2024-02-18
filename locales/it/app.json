@@ -22,6 +22,7 @@
     "showSidebar": "Mostra Barra Laterale",
     "hideSidebar": "Nascondi Barra Laterale",
     "devTools": "Strumenti per Sviluppatori",
+    "monochromatic": "Monocromatico",
     "frostedTexture": "Texture Glassata",
     "xQuit": "Clicca [X] per Uscire",
     "systemTray": "Area di Notifica",
@@ -69,7 +70,13 @@
     "rename": "Rinomina",
     "user": "Utente",
     "setSystemTray": "Imposta come Area di Notifica",
-    "clearCache": "Pulisci Cache"
+    "clearCache": "Pulisci Cache",
+    "find": {
+      "name": "Trova",
+      "findNext": "Trova successivo",
+      "findPrevious": "Trova precedente",
+      "jumpToSelection": "Salta alla selezione"
+    }
   },
   "form": {
     "name": "Nome",
@@ -106,6 +113,7 @@
         "name": "Generale",
         "syncBookmarks": "Sincronizza Segnalibri",
         "globalShortcut": "Scorciatoia globale",
+        "trayShortcut": "Scorciatoia area di notifica",
         "recording": "Registrazione…",
         "proxy": "Proxy",
         "proxyRules": "Regole",

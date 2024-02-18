@@ -22,6 +22,7 @@
     "showSidebar": "사이드바 표시",
     "hideSidebar": "사이드바 숨기기",
     "devTools": "개발자 도구",
+    "monochromatic": "단색",
     "frostedTexture": "서리 질감",
     "xQuit": "[X] 클릭으로 종료",
     "systemTray": "시스템 트레이",
@@ -69,7 +70,13 @@
     "rename": "이름 바꾸기",
     "user": "사용자",
     "setSystemTray": "시스템 트레이로 설정",
-    "clearCache": "캐시 데이터 지우기"
+    "clearCache": "캐시 데이터 지우기",
+    "find": {
+      "name": "찾기",
+      "findNext": "다음 찾기",
+      "findPrevious": "이전 찾기",
+      "jumpToSelection": "선택 영역으로 이동"
+    }
   },
   "form": {
     "name": "이름",
@@ -106,6 +113,7 @@
         "name": "일반",
         "syncBookmarks": "북마크 동기화",
         "globalShortcut": "전역 단축키",
+        "trayShortcut": "시스템 트레이 단축키",
         "recording": "녹음 중…",
         "proxy": "프록시",
         "proxyRules": "규칙",

@@ -22,6 +22,7 @@
     "showSidebar": "Afficher la barre latérale",
     "hideSidebar": "Masquer la barre latérale",
     "devTools": "Outils de développement",
+    "monochromatic": "Monochromatique",
     "frostedTexture": "Texture givrée",
     "xQuit": "Cliquer sur [X] pour quitter",
     "systemTray": "Zone de notification",
@@ -69,7 +70,13 @@
     "rename": "Renommer",
     "user": "Utilisateur",
     "setSystemTray": "Définir comme zone de notification",
-    "clearCache": "Effacer les données du cache"
+    "clearCache": "Effacer les données du cache",
+    "find": {
+      "name": "Trouver",
+      "findNext": "Trouver suivant",
+      "findPrevious": "Trouver précédent",
+      "jumpToSelection": "Aller à la sélection"
+    }
   },
   "form": {
     "name": "Nom",
@@ -106,6 +113,7 @@
         "name": "Général",
         "syncBookmarks": "Synchroniser les marque-pages",
         "globalShortcut": "Raccourci global",
+        "trayShortcut": "Raccourci de la barre des tâches",
         "recording": "Enregistrement…",
         "proxy": "Proxy",
         "proxyRules": "Règles",

@@ -19,6 +19,13 @@ class NoiAsk {
     }
   }
 
+  static autoFocus() {
+    const inputElement = document.querySelector('textarea');
+    if (inputElement) {
+      inputElement.focus();
+    }
+  }
+
   static simulateUserInput(element, text) {
     const inputEvent = new InputEvent('input', {
       bubbles: true,
@@ -69,6 +76,10 @@ class ClaudeAsk extends NoiAsk {
     }
   }
 
+  static autoFocus() {
+    this.sync('');
+  }
+
   static submit() {
     // subsequent screens use this
     let btn = document.querySelector('button[aria-label*="Send Message"]');
@@ -97,6 +108,13 @@ class GeminiAsk extends NoiAsk {
     }
   }
 
+  static autoFocus() {
+    const inputElement = document.querySelector('.ql-editor.textarea');
+    if (inputElement) {
+      inputElement.focus();
+    }
+  }
+
   static submit() {
     const btn = document.querySelector('button[aria-label*="Send message"]');
     if (btn) {
@@ -117,6 +135,13 @@ class HuggingChatAsk extends NoiAsk {
       const inputEvent = new Event('input', { bubbles: true });
       inputElement.value = message;
       inputElement.dispatchEvent(inputEvent);
+    }
+  }
+
+  static autoFocus() {
+    var inputElement = document.querySelector('textarea[placeholder*="Ask anything"]');
+    if (inputElement) {
+      inputElement.focus();
     }
   }
 
@@ -155,6 +180,16 @@ class CopilotAsk extends NoiAsk {
     const inputElement = textInputDOM ? textInputDOM.shadowRoot.querySelector('#searchbox') : inputDOM.shadowRoot.querySelector('#searchbox');
     if (inputElement) {
       this.simulateUserInput(inputElement, message);
+    }
+  }
+
+  static autoFocus() {
+    const serpDOM = document.querySelector('.cib-serp-main');
+    const inputDOM = serpDOM.shadowRoot.querySelector('#cib-action-bar-main');
+    const textInputDOM = inputDOM.shadowRoot.querySelector('cib-text-input');
+    const inputElement = textInputDOM ? textInputDOM.shadowRoot.querySelector('#searchbox') : inputDOM.shadowRoot.querySelector('#searchbox');
+    if (inputElement) {
+      inputElement.focus();
     }
   }
 

@@ -23,6 +23,7 @@
     "hideSidebar": "Kenar Çubuğunu Gizle",
     "devTools": "Geliştirici Araçları",
     "frostedTexture": "Buzlu Doku",
+    "monochromatic": "Monokrom",
     "xQuit": "[X]'e Tıklayarak Çık",
     "systemTray": "Sistem Tepsisi",
 
@@ -69,7 +70,13 @@
     "rename": "Yeniden Adlandır",
     "user": "Kullanıcı",
     "setSystemTray": "Sistem Tepsisi Olarak Ayarla",
-    "clearCache": "Önbellek Verilerini Temizle"
+    "clearCache": "Önbellek Verilerini Temizle",
+    "find": {
+      "name": "Bul",
+      "findNext": "Sonrakini Bul",
+      "findPrevious": "Öncekini Bul",
+      "jumpToSelection": "Seçime Atla"
+    }
   },
   "form": {
     "name": "Ad",
@@ -106,6 +113,7 @@
         "name": "Genel",
         "syncBookmarks": "Yer İşaretlerini Senkronize Et",
         "globalShortcut": "Küresel kısayol",
+        "trayShortcut": "Sistem Tepsisi Kısayolu",
         "recording": "Kaydediliyor...",
         "proxy": "Proxy",
         "proxyRules": "Kurallar",

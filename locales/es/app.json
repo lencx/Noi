@@ -22,6 +22,7 @@
     "showSidebar": "Mostrar Barra Lateral",
     "hideSidebar": "Ocultar Barra Lateral",
     "devTools": "Herramientas para Desarrolladores",
+    "monochromatic": "Monocromático",
     "frostedTexture": "Textura Esmerilada",
     "xQuit": "Clic en [X] para Salir",
     "systemTray": "Bandeja del Sistema",
@@ -69,7 +70,13 @@
     "rename": "Renombrar",
     "user": "Usuario",
     "setSystemTray": "Establecer como Bandeja del Sistema",
-    "clearCache": "Limpiar Datos de Caché"
+    "clearCache": "Limpiar Datos de Caché",
+    "find": {
+      "name": "Buscar",
+      "findNext": "Buscar siguiente",
+      "findPrevious": "Buscar anterior",
+      "jumpToSelection": "Saltar a la selección"
+    }
   },
   "form": {
     "name": "Nombre",
@@ -106,6 +113,7 @@
         "name": "General",
         "syncBookmarks": "Sincronizar Marcadores",
         "globalShortcut": "Atajo global",
+        "trayShortcut": "Acceso directo de la bandeja del sistema",
         "recording": "Grabando…",
         "proxy": "Proxy",
         "proxyRules": "Reglas",

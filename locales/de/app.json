@@ -22,6 +22,7 @@
     "showSidebar": "Seitenleiste anzeigen",
     "hideSidebar": "Seitenleiste verstecken",
     "devTools": "Entwicklertools",
+    "monochromatic": "Monochrom",
     "frostedTexture": "Mattierte Textur",
     "xQuit": "Klicken Sie auf [X] zum Beenden",
     "systemTray": "Systemtray",
@@ -69,7 +70,13 @@
     "rename": "Umbenennen",
     "user": "Benutzer",
     "setSystemTray": "Als Systemtray festlegen",
-    "clearCache": "Cache-Daten löschen"
+    "clearCache": "Cache-Daten löschen",
+    "find": {
+      "name": "Suchen",
+      "findNext": "Weitersuchen",
+      "findPrevious": "Vorherige suchen",
+      "jumpToSelection": "Zur Auswahl springen"
+    }
   },
   "form": {
     "name": "Name",
@@ -106,6 +113,7 @@
         "name": "Allgemein",
         "syncBookmarks": "Lesezeichen synchronisieren",
         "globalShortcut": "Globales Kürzel",
+        "trayShortcut": "Systemablage-Verknüpfung",
         "recording": "Aufnahme...",
         "proxy": "Proxy",
         "proxyRules": "Regeln",

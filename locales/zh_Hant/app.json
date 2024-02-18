@@ -22,6 +22,7 @@
     "showSidebar": "顯示側邊欄",
     "hideSidebar": "隱藏側邊欄",
     "devTools": "開發者工具",
+    "monochromatic": "單色",
     "frostedTexture": "磨砂質感",
     "xQuit": "點擊 [X] 退出",
     "systemTray": "系統托盤",
@@ -69,7 +70,13 @@
     "rename": "重命名",
     "user": "用戶",
     "setSystemTray": "設置為系統托盤",
-    "clearCache": "清除快取數據"
+    "clearCache": "清除快取數據",
+    "find": {
+      "name": "查找",
+      "findNext": "查找下一個",
+      "findPrevious": "查找上一個",
+      "jumpToSelection": "跳轉到選擇"
+    }
   },
   "form": {
     "name": "名稱",
@@ -106,6 +113,7 @@
         "name": "通用",
         "syncBookmarks": "同步書簽",
         "globalShortcut": "全域快捷鍵",
+        "trayShortcut": "系統托盤快捷鍵",
         "recording": "正在錄制…",
         "proxy": "代理",
         "proxyRules": "規則",

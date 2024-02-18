@@ -22,6 +22,7 @@
     "showSidebar": "サイドバーを表示",
     "hideSidebar": "サイドバーを隠す",
     "devTools": "開発者ツール",
+    "monochromatic": "モノクロ",
     "frostedTexture": "フロステッドテクスチャ",
     "xQuit": "[X]をクリックして終了",
     "systemTray": "システムトレイ",
@@ -69,7 +70,13 @@
     "rename": "名前を変更",
     "user": "ユーザー",
     "setSystemTray": "システムトレイとして設定",
-    "clearCache": "キャッシュデータをクリア"
+    "clearCache": "キャッシュデータをクリア",
+    "find": {
+      "name": "検索",
+      "findNext": "次を検索",
+      "findPrevious": "前を検索",
+      "jumpToSelection": "選択へジャンプ"
+    }
   },
   "form": {
     "name": "名前",
@@ -106,6 +113,7 @@
         "name": "一般",
         "syncBookmarks": "ブックマークを同期",
         "globalShortcut": "グローバルショートカット",
+        "trayShortcut": "システムトレイショートカット",
         "recording": "録音中…",
         "proxy": "プロキシ",
         "proxyRules": "ルール",

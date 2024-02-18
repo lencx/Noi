@@ -22,6 +22,7 @@
     "showSidebar": "Oldalsáv megjelenítése",
     "hideSidebar": "Oldalsáv elrejtése",
     "devTools": "Fejlesztői eszközök",
+    "monochromatic": "Monokromatikus",
     "frostedTexture": "Fagyott textúra",
     "xQuit": "Kilépéshez kattintson a [X]-re",
     "systemTray": "Rendszertálca",
@@ -69,7 +70,13 @@
     "rename": "Átnevezés",
     "user": "Felhasználó",
     "setSystemTray": "Beállítás rendszertálcaként",
-    "clearCache": "Gyorsítótár adatok törlése"
+    "clearCache": "Gyorsítótár adatok törlése",
+    "find": {
+      "name": "Keresés",
+      "findNext": "Következő keresése",
+      "findPrevious": "Előző keresése",
+      "jumpToSelection": "Ugrás a kijelölésre"
+    }
   },
   "form": {
     "name": "Név",
@@ -106,6 +113,7 @@
         "name": "Általános",
         "syncBookmarks": "Könyvjelzők szinkronizálása",
         "globalShortcut": "Globális gyorsbillentyű",
+        "trayShortcut": "Rendszertálca gyorsindító",
         "recording": "Felvétel...",
         "proxy": "Proxy",
         "proxyRules": "Szabályok",

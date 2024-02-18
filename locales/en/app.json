@@ -22,6 +22,7 @@
     "showSidebar": "Show Sidebar",
     "hideSidebar": "Hide Sidebar",
     "devTools": "Developer Tools",
+    "monochromatic": "Monochromatic",
     "frostedTexture": "Frosted Texture",
     "xQuit": "Click [X] to Exit",
     "systemTray": "System Tray",
@@ -69,7 +70,13 @@
     "rename": "Rename",
     "user": "User",
     "setSystemTray": "Set as System Tray",
-    "clearCache": "Clear Cache Data"
+    "clearCache": "Clear Cache Data",
+    "find": {
+      "name": "Find",
+      "findNext": "Find Next",
+      "findPrevious": "Find Previous",
+      "jumpToSelection": "Jump to Selection"
+    }
   },
   "form": {
     "name": "Name",
@@ -106,6 +113,7 @@
         "name": "General",
         "syncBookmarks": "Sync Bookmarks",
         "globalShortcut": "Global shortcut",
+        "trayShortcut": "System Tray Shortcut",
         "recording": "Recording...",
         "proxy": "Proxy",
         "proxyRules": "Rules",
