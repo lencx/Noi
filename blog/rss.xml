@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Noi Blog</title>
+        <link>https://noi.nofwl.com/blog</link>
+        <description>Noi Blog</description>
+        <lastBuildDate>Tue, 20 Feb 2024 08:15:20 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Hello, Noi]]></title>
+            <link>https://noi.nofwl.com/blog/noi</link>
+            <guid>https://noi.nofwl.com/blog/noi</guid>
+            <pubDate>Tue, 20 Feb 2024 08:15:20 GMT</pubDate>
+            <description><![CDATA[🚀 Power Your World with AI - Explore, Extend, Empower.]]></description>
+            <content:encoded><![CDATA[<p>🚀 Power Your World with AI - Explore, Extend, Empower.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
