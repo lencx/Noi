@@ -11,7 +11,7 @@ To set up a custom sync link, follow the steps below:
 > [!NOTE]
 > The `custom url` will not be overwritten. If you wish to use your own URL as a data source, please refer to the data format in `noi.mode.json`.
 
-![Mode Sync](../website/static/configs/mode-sync.png)
+![Mode Sync](../website/static/configs/mode-sync.jpg)
 
 ### Sync URL
 

@@ -5,7 +5,7 @@ import Layout from '@theme/Layout';
 const noiVersion = '0.3.0';
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title="Home"
@@ -43,10 +43,10 @@ export default function Home(): JSX.Element {
 
         <h2 className="mt-5">Preview</h2>
         <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 max-w-[960px] m-auto">
-          <img className="rounded-lg shadow-lg" src="/readme/noi-theme-dark.png" />
-          <img className="rounded-lg shadow-lg" src="/readme/noi-settings.png" />
-          <img className="rounded-lg shadow-lg" src="/readme/noi-prompt.png" />
-          <img className="rounded-lg shadow-lg" src="/readme/noi-prompt-use.png" />
+          <img className="rounded-lg shadow-lg" src="/readme/noi-theme-dark.jpg" />
+          <img className="rounded-lg shadow-lg" src="/readme/noi-settings.jpg" />
+          <img className="rounded-lg shadow-lg" src="/readme/noi-prompt.jpg" />
+          <img className="rounded-lg shadow-lg" src="/readme/noi-prompt-use.jpg" />
         </div>
 
         <h2 className="mt-5">FAQ</h2>
