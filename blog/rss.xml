@@ -4,7 +4,7 @@
         <title>Noi Blog</title>
         <link>https://noi.nofwl.com/blog</link>
         <description>Noi Blog</description>
-        <lastBuildDate>Tue, 20 Feb 2024 08:15:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Feb 2024 02:50:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Hello, Noi]]></title>
             <link>https://noi.nofwl.com/blog/noi</link>
             <guid>https://noi.nofwl.com/blog/noi</guid>
-            <pubDate>Tue, 20 Feb 2024 08:15:20 GMT</pubDate>
+            <pubDate>Sun, 25 Feb 2024 02:50:22 GMT</pubDate>
             <description><![CDATA[🚀 Power Your World with AI - Explore, Extend, Empower.]]></description>
             <content:encoded><![CDATA[<p>🚀 Power Your World with AI - Explore, Extend, Empower.</p>]]></content:encoded>
         </item>
