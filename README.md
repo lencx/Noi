@@ -31,8 +31,8 @@
 
 |Preview|Preview|
 |---|---|
-|![theme-dark](./website/static/readme/noi-theme-dark.png)|![noi-settings](./website/static/readme/noi-settings.png)|
-|![settings-prompts](./website/static/readme/noi-prompt.png)|![batch-ask](./website/static/readme/noi-prompt-use.png)|
+|![theme-dark](./website/static/readme/noi-theme-dark.jpg)|![noi-settings](./website/static/readme/noi-settings.jpg)|
+|![settings-prompts](./website/static/readme/noi-prompt.jpg)|![batch-ask](./website/static/readme/noi-prompt-use.jpg)|
 
 ---
 
@@ -48,7 +48,7 @@ If you encounter the error message "Noi" is damaged and can't be opened. You sho
 xattr -cr /Applications/Noi.app
 ```
 
-![mac-install-error](./website/static/readme/mac-install-error.png)
+![mac-install-error](./website/static/readme/mac-install-error.jpg)
 
 ## TODO
 
