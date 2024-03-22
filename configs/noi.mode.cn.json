@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.zh.json",
   "modes": [
     {
@@ -20,6 +20,18 @@
       "parent": 0,
       "dir": true,
       "text": "Dev"
+    },
+    {
+      "id": "noi@email",
+      "parent": 0,
+      "dir": true,
+      "text": "Email"
+    },
+    {
+      "id": "noi@video",
+      "parent": 0,
+      "dir": true,
+      "text": "Video"
     },
     {
       "id": "noi:chatgpt",
@@ -124,6 +136,12 @@
       "url": "https://kimi.moonshot.cn"
     },
     {
+      "id": "noi:metaso",
+      "parent": "noi@aiCN",
+      "text": "秘塔",
+      "url": "https://metaso.cn"
+    },
+    {
       "id": "noi:github",
       "parent": "noi@dev",
       "text": "GitHub",
@@ -146,6 +164,24 @@
       "parent": "noi@dev",
       "text": "VS Code",
       "url": "https://vscode.dev"
+    },
+    {
+      "id": "noi:qqmail",
+      "parent": "noi@email",
+      "text": "QQ 邮箱",
+      "url": "https://mail.qq.com"
+    },
+    {
+      "id": "noi:yi163",
+      "parent": "noi@email",
+      "text": "网易邮箱",
+      "url": "https://mail.163.com"
+    },
+    {
+      "id": "noi:bilibili",
+      "parent": "noi@video",
+      "text": "哔哩哔哩",
+      "url": "https://www.bilibili.com"
     }
   ]
 }

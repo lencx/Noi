@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
   "modes": [
     {
@@ -26,6 +26,18 @@
       "parent": 0,
       "dir": true,
       "text": "Design"
+    },
+    {
+      "id": "noi@email",
+      "parent": 0,
+      "dir": true,
+      "text": "Email"
+    },
+    {
+      "id": "noi@video",
+      "parent": 0,
+      "dir": true,
+      "text": "Video"
     },
     {
       "id": "noi:chatgpt",
@@ -68,6 +80,12 @@
       "parent": "noi@ai",
       "text": "HuggingChat",
       "url": "https://huggingface.co/chat"
+    },
+    {
+      "id": "noi:groq",
+      "parent": "noi@ai",
+      "text": "Groq",
+      "url": "https://groq.com"
     },
     {
       "id": "noi:pi",
@@ -140,6 +158,24 @@
       "parent": "noi@design",
       "text": "Dribbble",
       "url": "https://dribbble.com"
+    },
+    {
+      "id": "noi:gmail",
+      "parent": "noi@email",
+      "text": "Gmail",
+      "url": "https://mail.google.com"
+    },
+    {
+      "id": "noi:outlook",
+      "parent": "noi@email",
+      "text": "Outlook",
+      "url": "https://outlook.live.com"
+    },
+    {
+      "id": "noi:youtube",
+      "parent": "noi@video",
+      "text": "YouTube",
+      "url": "https://www.youtube.com"
     }
   ]
 }
