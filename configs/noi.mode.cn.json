@@ -76,6 +76,12 @@
       "url": "https://huggingface.co/chat"
     },
     {
+      "id": "noi:groq",
+      "parent": "noi@ai",
+      "text": "Groq",
+      "url": "https://groq.com"
+    },
+    {
       "id": "noi:pi",
       "parent": "noi@ai",
       "text": "Pi",
