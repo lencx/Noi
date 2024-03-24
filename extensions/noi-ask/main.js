@@ -310,6 +310,26 @@ class TongyiAsk extends NoiAsk {
   }
 }
 
+class GroqAsk extends NoiAsk {
+  static name = 'Groq';
+  static url = 'https://groq.com';
+
+  static submit() {
+    const btn = document.querySelector('form button[type="submit"]');
+    if (btn) btn.click();
+  }
+}
+
+class SunoAsk extends NoiAsk {
+  static name = 'Suno AI';
+  static url = 'https://app.suno.ai';
+
+  static submit() {
+    const btn = Array.from(document.querySelectorAll('button')).find(i => i.innerText.includes('Create'));
+    if (btn) btn.click();
+  }
+}
+
 window.NoiAsk = {
   OpenAIAsk,
   PoeAsk,
@@ -325,4 +345,6 @@ window.NoiAsk = {
   DoubaoAsk,
   ChatGMLAsk,
   TongyiAsk,
+  GroqAsk,
+  SunoAsk,
 };
