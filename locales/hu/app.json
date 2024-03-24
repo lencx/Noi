@@ -16,15 +16,17 @@
       "name": "Téma",
       "light": "Világos",
       "dark": "Sötét",
-      "system": "Rendszer"
+      "system": "Rendszer",
+      "monochromatic": "Monokróm",
+      "frostedTexture": "Fagyott textúra"
     },
     "stayOnTop": "Mindig felül",
+    "lockSidebar": "Oldalsáv zárolása",
     "showSidebar": "Oldalsáv megjelenítése",
     "hideSidebar": "Oldalsáv elrejtése",
+    "noiCacheMode": "Noi Gyorsítótár Mód",
     "devTools": "Fejlesztői eszközök",
-    "monochromatic": "Monokromatikus",
-    "frostedTexture": "Fagyott textúra",
-    "xQuit": "Kilépéshez kattintson a [X]-re",
+    "xQuit": "Kilépéshez kattintson [X]-re",
     "systemTray": "Rendszertálca",
 
     "edit": "Szerkesztés",
@@ -48,9 +50,11 @@
     "issues": "GitHub Hibalista",
     "shareIdeas": "Ötletek és visszajelzések megosztása",
 
-    "learnSpelling": "Helyesírás elsajátítása",
-    "lookUpSelection": "„{selection}” keresése",
+    "defaultWebBrowser": "Alapértelmezett webböngésző",
+    "learnSpelling": "Helyesírás tanulása",
+    "lookUpSelection": "Keresés: “{selection}”",
     "searchWithGoogle": "Keresés a Google-lal",
+    "searchWithBing": "Keresés a Bing-gel",
     "cut": "Kivágás",
     "copy": "Másolás",
     "paste": "Beillesztés",
@@ -73,15 +77,17 @@
     "clearCache": "Gyorsítótár adatok törlése",
     "find": {
       "name": "Keresés",
-      "findNext": "Következő keresése",
-      "findPrevious": "Előző keresése",
-      "jumpToSelection": "Ugrás a kijelölésre"
+      "findInPage": "Keresés az oldalon…",
+      "findNext": "Következő találat",
+      "findPrevious": "Előző találat",
+      "jumpToSelection": "Ugrás a kiválasztotthoz"
     }
   },
   "form": {
     "name": "Név",
     "url": "URL",
-    "invalidURL": "Érvénytelen URL, kérjük, írja be újra.",
+    "isolatedCookieStorage": "Izolált Cookie Tárolás",
+    "invalidURL": "Kérjük, adjon meg egy érvényes URL-t.",
     "nameNotEmpty": "A név nem lehet üres."
   },
   "sidebar": {
@@ -91,9 +97,9 @@
       "trayDelete": "A rendszertálca az aktuális URL-t használja, nem törölhető."
     },
     "tip": {
-      "delete": "A törlés után nem állítható helyre, biztosan törölni szeretné?",
-      "syncOverwrite": "A szinkronizáció minden adatot felülír a testreszabott adatok kivételével. Folytatja?",
-      "syncReset": "Jelenleg a legfrissebb verziót használja. A szinkronizáció minden adatot alaphelyzetbe állít a testreszabott adatok kivételével. Folytatja?",
+      "delete": "Törlés után nem állítható vissza, biztosan törölni szeretné?",
+      "syncOverwrite": "A szinkronizáció felülír minden adatot a saját adatok kivételével. Folytatja?",
+      "syncReset": "Jelenleg a legfrissebb verziót használja. A szinkronizáció alaphelyzetbe állít minden adatot a saját adatok kivételével. Folytatja?",
       "syncOk": "Szinkronizáció sikeres",
       "syncResetOk": "Alaphelyzetbe állítás sikeres"
     }
@@ -112,27 +118,36 @@
       "general": {
         "name": "Általános",
         "syncBookmarks": "Könyvjelzők szinkronizálása",
-        "globalShortcut": "Globális gyorsbillentyű",
-        "trayShortcut": "Rendszertálca gyorsindító",
-        "recording": "Felvétel...",
         "proxy": "Proxy",
         "proxyRules": "Szabályok",
-        "proxyBypassRules": "Kivételek szabályai"
+        "proxyBypassRules": "Kivételek szabályai",
+        "promptLogLimit": "Naplózás limitje",
+        "promptLogArchiveLimit": "Napló archiválási limitje",
+        "promptFavoritesLimit": "Kedvencek limitje",
+        "promptFavoritesArchiveLimit": "Kedvencek archiválási limitje"
+      },
+      "keyboardShortcuts": {
+        "name": "Billentyűparancsok",
+        "recording": "Rögzítés…",
+        "globalShortcut": "Globális gyorsbillentyű",
+        "trayShortcut": "Rendszertálca gyorsbillentyű"
       },
       "extensions": "Bővítmények",
       "prompts": {
-        "name": "Felszólítások",
-        "userPrompts": "Felhasználói felszólítások",
-        "promptTags": "Felszólítás címkék",
+        "name": "Figyelmeztetések",
+        "userPrompts": "Felhasználói figyelmeztetések",
+        "promptTags": "Figyelmeztetés címkék",
         "customSync": "Egyéni szinkronizáció"
       }
     },
     "confirm": {
       "delete": "Biztosan törölni szeretné ezt a bejegyzést?",
-      "batchEnable": "Biztosan engedélyezni szeretné ezeket a felszólításokat?",
-      "batchDelete": "Biztosan törölni szeretné ezeket a felszólításokat?",
-      "batchDisable": "Biztosan letiltani szeretné ezeket a felszólításokat?",
-      "batchUse": "Biztosan használni szeretné ezeket a felszólításokat?"
+      "batchEnable": "Biztosan engedélyezni szeretné ezeket a figyelmeztetéseket?",
+      "batchDelete": "Biztosan törölni szeretné ezeket a figyelmeztetéseket?",
+      "batchDisable": "Biztosan letiltani szeretné ezeket a figyelmeztetéseket?",
+      "batchUse": "Biztosan használni szeretné ezeket a figyelmeztetéseket?",
+      "batchTagsAdd": "Biztosan hozzá szeretné adni ezeket a címkéket?",
+      "batchTagsDelete": "Biztosan törölni szeretné ezeket a címkéket?"
     },
     "message": {
       "added": "Hozzáadva",
@@ -144,12 +159,17 @@
       "existExtension": "A bővítmény már létezik."
     },
     "tip": {
-      "proxyRules": "Szabályok, amelyek meghatározzák, mely proxykat kell használni.",
-      "proxyBypassRules": "Szabályok, amelyek meghatározzák, mely URL-ek kerüljék meg a proxy beállításokat.",
+      "proxyRules": "Szabályok, amelyek megadják, melyik proxykat kell használni.",
+      "proxyBypassRules": "Szabályok, amelyek megadják, mely URL-eknek kell megkerülniük a proxy beállításokat.",
       "shortcutRule": "Gyorsbillentyű szabály",
-      "modifierKeys": "Módosító billentyűk",
-      "regularKeys": "Rendszeres billentyűk",
-      "noiExtension": "Vegye figyelembe, hogy a Noi nem támogatja a Chrome bővítmények API-jainak teljes körét. A támogatott bővítmények API-jai részleteiért lásd a Támogatott bővítmények API-jai részt."
+      "modifierKeys": "Módosító gombok",
+      "regularKeys": "Rendszeres gombok",
+      "noiExtension": "Vegye figyelembe, hogy a Noi nem támogatja a Chrome bővítmények API-jainak teljes körét. A támogatott bővítmény API-kért lásd a Támogatott bővítmények API-jait részletesen.",
+      "noiCacheMode": "A weboldalak állapotainak gyorsítótárba helyezése a gyors újrahíváshoz, hasonló a böngésző fülekhez. Az állapotok folyamatos rögzítése növeli a memória használatát, különösen, amikor gyakran váltogat különböző oldalsáv linkeket. A memória hatásának csökkentése érdekében, különösen rendszerbeli lassulás esetén, fontolja meg a gyorsítótár kikapcsolását vagy újraindítását többszöri váltások után.",
+      "promptLogLimit": "A naplóban megtartandó parancsok maximális száma (10-1000), alapértelmezetten 300-ra van állítva.",
+      "promptLogArchiveLimit_1": "Egyetlen archív fájlban tárolható parancsok maximális száma (1000-10000), alapértelmezetten 1000-re van állítva.",
+      "promptLogArchiveLimit_2": "1. Jelenleg archiválás alatt álló fájl: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Az elkészült archív fájlok elnevezési konvenciója: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, ahol a YYYY.MM.DD.HH.mm.ss az indítási és befejezési időket jelöli. Például: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "Név",
@@ -181,17 +201,21 @@
     "search": "Keresés",
     "select": "Kiválasztás",
     "use": "Használat",
+    "copied": "Másolva",
+    "batchAdd": "Tömeges hozzáadás",
     "batchDisable": "Tömeges letiltás",
     "batchEnable": "Tömeges engedélyezés",
     "batchDelete": "Tömeges törlés",
     "batchUse": "Tömeges használat"
   },
   "prompt": {
-    "promptSend": "Felszólítás küldése",
+    "promptFavorite": "Prompt kedvencek",
+    "promptLog": "Prompt napló",
+    "promptSend": "Prompt küldése",
     "newChat": "Új csevegés",
     "sendMessage": "Üzenet küldése",
-    "resetPanel": "Panel alaphelyzetbe állítása",
-    "promptCmd": "Felszólítás parancs",
+    "resetPanel": "Panel visszaállítása",
+    "promptCmd": "Prompt parancs",
     "sizeSmall": "Kicsi",
     "sizeMedium": "Közepes",
     "sizeLarge": "Nagy"

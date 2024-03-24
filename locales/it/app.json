@@ -16,16 +16,18 @@
       "name": "Tema",
       "light": "Chiaro",
       "dark": "Scuro",
-      "system": "Sistema"
+      "system": "Sistema",
+      "monochromatic": "Monocromatico",
+      "frostedTexture": "Texture Sfumata"
     },
-    "stayOnTop": "Rimani in primo piano",
+    "stayOnTop": "Rimani in Primo Piano",
+    "lockSidebar": "Blocca Barra Laterale",
     "showSidebar": "Mostra Barra Laterale",
     "hideSidebar": "Nascondi Barra Laterale",
+    "noiCacheMode": "Modalità Cache Noi",
     "devTools": "Strumenti per Sviluppatori",
-    "monochromatic": "Monocromatico",
-    "frostedTexture": "Texture Glassata",
     "xQuit": "Clicca [X] per Uscire",
-    "systemTray": "Area di Notifica",
+    "systemTray": "Vassoio di Sistema",
 
     "edit": "Modifica",
     "undo": "Annulla",
@@ -48,9 +50,11 @@
     "issues": "Problemi su GitHub",
     "shareIdeas": "Condividi Idee e Feedback",
 
+    "defaultWebBrowser": "Browser Web Predefinito",
     "learnSpelling": "Impara Ortografia",
     "lookUpSelection": "Cerca “{selection}”",
     "searchWithGoogle": "Cerca con Google",
+    "searchWithBing": "Cerca con Bing",
     "cut": "Taglia",
     "copy": "Copia",
     "paste": "Incolla",
@@ -73,27 +77,29 @@
     "clearCache": "Pulisci Cache",
     "find": {
       "name": "Trova",
-      "findNext": "Trova successivo",
-      "findPrevious": "Trova precedente",
-      "jumpToSelection": "Salta alla selezione"
+      "findInPage": "Trova nella pagina…",
+      "findNext": "Trova Successivo",
+      "findPrevious": "Trova Precedente",
+      "jumpToSelection": "Vai alla Selezione"
     }
   },
   "form": {
     "name": "Nome",
     "url": "URL",
-    "invalidURL": "URL non valido, si prega di reinserirlo.",
+    "isolatedCookieStorage": "Archiviazione Cookie Isolata",
+    "invalidURL": "Si prega di inserire un URL valido.",
     "nameNotEmpty": "Il nome non può essere vuoto."
   },
   "sidebar": {
     "warn": {
-      "urlDelete": "L'URL corrente è in uso.",
-      "dirDelete": "La directory corrente è in uso.",
-      "trayDelete": "L'area di notifica sta utilizzando l'URL corrente, non può essere eliminato."
+      "urlDelete": "L'URL attuale è in uso.",
+      "dirDelete": "La directory attuale è in uso.",
+      "trayDelete": "Il vassoio di sistema sta utilizzando l'URL attuale, non può essere eliminato."
     },
     "tip": {
       "delete": "Non può essere recuperato dopo l'eliminazione, sei sicuro di voler eliminare?",
-      "syncOverwrite": "La sincronizzazione sovrascriverà tutti i dati eccetto i dati personalizzati. Vuoi continuare?",
-      "syncReset": "Attualmente sei sulla versione più recente. La sincronizzazione reimposterà tutti i dati eccetto i dati personalizzati. Vuoi continuare?",
+      "syncOverwrite": "La sincronizzazione sovrascriverà tutti i dati tranne quelli personalizzati. Vuoi continuare?",
+      "syncReset": "Attualmente sei sulla versione più recente. La sincronizzazione reimposterà tutti i dati tranne quelli personalizzati. Vuoi continuare?",
       "syncOk": "Sincronizzazione riuscita",
       "syncResetOk": "Reimpostazione riuscita"
     }
@@ -112,18 +118,25 @@
       "general": {
         "name": "Generale",
         "syncBookmarks": "Sincronizza Segnalibri",
-        "globalShortcut": "Scorciatoia globale",
-        "trayShortcut": "Scorciatoia area di notifica",
-        "recording": "Registrazione…",
         "proxy": "Proxy",
         "proxyRules": "Regole",
-        "proxyBypassRules": "Regole di Bypass"
+        "proxyBypassRules": "Regole di Bypass",
+        "promptLogLimit": "Limite Registro Prompt",
+        "promptLogArchiveLimit": "Limite Archivio Registro Prompt",
+        "promptFavoritesLimit": "Limite Preferiti",
+        "promptFavoritesArchiveLimit": "Limite Archivio Preferiti"
+      },
+      "keyboardShortcuts": {
+        "name": "Scorciatoie da Tastiera",
+        "recording": "Registrazione…",
+        "globalShortcut": "Scorciatoia Globale",
+        "trayShortcut": "Scorciatoia Vassoio di Sistema"
       },
       "extensions": "Estensioni",
       "prompts": {
         "name": "Prompt",
-        "userPrompts": "Prompt Utente",
-        "promptTags": "Tag Prompt",
+        "userPrompts": "Prompt dell'Utente",
+        "promptTags": "Tag dei Prompt",
         "customSync": "Sincronizzazione Personalizzata"
       }
     },
@@ -132,7 +145,9 @@
       "batchEnable": "Sei sicuro di voler abilitare questi prompt?",
       "batchDelete": "Sei sicuro di voler eliminare questi prompt?",
       "batchDisable": "Sei sicuro di voler disabilitare questi prompt?",
-      "batchUse": "Sei sicuro di voler utilizzare questi prompt?"
+      "batchUse": "Sei sicuro di voler utilizzare questi prompt?",
+      "batchTagsAdd": "Sei sicuro di voler aggiungere questi tag?",
+      "batchTagsDelete": "Sei sicuro di voler eliminare questi tag?"
     },
     "message": {
       "added": "Aggiunto",
@@ -145,11 +160,16 @@
     },
     "tip": {
       "proxyRules": "Regole che indicano quali proxy utilizzare.",
-      "proxyBypassRules": "Regole che indicano quali URL dovrebbero bypassare le impostazioni del proxy.",
-      "shortcutRule": "Regola scorciatoia",
-      "modifierKeys": "Tasti modificatori",
-      "regularKeys": "Tasti regolari",
-      "noiExtension": "Nota che Noi non supporta la gamma completa delle API delle estensioni Chrome. Vedi le API delle Estensioni Supportate per maggiori dettagli su cosa è supportato."
+      "proxyBypassRules": "Regole che indicano quali URL dovrebbero ignorare le impostazioni del proxy.",
+      "shortcutRule": "Regola Scorciatoia",
+      "modifierKeys": "Tasti Modificatori",
+      "regularKeys": "Tasti Regolari",
+      "noiExtension": "Nota che Noi non supporta la gamma completa delle API delle estensioni Chrome. Consulta le API delle Estensioni Supportate per maggiori dettagli su cosa è supportato.",
+      "noiCacheMode": "Memorizza gli stati delle pagine web per un rapido re-accesso, simile alle schede del browser. La registrazione continua dello stato aumenta l'uso della memoria, specialmente quando si accede frequentemente a diversi link della barra laterale. Per mitigare l'impatto sulla memoria, specialmente durante il rallentamento del sistema, considera di disabilitare o riavviare la cache dopo numerosi cambiamenti.",
+      "promptLogLimit": "Numero massimo di prompt da mantenere nel registro (10-1000), con il valore predefinito impostato su 300.",
+      "promptLogArchiveLimit_1": "Numero massimo di prompt che possono essere memorizzati in un unico file di archivio (1000-10000), con il valore predefinito impostato su 1000.",
+      "promptLogArchiveLimit_2": "1. File attualmente in fase di archiviazione: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Convenzione di denominazione per i file di archivio completati: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, dove YYYY.MM.DD.HH.mm.ss rappresenta rispettivamente l'ora di inizio e di fine. Ad esempio: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "Nome",
@@ -181,16 +201,20 @@
     "search": "Cerca",
     "select": "Seleziona",
     "use": "Usa",
-    "batchDisable": "Disabilita in Batch",
-    "batchEnable": "Abilita in Batch",
-    "batchDelete": "Elimina in Batch",
-    "batchUse": "Usa in Batch"
+    "copied": "Copiato",
+    "batchAdd": "Aggiungi in batch",
+    "batchDisable": "Disabilita in batch",
+    "batchEnable": "Abilita in batch",
+    "batchDelete": "Elimina in batch",
+    "batchUse": "Usa in batch"
   },
   "prompt": {
-    "promptSend": "Invio Prompt",
+    "promptFavorite": "Preferiti dei prompt",
+    "promptLog": "Registro dei prompt",
+    "promptSend": "Invia prompt",
     "newChat": "Nuova chat",
     "sendMessage": "Invia messaggio",
-    "resetPanel": "Reimposta Pannello",
+    "resetPanel": "Reimposta pannello",
     "promptCmd": "Comando prompt",
     "sizeSmall": "Piccolo",
     "sizeMedium": "Medio",

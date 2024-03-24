@@ -14,16 +14,18 @@
     "languages": "Diller",
     "theme": {
       "name": "Tema",
-      "light": "Aydınlık",
-      "dark": "Karanlık",
-      "system": "Sistem"
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem",
+      "monochromatic": "Monokrom",
+      "frostedTexture": "Buzlu Doku"
     },
     "stayOnTop": "Üstte Kal",
+    "lockSidebar": "Kenar Çubuğunu Kilitle",
     "showSidebar": "Kenar Çubuğunu Göster",
     "hideSidebar": "Kenar Çubuğunu Gizle",
+    "noiCacheMode": "Noi Önbellek Modu",
     "devTools": "Geliştirici Araçları",
-    "frostedTexture": "Buzlu Doku",
-    "monochromatic": "Monokrom",
     "xQuit": "[X]'e Tıklayarak Çık",
     "systemTray": "Sistem Tepsisi",
 
@@ -48,9 +50,11 @@
     "issues": "GitHub Sorunları",
     "shareIdeas": "Fikir ve Geribildirim Paylaş",
 
-    "learnSpelling": "Yazım Öğren",
-    "lookUpSelection": "“{selection}” Ara",
+    "defaultWebBrowser": "Varsayılan Web Tarayıcısı",
+    "learnSpelling": "Yazımı Öğren",
+    "lookUpSelection": "“{selection}” Araştır",
     "searchWithGoogle": "Google ile Ara",
+    "searchWithBing": "Bing ile Ara",
     "cut": "Kes",
     "copy": "Kopyala",
     "paste": "Yapıştır",
@@ -73,15 +77,17 @@
     "clearCache": "Önbellek Verilerini Temizle",
     "find": {
       "name": "Bul",
+      "findInPage": "Sayfada bul…",
       "findNext": "Sonrakini Bul",
       "findPrevious": "Öncekini Bul",
-      "jumpToSelection": "Seçime Atla"
+      "jumpToSelection": "Seçime Git"
     }
   },
   "form": {
     "name": "Ad",
     "url": "URL",
-    "invalidURL": "Geçersiz URL, lütfen yeniden girin.",
+    "isolatedCookieStorage": "Bağımsız Çerez Depolama",
+    "invalidURL": "Lütfen geçerli bir URL girin.",
     "nameNotEmpty": "Ad boş olamaz."
   },
   "sidebar": {
@@ -92,8 +98,8 @@
     },
     "tip": {
       "delete": "Silindikten sonra geri alınamaz, silmek istediğinizden emin misiniz?",
-      "syncOverwrite": "Senkronizasyon, özel veriler dışındaki tüm verileri üzerine yazar. Devam etmek istiyor musunuz?",
-      "syncReset": "Şu anda en son sürümü kullanıyorsunuz. Senkronizasyon, özel veriler dışındaki tüm verileri sıfırlar. Devam etmek istiyor musunuz?",
+      "syncOverwrite": "Senkronizasyon, özel veriler dışındaki tüm verilerin üzerine yazacaktır. Devam etmek istiyor musunuz?",
+      "syncReset": "Şu anda en güncel sürüm üzerindesiniz. Senkronizasyon, özel veriler dışındaki tüm verileri sıfırlayacaktır. Devam etmek istiyor musunuz?",
       "syncOk": "Senkronizasyon başarılı",
       "syncResetOk": "Sıfırlama başarılı"
     }
@@ -112,44 +118,58 @@
       "general": {
         "name": "Genel",
         "syncBookmarks": "Yer İşaretlerini Senkronize Et",
-        "globalShortcut": "Küresel kısayol",
-        "trayShortcut": "Sistem Tepsisi Kısayolu",
-        "recording": "Kaydediliyor...",
         "proxy": "Proxy",
         "proxyRules": "Kurallar",
-        "proxyBypassRules": "Proxy'yi Atlayan Kurallar"
+        "proxyBypassRules": "Yönlendirme Kurallarını Atlama",
+        "promptLogLimit": "Günlük Limiti",
+        "promptLogArchiveLimit": "Günlük Arşiv Limiti",
+        "promptFavoritesLimit": "Favoriler Limiti",
+        "promptFavoritesArchiveLimit": "Favoriler Arşiv Limiti"
+      },
+      "keyboardShortcuts": {
+        "name": "Klavye Kısayolları",
+        "recording": "Kaydediliyor…",
+        "globalShortcut": "Global Kısayol",
+        "trayShortcut": "Sistem Tepsisi Kısayolu"
       },
       "extensions": "Eklentiler",
       "prompts": {
-        "name": "İstekler",
-        "userPrompts": "Kullanıcı İstekleri",
-        "promptTags": "İstek Etiketleri",
+        "name": "İstemler",
+        "userPrompts": "Kullanıcı İstemleri",
+        "promptTags": "İstem Etiketleri",
         "customSync": "Özel Senkronizasyon"
       }
     },
     "confirm": {
       "delete": "Bu kaydı silmek istediğinizden emin misiniz?",
-      "batchEnable": "Bu istekleri etkinleştirmek istediğinizden emin misiniz?",
-      "batchDelete": "Bu istekleri silmek istediğinizden emin misiniz?",
-      "batchDisable": "Bu istekleri devre dışı bırakmak istediğinizden emin misiniz?",
-      "batchUse": "Bu istekleri kullanmak istediğinizden emin misiniz?"
+      "batchEnable": "Bu istemleri etkinleştirmek istediğinizden emin misiniz?",
+      "batchDelete": "Bu istemleri silmek istediğinizden emin misiniz?",
+      "batchDisable": "Bu istemleri devre dışı bırakmak istediğinizden emin misiniz?",
+      "batchUse": "Bu istemleri kullanmak istediğinizden emin misiniz?",
+      "batchTagsAdd": "Bu etiketleri eklemek istediğinizden emin misiniz?",
+      "batchTagsDelete": "Bu etiketleri silmek istediğinizden emin misiniz?"
     },
     "message": {
       "added": "Eklendi",
       "synced": "Senkronize Edildi",
       "invalidData": "Geçersiz Veri",
-      "missingActAndPrompt": "'act', 'prompt' alanları eksik. 'Alias' kullanarak yeniden adlandırmayı deneyin.",
+      "missingActAndPrompt": "Eksik alanlar: 'act', 'prompt'. Yeniden adlandırmak için 'Alias' kullanmayı deneyin.",
       "missingManifest": "manifest.json dosyası eksik veya geçersiz.",
-      "checkExtension": "Lütfen eklenti dizinini tekrar kontrol edin:",
+      "checkExtension": "Lütfen eklenti dizinini yeniden kontrol edin:",
       "existExtension": "Eklenti zaten var."
     },
     "tip": {
-      "proxyRules": "Hangi proxy'lerin kullanılacağını gösteren kurallar.",
-      "proxyBypassRules": "Hangi URL'lerin proxy ayarlarını atlayacağını gösteren kurallar.",
+      "proxyRules": "Hangi proxylerin kullanılacağını belirten kurallar.",
+      "proxyBypassRules": "Proxy ayarlarını atlayacak URL'leri belirten kurallar.",
       "shortcutRule": "Kısayol Kuralı",
       "modifierKeys": "Değiştirici tuşlar",
       "regularKeys": "Normal tuşlar",
-      "noiExtension": "Noi'nin Chrome eklentileri API'lerinin tamamını desteklemediğini unutmayın. Desteklenen Eklentiler API'leri için daha fazla detay görmek üzere bakınız."
+      "noiExtension": "Noi'nin Chrome eklentileri API'lerinin tam bir yelpazesini desteklemediğini unutmayın. Desteklenen Eklenti API'leri için daha fazla detay görmek için desteklenen uzantılar API'lerine bakın.",
+      "noiCacheMode": "Hızlı yeniden erişim için web sayfası durumlarını önbelleğe alır, tarayıcı sekmelerine benzer. Sürekli durum kaydı, özellikle farklı kenar çubuğu bağlantılarına sık sık erişirken, bellek kullanımını artırır. Özellikle sistem yavaşladığında bellek etkisini azaltmak için, önbelleği devre dışı bırakmayı veya birden fazla geçişten sonra yeniden başlatmayı düşünün.",
+      "promptLogLimit": "Günlükte tutulacak maksimum istem sayısı (10-1000), varsayılan olarak 300 olarak ayarlanmıştır.",
+      "promptLogArchiveLimit_1": "Tek bir arşiv dosyasında saklanabilecek maksimum istem sayısı (1000-10000), varsayılan olarak 1000 olarak ayarlanmıştır.",
+      "promptLogArchiveLimit_2": "1. Şu anda arşivlenmekte olan dosya: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Tamamlanmış arşiv dosyaları için adlandırma kuralı: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, burada YYYY.MM.DD.HH.mm.ss sırasıyla başlangıç ve bitiş zamanlarını temsil eder. Örneğin: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "Ad",
@@ -181,17 +201,21 @@
     "search": "Ara",
     "select": "Seç",
     "use": "Kullan",
-    "batchDisable": "Toplu Devre Dışı Bırakma",
-    "batchEnable": "Toplu Etkinleştirme",
-    "batchDelete": "Toplu Silme",
-    "batchUse": "Toplu Kullanım"
+    "copied": "Kopyalandı",
+    "batchAdd": "Toplu Ekle",
+    "batchDisable": "Toplu Devre Dışı Bırak",
+    "batchEnable": "Toplu Etkinleştir",
+    "batchDelete": "Toplu Sil",
+    "batchUse": "Toplu Kullan"
   },
   "prompt": {
-    "promptSend": "İstek Gönder",
-    "newChat": "Yeni sohbet",
-    "sendMessage": "Mesaj gönder",
+    "promptFavorite": "Komut Favorileri",
+    "promptLog": "Komut Günlüğü",
+    "promptSend": "Komut Gönder",
+    "newChat": "Yeni Sohbet",
+    "sendMessage": "Mesaj Gönder",
     "resetPanel": "Paneli Sıfırla",
-    "promptCmd": "İstek komutu",
+    "promptCmd": "Komut Komutu",
     "sizeSmall": "Küçük",
     "sizeMedium": "Orta",
     "sizeLarge": "Büyük"

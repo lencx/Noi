@@ -16,14 +16,16 @@
       "name": "테마",
       "light": "라이트",
       "dark": "다크",
-      "system": "시스템"
+      "system": "시스템",
+      "monochromatic": "단색",
+      "frostedTexture": "서리 텍스처"
     },
     "stayOnTop": "항상 위에 표시",
+    "lockSidebar": "사이드바 잠금",
     "showSidebar": "사이드바 표시",
     "hideSidebar": "사이드바 숨기기",
+    "noiCacheMode": "Noi 캐시 모드",
     "devTools": "개발자 도구",
-    "monochromatic": "단색",
-    "frostedTexture": "서리 질감",
     "xQuit": "[X] 클릭으로 종료",
     "systemTray": "시스템 트레이",
 
@@ -48,9 +50,11 @@
     "issues": "GitHub 이슈",
     "shareIdeas": "아이디어 및 피드백 공유",
 
-    "learnSpelling": "철자 배우기",
-    "lookUpSelection": "‘{selection}’ 검색",
+    "defaultWebBrowser": "기본 웹 브라우저",
+    "learnSpelling": "철자 학습",
+    "lookUpSelection": "“{selection}” 검색",
     "searchWithGoogle": "Google로 검색",
+    "searchWithBing": "Bing으로 검색",
     "cut": "잘라내기",
     "copy": "복사",
     "paste": "붙여넣기",
@@ -73,27 +77,29 @@
     "clearCache": "캐시 데이터 지우기",
     "find": {
       "name": "찾기",
+      "findInPage": "페이지에서 찾기...",
       "findNext": "다음 찾기",
       "findPrevious": "이전 찾기",
-      "jumpToSelection": "선택 영역으로 이동"
+      "jumpToSelection": "선택 항목으로 이동"
     }
   },
   "form": {
     "name": "이름",
     "url": "URL",
-    "invalidURL": "잘못된 URL입니다. 다시 입력해주세요.",
-    "nameNotEmpty": "이름은 비워둘 수 없습니다."
+    "isolatedCookieStorage": "독립된 쿠키 저장소",
+    "invalidURL": "올바른 URL을 입력해 주세요.",
+    "nameNotEmpty": "이름은 비워 둘 수 없습니다."
   },
   "sidebar": {
     "warn": {
       "urlDelete": "현재 URL은 사용 중입니다.",
       "dirDelete": "현재 디렉토리는 사용 중입니다.",
-      "trayDelete": "시스템 트레이가 현재 URL을 사용 중이므로 삭제할 수 없습니다."
+      "trayDelete": "시스템 트레이가 현재 URL을 사용 중이어서 삭제할 수 없습니다."
     },
     "tip": {
-      "delete": "삭제 후 복구할 수 없습니다. 정말 삭제하시겠습니까?",
-      "syncOverwrite": "동기화는 사용자 데이터를 제외한 모든 데이터를 덮어씁니다. 계속하시겠습니까?",
-      "syncReset": "현재 최신 버전입니다. 동기화는 사용자 데이터를 제외한 모든 데이터를 초기화합니다. 계속하시겠습니까?",
+      "delete": "삭제 후 복구할 수 없습니다, 정말 삭제하시겠습니까?",
+      "syncOverwrite": "동기화는 사용자 지정 데이터를 제외한 모든 데이터를 덮어씁니다. 계속하시겠습니까?",
+      "syncReset": "현재 최신 버전입니다. 동기화는 사용자 지정 데이터를 제외한 모든 데이터를 초기화합니다. 계속하시겠습니까?",
       "syncOk": "동기화 성공",
       "syncResetOk": "초기화 성공"
     }
@@ -101,10 +107,10 @@
   "network": {
     "error": {
       "try": "시도:",
-      "title": "사이트에 연결할 수 없음",
-      "longRespond": "응답하는 데 너무 오래 걸림.",
-      "checkConnection": "연결 확인 중",
-      "checkProxy": "프록시 및 방화벽 확인 중"
+      "title": "이 사이트에 연결할 수 없습니다",
+      "longRespond": "응답 시간이 너무 깁니다.",
+      "checkConnection": "연결 상태 확인",
+      "checkProxy": "프록시 및 방화벽 확인"
     }
   },
   "settings": {
@@ -112,27 +118,36 @@
       "general": {
         "name": "일반",
         "syncBookmarks": "북마크 동기화",
-        "globalShortcut": "전역 단축키",
-        "trayShortcut": "시스템 트레이 단축키",
-        "recording": "녹음 중…",
         "proxy": "프록시",
         "proxyRules": "규칙",
-        "proxyBypassRules": "우회 규칙"
+        "proxyBypassRules": "우회 규칙",
+        "promptLogLimit": "로그 제한",
+        "promptLogArchiveLimit": "로그 아카이브 제한",
+        "promptFavoritesLimit": "즐겨찾기 제한",
+        "promptFavoritesArchiveLimit": "즐겨찾기 아카이브 제한"
+      },
+      "keyboardShortcuts": {
+        "name": "키보드 단축키",
+        "recording": "녹음 중…",
+        "globalShortcut": "전역 단축키",
+        "trayShortcut": "시스템 트레이 단축키"
       },
       "extensions": "확장 프로그램",
       "prompts": {
         "name": "프롬프트",
         "userPrompts": "사용자 프롬프트",
         "promptTags": "프롬프트 태그",
-        "customSync": "사용자 지정 동기화"
+        "customSync": "사용자 정의 동기화"
       }
     },
     "confirm": {
       "delete": "이 기록을 삭제하시겠습니까?",
-      "batchEnable": "이 프롬프트들을 활성화하시겠습니까?",
-      "batchDelete": "이 프롬프트들을 삭제하시겠습니까?",
-      "batchDisable": "이 프롬프트들을 비활성화하시겠습니까?",
-      "batchUse": "이 프롬프트들을 사용하시겠습니까?"
+      "batchEnable": "이 프롬프트를 활성화하시겠습니까?",
+      "batchDelete": "이 프롬프트를 삭제하시겠습니까?",
+      "batchDisable": "이 프롬프트를 비활성화하시겠습니까?",
+      "batchUse": "이 프롬프트를 사용하시겠습니까?",
+      "batchTagsAdd": "이 태그를 추가하시겠습니까?",
+      "batchTagsDelete": "이 태그를 삭제하시겠습니까?"
     },
     "message": {
       "added": "추가됨",
@@ -144,12 +159,17 @@
       "existExtension": "확장 프로그램이 이미 존재합니다."
     },
     "tip": {
-      "proxyRules": "어떤 프록시를 사용할지를 나타내는 규칙.",
-      "proxyBypassRules": "프록시 설정을 우회할 URL을 나타내는 규칙.",
+      "proxyRules": "어떤 프록시를 사용할지 나타내는 규칙입니다.",
+      "proxyBypassRules": "프록시 설정을 우회해야 하는 URL을 나타내는 규칙입니다.",
       "shortcutRule": "단축키 규칙",
       "modifierKeys": "수정 키",
       "regularKeys": "일반 키",
-      "noiExtension": "Noi가 Chrome 확장 프로그램 API의 전 범위를 지원하지 않는다는 점을 유의하세요. 지원되는 확장 프로그램 API에 대한 자세한 내용은 지원되는 확장 프로그램 API 문서를 참조하세요."
+      "noiExtension": "Noi는 Chrome 확장 프로그램 API의 전체 범위를 지원하지 않습니다. 지원되는 확장 프로그램 API에 대한 자세한 내용은 지원되는 확장 프로그램 API 문서를 참조하세요.",
+      "noiCacheMode": "웹페이지 상태를 캐시하여 빠른 재접속을 가능하게 합니다. 상태 기록을 계속하면, 특히 다른 사이드바 링크에 자주 접근할 때 메모리 사용량이 증가합니다. 시스템 렉이 발생하는 동안 메모리 영향을 줄이기 위해 캐시를 비활성화하거나 여러 번 전환 후에 캐시를 재시작하는 것을 고려해 보세요.",
+      "promptLogLimit": "로그에 유지할 프롬프트의 최대 수 (10-1000), 기본값은 300입니다.",
+      "promptLogArchiveLimit_1": "하나의 아카이브 파일에 저장할 수 있는 프롬프트의 최대 수 (1000-10000), 기본값은 1000입니다.",
+      "promptLogArchiveLimit_2": "현재 아카이빙 중인 파일: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "완료된 아카이브 파일의 명명 규칙: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, 여기서 YYYY.MM.DD.HH.mm.ss는 각각 시작 및 종료 시간을 나타냅니다. 예: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "이름",
@@ -181,19 +201,23 @@
     "search": "검색",
     "select": "선택",
     "use": "사용",
+    "copied": "복사됨",
+    "batchAdd": "일괄 추가",
     "batchDisable": "일괄 비활성화",
     "batchEnable": "일괄 활성화",
     "batchDelete": "일괄 삭제",
     "batchUse": "일괄 사용"
   },
   "prompt": {
-    "promptSend": "프롬프트 전송",
+    "promptFavorite": "프롬프트 즐겨찾기",
+    "promptLog": "프롬프트 로그",
+    "promptSend": "프롬프트 보내기",
     "newChat": "새 채팅",
     "sendMessage": "메시지 보내기",
-    "resetPanel": "패널 초기화",
+    "resetPanel": "패널 재설정",
     "promptCmd": "프롬프트 명령",
-    "sizeSmall": "작음",
-    "sizeMedium": "중간",
-    "sizeLarge": "큼"
+    "sizeSmall": "소형",
+    "sizeMedium": "중형",
+    "sizeLarge": "대형"
   }
 }

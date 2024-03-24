@@ -16,14 +16,16 @@
       "name": "Theme",
       "light": "Light",
       "dark": "Dark",
-      "system": "System"
+      "system": "System",
+      "monochromatic": "Monochromatic",
+      "frostedTexture": "Frosted Texture"
     },
     "stayOnTop": "Stay On Top",
+    "lockSidebar": "Lock Sidebar",
     "showSidebar": "Show Sidebar",
     "hideSidebar": "Hide Sidebar",
+    "noiCacheMode": "Noi Cache Mode",
     "devTools": "Developer Tools",
-    "monochromatic": "Monochromatic",
-    "frostedTexture": "Frosted Texture",
     "xQuit": "Click [X] to Exit",
     "systemTray": "System Tray",
 
@@ -48,9 +50,11 @@
     "issues": "GitHub Issues",
     "shareIdeas": "Share Ideas and Feedback",
 
+    "defaultWebBrowser": "Default web browser",
     "learnSpelling": "Learn Spelling",
     "lookUpSelection": "Look Up “{selection}”",
     "searchWithGoogle": "Search with Google",
+    "searchWithBing": "Search with Bing",
     "cut": "Cut",
     "copy": "Copy",
     "paste": "Paste",
@@ -73,6 +77,7 @@
     "clearCache": "Clear Cache Data",
     "find": {
       "name": "Find",
+      "findInPage": "Find in page…",
       "findNext": "Find Next",
       "findPrevious": "Find Previous",
       "jumpToSelection": "Jump to Selection"
@@ -81,7 +86,8 @@
   "form": {
     "name": "Name",
     "url": "URL",
-    "invalidURL": "Invalid URL, please re-enter.",
+    "isolatedCookieStorage": "Isolated Cookie Storage",
+    "invalidURL": "Please enter a valid URL.",
     "nameNotEmpty": "Name cannot be empty."
   },
   "sidebar": {
@@ -112,12 +118,19 @@
       "general": {
         "name": "General",
         "syncBookmarks": "Sync Bookmarks",
-        "globalShortcut": "Global shortcut",
-        "trayShortcut": "System Tray Shortcut",
-        "recording": "Recording...",
         "proxy": "Proxy",
         "proxyRules": "Rules",
-        "proxyBypassRules": "BypassRules"
+        "proxyBypassRules": "BypassRules",
+        "promptLogLimit": "Log Limit",
+        "promptLogArchiveLimit": "Log Archive Limit",
+        "promptFavoritesLimit": "Favorites Limit",
+        "promptFavoritesArchiveLimit": "Favorites Archive Limit"
+      },
+      "keyboardShortcuts": {
+        "name": "Keyboard Shortcuts",
+        "recording": "Recording…",
+        "globalShortcut": "Global shortcut",
+        "trayShortcut": "System Tray Shortcut"
       },
       "extensions": "Extensions",
       "prompts": {
@@ -132,7 +145,9 @@
       "batchEnable": "Are you sure you want to enable these prompts?",
       "batchDelete": "Are you sure you want to delete these prompts?",
       "batchDisable": "Are you sure you want to disable these prompts?",
-      "batchUse": "Are you sure you want to use these prompts?"
+      "batchUse": "Are you sure you want to use these prompts?",
+      "batchTagsAdd": "Are you sure you want to add these tags?",
+      "batchTagsDelete": "Are you sure you want to delete these tags?"
     },
     "message": {
       "added": "Added",
@@ -149,7 +164,12 @@
       "shortcutRule": "Shortcut Rule",
       "modifierKeys": "Modifier keys",
       "regularKeys": "Regular keys",
-      "noiExtension": "Note that Noi does not support the full range of Chrome extensions APIs. See Supported Extensions APIs for more details on what is supported."
+      "noiExtension": "Note that Noi does not support the full range of Chrome extensions APIs. See Supported Extensions APIs for more details on what is supported.",
+      "noiCacheMode": "Caches webpage states for quick re-access, similar to browser tabs. Continuous state recording increases memory usage, especially when frequently accessing different sidebar links. To mitigate memory impact, especially during system lag, consider disabling or restarting the cache after multiple switches.",
+      "promptLogLimit": "Maximum number of prompts to retain in the log (10-1,000), with the default set to 300.",
+      "promptLogArchiveLimit_1": "Maximum number of prompts that can be stored in a single archive file (1,000-10,000), with the default set to 1,000.",
+      "promptLogArchiveLimit_2": "1. File currently being archived: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Naming convention for completed archive files: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, where YYYY.MM.DD.HH.mm.ss represents the start and end times, respectively. For example: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "Name",
@@ -181,12 +201,16 @@
     "search": "Search",
     "select": "Select",
     "use": "Use",
+    "copied": "Copied",
+    "batchAdd": "Batch Add",
     "batchDisable": "Batch Disable",
     "batchEnable": "Batch Enable",
     "batchDelete": "Batch Delete",
     "batchUse": "Batch Use"
   },
   "prompt": {
+    "promptFavorite": "Prompts Favorite",
+    "promptLog": "Prompts Log",
     "promptSend": "Prompt Send",
     "newChat": "New chat",
     "sendMessage": "Send message",

@@ -16,14 +16,16 @@
       "name": "テーマ",
       "light": "ライト",
       "dark": "ダーク",
-      "system": "システム"
+      "system": "システム",
+      "monochromatic": "モノクロ",
+      "frostedTexture": "霜降りテクスチャ"
     },
     "stayOnTop": "常に最前面に表示",
+    "lockSidebar": "サイドバーをロック",
     "showSidebar": "サイドバーを表示",
     "hideSidebar": "サイドバーを隠す",
+    "noiCacheMode": "Noiキャッシュモード",
     "devTools": "開発者ツール",
-    "monochromatic": "モノクロ",
-    "frostedTexture": "フロステッドテクスチャ",
     "xQuit": "[X]をクリックして終了",
     "systemTray": "システムトレイ",
 
@@ -48,9 +50,11 @@
     "issues": "GitHubの問題",
     "shareIdeas": "アイデアとフィードバックを共有",
 
+    "defaultWebBrowser": "デフォルトのウェブブラウザ",
     "learnSpelling": "スペリングを学ぶ",
     "lookUpSelection": "「{selection}」を調べる",
     "searchWithGoogle": "Googleで検索",
+    "searchWithBing": "Bingで検索",
     "cut": "切り取り",
     "copy": "コピー",
     "paste": "貼り付け",
@@ -73,15 +77,17 @@
     "clearCache": "キャッシュデータをクリア",
     "find": {
       "name": "検索",
+      "findInPage": "ページ内を検索…",
       "findNext": "次を検索",
       "findPrevious": "前を検索",
-      "jumpToSelection": "選択へジャンプ"
+      "jumpToSelection": "選択箇所にジャンプ"
     }
   },
   "form": {
     "name": "名前",
     "url": "URL",
-    "invalidURL": "無効なURLです。再入力してください。",
+    "isolatedCookieStorage": "分離されたCookieストレージ",
+    "invalidURL": "有効なURLを入力してください。",
     "nameNotEmpty": "名前は空にできません。"
   },
   "sidebar": {
@@ -93,31 +99,38 @@
     "tip": {
       "delete": "削除後は復元できません。本当に削除しますか？",
       "syncOverwrite": "同期はカスタムデータを除くすべてのデータを上書きします。続行しますか？",
-      "syncReset": "現在、最新バージョンを使用しています。同期はカスタムデータを除くすべてのデータをリセットします。続行しますか？",
-      "syncOk": "同期に成功しました",
-      "syncResetOk": "リセットに成功しました"
+      "syncReset": "現在最新バージョンにいます。同期はカスタムデータを除くすべてのデータをリセットします。続行しますか？",
+      "syncOk": "同期成功",
+      "syncResetOk": "リセット成功"
     }
   },
   "network": {
     "error": {
       "try": "試してみてください：",
       "title": "このサイトにアクセスできません",
-      "longRespond": "応答に時間がかかりすぎます。",
-      "checkConnection": "接続を確認中",
-      "checkProxy": "プロキシとファイアウォールを確認中"
+      "longRespond": "応答に時間がかかりすぎました。",
+      "checkConnection": "接続を確認する",
+      "checkProxy": "プロキシとファイアウォールを確認する"
     }
   },
   "settings": {
     "menu": {
       "general": {
         "name": "一般",
-        "syncBookmarks": "ブックマークを同期",
-        "globalShortcut": "グローバルショートカット",
-        "trayShortcut": "システムトレイショートカット",
-        "recording": "録音中…",
+        "syncBookmarks": "ブックマークを同期する",
         "proxy": "プロキシ",
         "proxyRules": "ルール",
-        "proxyBypassRules": "バイパスルール"
+        "proxyBypassRules": "バイパスルール",
+        "promptLogLimit": "ログ制限",
+        "promptLogArchiveLimit": "ログアーカイブ制限",
+        "promptFavoritesLimit": "お気に入り制限",
+        "promptFavoritesArchiveLimit": "お気に入りアーカイブ制限"
+      },
+      "keyboardShortcuts": {
+        "name": "キーボードショートカット",
+        "recording": "記録中…",
+        "globalShortcut": "グローバルショートカット",
+        "trayShortcut": "システムトレイショートカット"
       },
       "extensions": "拡張機能",
       "prompts": {
@@ -132,7 +145,9 @@
       "batchEnable": "これらのプロンプトを有効にしてもよろしいですか？",
       "batchDelete": "これらのプロンプトを削除してもよろしいですか？",
       "batchDisable": "これらのプロンプトを無効にしてもよろしいですか？",
-      "batchUse": "これらのプロンプトを使用してもよろしいですか？"
+      "batchUse": "これらのプロンプトを使用してもよろしいですか？",
+      "batchTagsAdd": "これらのタグを追加してもよろしいですか？",
+      "batchTagsDelete": "これらのタグを削除してもよろしいですか？"
     },
     "message": {
       "added": "追加されました",
@@ -149,7 +164,12 @@
       "shortcutRule": "ショートカットルール",
       "modifierKeys": "修飾キー",
       "regularKeys": "通常キー",
-      "noiExtension": "NoiはChrome拡張機能APIの全範囲をサポートしていないことに注意してください。サポートされている拡張機能APIの詳細については、サポートされている拡張機能APIを参照してください。"
+      "noiExtension": "NoiはChrome拡張機能APIの全範囲をサポートしていません。サポートされているAPIの詳細については、サポートされる拡張機能APIを参照してください。",
+      "noiCacheMode": "ウェブページの状態をキャッシュし、ブラウザタブのように素早く再アクセスできるようにします。サイドバーリンクへの頻繁なアクセス時にメモリ使用量が増加するため、メモリ影響を軽減するためには、キャッシュを無効にするか、複数回の切り替え後にキャッシュを再起動することを検討してください。",
+      "promptLogLimit": "ログに保持するプロンプトの最大数（10-1000）、デフォルトは300に設定されています。",
+      "promptLogArchiveLimit_1": "単一のアーカイブファイルに格納できるプロンプトの最大数（1000-10000）、デフォルトは1000に設定されています。",
+      "promptLogArchiveLimit_2": "1. 現在アーカイブ中のファイル：{{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. 完了したアーカイブファイルの命名規則：{{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json。YYYY.MM.DD.HH.mm.ssはそれぞれ開始と終了の時刻を表します。例：{{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "名前",
@@ -181,17 +201,21 @@
     "search": "検索",
     "select": "選択",
     "use": "使用",
+    "copied": "コピー済み",
+    "batchAdd": "一括追加",
     "batchDisable": "一括無効",
     "batchEnable": "一括有効",
     "batchDelete": "一括削除",
     "batchUse": "一括使用"
   },
   "prompt": {
-    "promptSend": "Prompt送信",
+    "promptFavorite": "プロンプトのお気に入り",
+    "promptLog": "プロンプトログ",
+    "promptSend": "プロンプトを送信",
     "newChat": "新規チャット",
     "sendMessage": "メッセージを送信",
     "resetPanel": "パネルをリセット",
-    "promptCmd": "Promptコマンド",
+    "promptCmd": "プロンプトコマンド",
     "sizeSmall": "小",
     "sizeMedium": "中",
     "sizeLarge": "大"

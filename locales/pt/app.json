@@ -16,15 +16,17 @@
       "name": "Tema",
       "light": "Claro",
       "dark": "Escuro",
-      "system": "Sistema"
+      "system": "Sistema",
+      "monochromatic": "Monocromático",
+      "frostedTexture": "Textura Fosca"
     },
-    "stayOnTop": "Manter Acima",
+    "stayOnTop": "Permanecer no Topo",
+    "lockSidebar": "Bloquear Barra Lateral",
     "showSidebar": "Mostrar Barra Lateral",
     "hideSidebar": "Ocultar Barra Lateral",
-    "devTools": "Ferramentas de Desenvolvedor",
-    "monochromatic": "Monocromático",
-    "frostedTexture": "Textura Fosca",
-    "xQuit": "Clicar em [X] para Sair",
+    "noiCacheMode": "Modo de Cache Noi",
+    "devTools": "Ferramentas do Desenvolvedor",
+    "xQuit": "Clique em [X] para Sair",
     "systemTray": "Bandeja do Sistema",
 
     "edit": "Editar",
@@ -48,9 +50,11 @@
     "issues": "Problemas no GitHub",
     "shareIdeas": "Compartilhar Ideias e Feedback",
 
+    "defaultWebBrowser": "Navegador de Internet Padrão",
     "learnSpelling": "Aprender Ortografia",
     "lookUpSelection": "Pesquisar “{selection}”",
     "searchWithGoogle": "Pesquisar com Google",
+    "searchWithBing": "Pesquisar com Bing",
     "cut": "Cortar",
     "copy": "Copiar",
     "paste": "Colar",
@@ -73,15 +77,17 @@
     "clearCache": "Limpar Dados de Cache",
     "find": {
       "name": "Encontrar",
-      "findNext": "Encontrar próximo",
-      "findPrevious": "Encontrar anterior",
-      "jumpToSelection": "Saltar para seleção"
+      "findInPage": "Encontrar na página…",
+      "findNext": "Encontrar Próximo",
+      "findPrevious": "Encontrar Anterior",
+      "jumpToSelection": "Ir para Seleção"
     }
   },
   "form": {
     "name": "Nome",
     "url": "URL",
-    "invalidURL": "URL inválida, por favor digite novamente.",
+    "isolatedCookieStorage": "Armazenamento Isolado de Cookies",
+    "invalidURL": "Por favor, insira um URL válido.",
     "nameNotEmpty": "O nome não pode estar vazio."
   },
   "sidebar": {
@@ -92,8 +98,8 @@
     },
     "tip": {
       "delete": "Não pode ser recuperado após a exclusão, tem certeza de que deseja excluir?",
-      "syncOverwrite": "A sincronização sobrescreverá todos os dados exceto os dados personalizados. Deseja continuar?",
-      "syncReset": "Você está atualmente na versão mais recente. A sincronização resetará todos os dados exceto os dados personalizados. Deseja continuar?",
+      "syncOverwrite": "A sincronização substituirá todos os dados, exceto os dados personalizados. Deseja continuar?",
+      "syncReset": "Você está atualmente na versão mais recente. A sincronização redefinirá todos os dados, exceto os dados personalizados. Deseja continuar?",
       "syncOk": "Sincronização bem-sucedida",
       "syncResetOk": "Redefinição bem-sucedida"
     }
@@ -112,12 +118,19 @@
       "general": {
         "name": "Geral",
         "syncBookmarks": "Sincronizar Favoritos",
-        "globalShortcut": "Atalho global",
-        "trayShortcut": "Atalho da bandeja do sistema",
-        "recording": "Gravando...",
         "proxy": "Proxy",
         "proxyRules": "Regras",
-        "proxyBypassRules": "Regras de Bypass"
+        "proxyBypassRules": "Regras de Bypass",
+        "promptLogLimit": "Limite de Log de Prompts",
+        "promptLogArchiveLimit": "Limite de Arquivo de Log de Prompts",
+        "promptFavoritesLimit": "Limite de Favoritos de Prompts",
+        "promptFavoritesArchiveLimit": "Limite de Arquivo de Favoritos de Prompts"
+      },
+      "keyboardShortcuts": {
+        "name": "Atalhos de Teclado",
+        "recording": "Gravando…",
+        "globalShortcut": "Atalho Global",
+        "trayShortcut": "Atalho da Bandeja do Sistema"
       },
       "extensions": "Extensões",
       "prompts": {
@@ -132,14 +145,16 @@
       "batchEnable": "Tem certeza de que deseja habilitar esses prompts?",
       "batchDelete": "Tem certeza de que deseja excluir esses prompts?",
       "batchDisable": "Tem certeza de que deseja desabilitar esses prompts?",
-      "batchUse": "Tem certeza de que deseja usar esses prompts?"
+      "batchUse": "Tem certeza de que deseja usar esses prompts?",
+      "batchTagsAdd": "Tem certeza de que deseja adicionar essas tags?",
+      "batchTagsDelete": "Tem certeza de que deseja excluir essas tags?"
     },
     "message": {
       "added": "Adicionado",
       "synced": "Sincronizado",
       "invalidData": "Dados Inválidos",
       "missingActAndPrompt": "Campos ausentes: 'act', 'prompt'. Tente usar 'Alias' para renomear.",
-      "missingManifest": "O arquivo manifest.json está faltando ou é inválido.",
+      "missingManifest": "O arquivo manifest.json está ausente ou inválido.",
       "checkExtension": "Por favor, verifique novamente o diretório da extensão:",
       "existExtension": "A extensão já existe."
     },
@@ -147,9 +162,14 @@
       "proxyRules": "Regras indicando quais proxies usar.",
       "proxyBypassRules": "Regras indicando quais URLs devem ignorar as configurações de proxy.",
       "shortcutRule": "Regra de Atalho",
-      "modifierKeys": "Teclas modificadoras",
-      "regularKeys": "Teclas regulares",
-      "noiExtension": "Observe que Noi não suporta a gama completa de APIs de extensões do Chrome. Veja APIs de Extensões Suportadas para mais detalhes sobre o que é suportado."
+      "modifierKeys": "Teclas Modificadoras",
+      "regularKeys": "Teclas Regulares",
+      "noiExtension": "Observe que o Noi não suporta toda a gama de APIs de extensões do Chrome. Veja APIs de Extensões Suportadas para mais detalhes sobre o que é suportado.",
+      "noiCacheMode": "Armazena estados de páginas da web para reacesso rápido, semelhante a abas de navegador. A gravação contínua do estado aumenta o uso de memória, especialmente quando acessando diferentes links da barra lateral frequentemente. Para mitigar o impacto na memória, especialmente     especialmente durante atrasos no sistema, considere desativar ou reiniciar o cache após múltiplas trocas.",
+      "promptLogLimit": "Número máximo de prompts a serem retidos no log (10-1000), com o padrão definido para 300.",
+      "promptLogArchiveLimit_1": "Número máximo de prompts que podem ser armazenados em um único arquivo de arquivo (1000-10000), com o padrão definido para 1000.",
+      "promptLogArchiveLimit_2": "1. Arquivo atualmente sendo arquivado: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Convenção de nomenclatura para arquivos de arquivo completos: {{file}}_AAAA.MM.DD.HH.mm.ss_{{file}}_AAAA.MM.DD.HH.mm.ss.json, onde AAAA.MM.DD.HH.mm.ss representa os horários de início e fim, respectivamente. Por exemplo: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "Nome",
@@ -181,13 +201,17 @@
     "search": "Pesquisar",
     "select": "Selecionar",
     "use": "Usar",
-    "batchDisable": "Desabilitação em Lote",
-    "batchEnable": "Habilitação em Lote",
-    "batchDelete": "Exclusão em Lote",
-    "batchUse": "Uso em Lote"
+    "copied": "Copiado",
+    "batchAdd": "Adicionar em lote",
+    "batchDisable": "Desativar em lote",
+    "batchEnable": "Ativar em lote",
+    "batchDelete": "Excluir em lote",
+    "batchUse": "Usar em lote"
   },
   "prompt": {
-    "promptSend": "Envio de Prompt",
+    "promptFavorite": "Favoritos de Prompts",
+    "promptLog": "Log de Prompts",
+    "promptSend": "Enviar Prompt",
     "newChat": "Nova conversa",
     "sendMessage": "Enviar mensagem",
     "resetPanel": "Redefinir Painel",

@@ -16,14 +16,16 @@
       "name": "主题",
       "light": "明亮",
       "dark": "黑暗",
-      "system": "系统"
+      "system": "系统",
+      "monochromatic": "极简（黑白）",
+      "frostedTexture": "磨砂纹理"
     },
     "stayOnTop": "窗口置顶",
+    "lockSidebar": "锁定侧边栏",
     "showSidebar": "显示侧边栏",
     "hideSidebar": "隐藏侧边栏",
+    "noiCacheMode": "Noi 缓存模式",
     "devTools": "开发者工具",
-    "monochromatic": "单色",
-    "frostedTexture": "磨砂纹理",
     "xQuit": "点击 [X] 退出",
     "systemTray": "系统托盘",
 
@@ -48,9 +50,11 @@
     "issues": "GitHub 问题反馈",
     "shareIdeas": "分享想法和反馈",
 
+    "defaultWebBrowser": "默认浏览器",
     "learnSpelling": "学习拼写",
     "lookUpSelection": "查找 “{selection}”",
     "searchWithGoogle": "使用 Google 搜索",
+    "searchWithBing": "使用 Bing 搜索",
     "cut": "剪切",
     "copy": "复制",
     "paste": "粘贴",
@@ -73,27 +77,29 @@
     "clearCache": "清除缓存数据",
     "find": {
       "name": "查找",
+      "findInPage": "页面内查找…",
       "findNext": "查找下一个",
       "findPrevious": "查找上一个",
-      "jumpToSelection": "跳转到选择"
+      "jumpToSelection": "跳至选择区"
     }
   },
   "form": {
     "name": "名称",
-    "url": "URL",
-    "invalidURL": "无效 URL，请重新输入",
+    "url": "网址",
+    "isolatedCookieStorage": "独立 Cookie 存储",
+    "invalidURL": "请输入有效的网址",
     "nameNotEmpty": "名称不能为空"
   },
   "sidebar": {
     "warn": {
-      "urlDelete": "当前 URL 正在使用中",
+      "urlDelete": "当前网址正在使用中",
       "dirDelete": "当前目录正在使用中",
-      "trayDelete": "系统托盘正在使用当前 URL，无法被删除"
+      "trayDelete": "系统托盘正在使用当前网址，无法删除"
     },
     "tip": {
       "delete": "删除后无法恢复，您确定要删除吗？",
-      "syncOverwrite": "同步将覆盖所有数据，除了自定义数据。您想继续吗？",
-      "syncReset": "您当前为最新版本，同步将重置除自定义数据外的所有数据。您想继续吗？",
+      "syncOverwrite": "同步将覆盖所有数据，除了自定义数据。您要继续吗？",
+      "syncReset": "您当前处于最新版本，同步将重置所有数据，除了自定义数据。您要继续吗？",
       "syncOk": "同步成功",
       "syncResetOk": "重置成功"
     }
@@ -112,12 +118,19 @@
       "general": {
         "name": "通用",
         "syncBookmarks": "同步书签",
-        "globalShortcut": "全局快捷键",
-        "trayShortcut": "系统托盘快捷键",
-        "recording": "正在录制…",
         "proxy": "代理",
         "proxyRules": "规则",
-        "proxyBypassRules": "绕过规则"
+        "proxyBypassRules": "绕过规则",
+        "promptLogLimit": "日志限制",
+        "promptLogArchiveLimit": "日志归档限制",
+        "promptFavoritesLimit": "收藏限制",
+        "promptFavoritesArchiveLimit": "收藏归档限制"
+      },
+      "keyboardShortcuts": {
+        "name": "快捷键",
+        "recording": "正在记录…",
+        "globalShortcut": "全局快捷键",
+        "trayShortcut": "系统托盘快捷键"
       },
       "extensions": "扩展",
       "prompts": {
@@ -132,13 +145,15 @@
       "batchEnable": "您确定要启用这些提示吗？",
       "batchDelete": "您确定要删除这些提示吗？",
       "batchDisable": "您确定要禁用这些提示吗？",
-      "batchUse": "您确定要使用这些提示吗？"
+      "batchUse": "您确定要使用这些提示吗？",
+      "batchTagsAdd": "您确定要添加这些标签吗？",
+      "batchTagsDelete": "您确定要删除这些标签吗？"
     },
     "message": {
       "added": "已添加",
       "synced": "已同步",
-      "invalidData": "数据无效",
-      "missingActAndPrompt": "缺少字段：'act', 'prompt'。尝试使用 'Alias' 重命名",
+      "invalidData": "无效数据",
+      "missingActAndPrompt": "缺少字段：'act', 'prompt'。尝试使用 'Alias' 进行重命名",
       "missingManifest": "manifest.json 文件缺失或无效",
       "checkExtension": "请重新检查扩展目录：",
       "existExtension": "扩展已存在"
@@ -149,7 +164,12 @@
       "shortcutRule": "快捷键规则",
       "modifierKeys": "修饰键",
       "regularKeys": "常规键",
-      "noiExtension": "注意，Noi 不支持 Chrome 扩展 API 的全部范围。有关支持的详细信息，请参阅支持的扩展 API。"
+      "noiExtension": "注意，Noi 不支持 Chrome 扩展 API 的全部范围。有关支持的详细信息，请参阅支持的扩展 API。",
+      "noiCacheMode": "缓存网页状态以便快速重新访问，类似于浏览器标签。持续状态记录会增加内存使用，尤其是在频繁访问不同侧边栏链接时。为了减轻内存影响，尤其是在系统延迟时，考虑禁用或在多次切换后重启缓存。",
+      "promptLogLimit": "日志中保留的最大提示数（10-1000），默认设置为 300。",
+      "promptLogArchiveLimit_1": "单个归档文件中可以存储的最大提示数（1000-10000），默认设置为 1000。",
+      "promptLogArchiveLimit_2": "1. 当前正在归档的文件：{{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. 完成归档文件的命名规范：{{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json，其中 YYYY.MM.DD.HH.mm.ss 分别代表开始和结束时间。例如：{{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "名称",
@@ -181,17 +201,21 @@
     "search": "搜索",
     "select": "选择",
     "use": "使用",
+    "copied": "已复制",
+    "batchAdd": "批量添加",
     "batchDisable": "批量禁用",
     "batchEnable": "批量启用",
     "batchDelete": "批量删除",
     "batchUse": "批量使用"
   },
   "prompt": {
-    "promptSend": "提示发送",
+    "promptFavorite": "提示收藏",
+    "promptLog": "提示日志",
+    "promptSend": "发送提示",
     "newChat": "新聊天",
     "sendMessage": "发送消息",
     "resetPanel": "重置面板",
-    "promptCmd": "提示指令",
+    "promptCmd": "提示命令",
     "sizeSmall": "小",
     "sizeMedium": "中",
     "sizeLarge": "大"

@@ -16,14 +16,16 @@
       "name": "主題",
       "light": "明亮",
       "dark": "黑暗",
-      "system": "系統"
+      "system": "系統",
+      "monochromatic": "極簡（黑白）",
+      "frostedTexture": "磨砂質感"
     },
     "stayOnTop": "窗口置頂",
+    "lockSidebar": "鎖定側邊欄",
     "showSidebar": "顯示側邊欄",
     "hideSidebar": "隱藏側邊欄",
+    "noiCacheMode": "Noi 快取模式",
     "devTools": "開發者工具",
-    "monochromatic": "單色",
-    "frostedTexture": "磨砂質感",
     "xQuit": "點擊 [X] 退出",
     "systemTray": "系統托盤",
 
@@ -48,9 +50,11 @@
     "issues": "GitHub 問題反饋",
     "shareIdeas": "分享想法和反饋",
 
+    "defaultWebBrowser": "預設網頁瀏覽器",
     "learnSpelling": "學習拼寫",
     "lookUpSelection": "查找 “{selection}”",
     "searchWithGoogle": "使用 Google 搜索",
+    "searchWithBing": "使用 Bing 搜索",
     "cut": "剪下",
     "copy": "複製",
     "paste": "貼上",
@@ -72,28 +76,30 @@
     "setSystemTray": "設置為系統托盤",
     "clearCache": "清除快取數據",
     "find": {
-      "name": "查找",
-      "findNext": "查找下一個",
-      "findPrevious": "查找上一個",
-      "jumpToSelection": "跳轉到選擇"
+      "name": "尋找",
+      "findInPage": "頁面內尋找…",
+      "findNext": "尋找下一個",
+      "findPrevious": "尋找上一個",
+      "jumpToSelection": "跳至選擇"
     }
   },
   "form": {
     "name": "名稱",
-    "url": "URL",
-    "invalidURL": "無效 URL，請重新輸入",
+    "url": "網址",
+    "isolatedCookieStorage": "隔離的Cookie存儲",
+    "invalidURL": "請輸入一個有效的網址",
     "nameNotEmpty": "名稱不能為空"
   },
   "sidebar": {
     "warn": {
-      "urlDelete": "當前 URL 正在使用中",
+      "urlDelete": "當前網址正在使用中",
       "dirDelete": "當前目錄正在使用中",
-      "trayDelete": "系統托盤正在使用當前 URL，無法被刪除"
+      "trayDelete": "系統托盤正在使用當前網址，無法刪除"
     },
     "tip": {
       "delete": "刪除後無法恢復，您確定要刪除嗎？",
-      "syncOverwrite": "同步將覆蓋所有數據，除了自定義數據。您想繼續嗎？",
-      "syncReset": "您當前為最新版本，同步將重置除自定義數據外的所有數據。您想繼續嗎？",
+      "syncOverwrite": "同步將覆蓋所有數據，除了自定義數據。您要繼續嗎？",
+      "syncReset": "您目前處於最新版本。同步將重置所有數據，除了自定義數據。您要繼續嗎？",
       "syncOk": "同步成功",
       "syncResetOk": "重置成功"
     }
@@ -101,7 +107,7 @@
   "network": {
     "error": {
       "try": "嘗試：",
-      "title": "無法訪問此網站",
+      "title": "該站點無法訪問",
       "longRespond": "響應時間過長",
       "checkConnection": "檢查連線",
       "checkProxy": "檢查代理和防火牆"
@@ -110,14 +116,21 @@
   "settings": {
     "menu": {
       "general": {
-        "name": "通用",
+        "name": "一般",
         "syncBookmarks": "同步書簽",
-        "globalShortcut": "全域快捷鍵",
-        "trayShortcut": "系統托盤快捷鍵",
-        "recording": "正在錄制…",
         "proxy": "代理",
         "proxyRules": "規則",
-        "proxyBypassRules": "繞過規則"
+        "proxyBypassRules": "繞過規則",
+        "promptLogLimit": "日誌限制",
+        "promptLogArchiveLimit": "日誌存檔限制",
+        "promptFavoritesLimit": "收藏限制",
+        "promptFavoritesArchiveLimit": "收藏存檔限制"
+      },
+      "keyboardShortcuts": {
+        "name": "鍵盤快捷鍵",
+        "recording": "錄製中…",
+        "globalShortcut": "全局快捷鍵",
+        "trayShortcut": "系統托盤快捷鍵"
       },
       "extensions": "擴展",
       "prompts": {
@@ -132,13 +145,15 @@
       "batchEnable": "您確定要啟用這些提示嗎？",
       "batchDelete": "您確定要刪除這些提示嗎？",
       "batchDisable": "您確定要禁用這些提示嗎？",
-      "batchUse": "您確定要使用這些提示嗎？"
+      "batchUse": "您確定要使用這些提示嗎？",
+      "batchTagsAdd": "您確定要添加這些標籤嗎？",
+      "batchTagsDelete": "您確定要刪除這些標籤嗎？"
     },
     "message": {
       "added": "已添加",
       "synced": "已同步",
-      "invalidData": "數據無效",
-      "missingActAndPrompt": "缺少字段：'act', 'prompt'。嘗試使用 'Alias' 重命名",
+      "invalidData": "無效數據",
+      "missingActAndPrompt": "缺少字段：'act', 'prompt'。嘗試使用 'Alias' 來重命名。",
       "missingManifest": "manifest.json 文件缺失或無效",
       "checkExtension": "請重新檢查擴展目錄：",
       "existExtension": "擴展已存在"
@@ -146,10 +161,15 @@
     "tip": {
       "proxyRules": "使用哪些代理規則",
       "proxyBypassRules": "哪些 URL 應繞過代理設置規則",
-      "shortcutRule": "快捷鍵規則",
+      "shortcutRule": "快捷方式規則",
       "modifierKeys": "修飾鍵",
       "regularKeys": "常規鍵",
-      "noiExtension": "注意，Noi 不支持 Chrome 擴展 API 的全部範圍。有關支持的詳細信息，請參閱支持的擴展 API。"
+      "noiExtension": "注意，Noi 不支持 Chrome 擴展 API 的全部範圍。有關支持的詳細信息，請參閱支持的擴展 API。",
+      "noiCacheMode": "緩存網頁狀態以便快速重新訪問，類似於瀏覽器標籤。持續的狀態記錄會增加內存使用量，尤其是當頻繁訪問不同側邊欄鏈接時。為了減輕內存影響，特別是在系統延遲時，考慮禁用或在多次切換後重啟緩存。",
+      "promptLogLimit": "保留在日誌中的最大提示數量（10-1000），預設設定為 300。",
+      "promptLogArchiveLimit_1": "單個存檔文件中可以存儲的最大提示數量（1000-10000），預設設定為 1000。",
+      "promptLogArchiveLimit_2": "1. 當前正在存檔的文件：{{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. 完成存檔文件的命名規則：{{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json，其中 YYYY.MM.DD.HH.mm.ss 分別代表開始和結束時間。例如：{{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "名稱",
@@ -181,17 +201,21 @@
     "search": "搜索",
     "select": "選擇",
     "use": "使用",
+    "copied": "已複製",
+    "batchAdd": "批量添加",
     "batchDisable": "批量禁用",
     "batchEnable": "批量啟用",
     "batchDelete": "批量刪除",
     "batchUse": "批量使用"
   },
   "prompt": {
+    "promptFavorite": "提示收藏",
+    "promptLog": "提示日誌",
     "promptSend": "提示發送",
     "newChat": "新聊天",
     "sendMessage": "發送消息",
     "resetPanel": "重置面板",
-    "promptCmd": "提示指令",
+    "promptCmd": "提示命令",
     "sizeSmall": "小",
     "sizeMedium": "中",
     "sizeLarge": "大"

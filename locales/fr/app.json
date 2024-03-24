@@ -16,14 +16,16 @@
       "name": "Thème",
       "light": "Clair",
       "dark": "Sombre",
-      "system": "Système"
+      "system": "Système",
+      "monochromatic": "Monochromatique",
+      "frostedTexture": "Texture givrée"
     },
     "stayOnTop": "Rester au-dessus",
+    "lockSidebar": "Verrouiller la barre latérale",
     "showSidebar": "Afficher la barre latérale",
     "hideSidebar": "Masquer la barre latérale",
+    "noiCacheMode": "Mode cache Noi",
     "devTools": "Outils de développement",
-    "monochromatic": "Monochromatique",
-    "frostedTexture": "Texture givrée",
     "xQuit": "Cliquer sur [X] pour quitter",
     "systemTray": "Zone de notification",
 
@@ -48,9 +50,11 @@
     "issues": "Problèmes GitHub",
     "shareIdeas": "Partager des idées et des retours",
 
+    "defaultWebBrowser": "Navigateur web par défaut",
     "learnSpelling": "Apprendre l'orthographe",
     "lookUpSelection": "Rechercher “{selection}”",
     "searchWithGoogle": "Rechercher avec Google",
+    "searchWithBing": "Rechercher avec Bing",
     "cut": "Couper",
     "copy": "Copier",
     "paste": "Coller",
@@ -73,6 +77,7 @@
     "clearCache": "Effacer les données du cache",
     "find": {
       "name": "Trouver",
+      "findInPage": "Trouver dans la page…",
       "findNext": "Trouver suivant",
       "findPrevious": "Trouver précédent",
       "jumpToSelection": "Aller à la sélection"
@@ -81,7 +86,8 @@
   "form": {
     "name": "Nom",
     "url": "URL",
-    "invalidURL": "URL invalide, veuillez saisir à nouveau.",
+    "isolatedCookieStorage": "Stockage isolé des cookies",
+    "invalidURL": "Veuillez entrer une URL valide.",
     "nameNotEmpty": "Le nom ne peut pas être vide."
   },
   "sidebar": {
@@ -112,18 +118,25 @@
       "general": {
         "name": "Général",
         "syncBookmarks": "Synchroniser les marque-pages",
-        "globalShortcut": "Raccourci global",
-        "trayShortcut": "Raccourci de la barre des tâches",
-        "recording": "Enregistrement…",
         "proxy": "Proxy",
         "proxyRules": "Règles",
-        "proxyBypassRules": "Règles de contournement"
+        "proxyBypassRules": "Règles de contournement",
+        "promptLogLimit": "Limite du journal des invites",
+        "promptLogArchiveLimit": "Limite d'archive du journal des invites",
+        "promptFavoritesLimit": "Limite des favoris",
+        "promptFavoritesArchiveLimit": "Limite d'archive des favoris"
+      },
+      "keyboardShortcuts": {
+        "name": "Raccourcis clavier",
+        "recording": "Enregistrement…",
+        "globalShortcut": "Raccourci global",
+        "trayShortcut": "Raccourci de la zone de notification"
       },
       "extensions": "Extensions",
       "prompts": {
         "name": "Invites",
         "userPrompts": "Invites utilisateur",
-        "promptTags": "Tags d'invite",
+        "promptTags": "Étiquettes des invites",
         "customSync": "Synchronisation personnalisée"
       }
     },
@@ -132,7 +145,9 @@
       "batchEnable": "Êtes-vous sûr de vouloir activer ces invites ?",
       "batchDelete": "Êtes-vous sûr de vouloir supprimer ces invites ?",
       "batchDisable": "Êtes-vous sûr de vouloir désactiver ces invites ?",
-      "batchUse": "Êtes-vous sûr de vouloir utiliser ces invites ?"
+      "batchUse": "Êtes-vous sûr de vouloir utiliser ces invites ?",
+      "batchTagsAdd": "Êtes-vous sûr de vouloir ajouter ces étiquettes ?",
+      "batchTagsDelete": "Êtes-vous sûr de vouloir supprimer ces étiquettes ?"
     },
     "message": {
       "added": "Ajouté",
@@ -149,14 +164,19 @@
       "shortcutRule": "Règle de raccourci",
       "modifierKeys": "Touches modificateurs",
       "regularKeys": "Touches régulières",
-      "noiExtension": "Notez que Noi ne prend pas en charge la gamme complète des API d'extensions Chrome. Voir les API d'extensions prises en charge pour plus de détails sur ce qui est supporté."
+      "noiExtension": "Notez que Noi ne prend pas en charge la gamme complète des API d'extensions Chrome. Voir les API d'extensions prises en charge pour plus de détails sur ce qui est pris en charge.",
+      "noiCacheMode": "Met en cache les états des pages Web pour un réaccès rapide, similaire aux onglets du navigateur. L'enregistrement continu de l'état augmente l'utilisation de la mémoire, surtout lors de l'accès fréquent à différents liens de la barre latérale. Pour atténuer l'impact sur la mémoire, surtout en cas de latence du système, envisagez de désactiver ou de redémarrer le cache après plusieurs changements.",
+      "promptLogLimit": "Nombre maximum de invites à conserver dans le journal (10-1000), avec le paramètre par défaut fixé à 300.",
+      "promptLogArchiveLimit_1": "Nombre maximum de invites pouvant être stockées dans un seul fichier d'archive (1000-10000), avec le paramètre par défaut fixé à 1000.",
+      "promptLogArchiveLimit_2": "1. Fichier actuellement en cours d'archivage : {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Convention de nommage pour les fichiers d'archive terminés : {{file}}_AAAA.MM.JJ.HH.mm.ss_AAAA.MM.JJ.HH.mm.ss.json, où AAAA.MM.JJ.HH.mm.ss représente les heures de début et de fin respectivement. Par exemple : {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
     },
     "table": {
       "name": "Nom",
       "extension": "Extension",
       "description": "Description",
       "version": "Version",
-      "tag": "Tag",
+      "tag": "Étiquette",
       "color": "Couleur",
       "lastUpdate": "Dernière mise à jour",
       "usageCount": "Nombre d'utilisations"
@@ -181,15 +201,19 @@
     "search": "Rechercher",
     "select": "Sélectionner",
     "use": "Utiliser",
-    "batchDisable": "Désactivation en lot",
-    "batchEnable": "Activation en lot",
-    "batchDelete": "Suppression en lot",
-    "batchUse": "Utilisation en lot"
+    "copied": "Copié",
+    "batchAdd": "Ajout en lot",
+    "batchDisable": "Désactiver en lot",
+    "batchEnable": "Activer en lot",
+    "batchDelete": "Supprimer en lot",
+    "batchUse": "Utiliser en lot"
   },
   "prompt": {
-    "promptSend": "Envoi d'invite",
+    "promptFavorite": "Favoris des invites",
+    "promptLog": "Journal des invites",
+    "promptSend": "Envoyer l'invite",
     "newChat": "Nouveau chat",
-    "sendMessage": "Envoyer un message",
+    "sendMessage": "Envoyer le message",
     "resetPanel": "Réinitialiser le panneau",
     "promptCmd": "Commande d'invite",
     "sizeSmall": "Petit",
