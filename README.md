@@ -7,7 +7,7 @@
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
-## Feature
+## 🔥 Feature
 
 Introducing Noi: an AI-enhanced, customizable browser designed to streamline your digital experience:
 
@@ -19,7 +19,7 @@ Introducing Noi: an AI-enhanced, customizable browser designed to streamline you
 - **Cookie Data Isolation**: Supports the use of multiple accounts on the same website, catering to diverse user requirements.
 - **Discover More**: There are numerous details waiting for your discovery...
 
-## Install
+## ⬇️ Download
 
 [🕒 History versions...](https://github.com/lencx/Noi/releases)
 
@@ -38,7 +38,7 @@ Introducing Noi: an AI-enhanced, customizable browser designed to streamline you
 |![theme-light-1](./website/static/readme/noi-theme-light-1.png)|![theme-light-2](./website/static/readme/noi-theme-light-2.png)|
 |![noi-settings](./website/static/readme/noi-settings.png)|![noi-prompts](./website/static/readme/noi-prompts.png)|
 
-## Noi Configs
+## ⚙️ Noi Configs
 
 [📁 configs](./configs)
 
@@ -90,7 +90,7 @@ Learn more: [electronjs/docs](https://www.electronjs.org/docs/latest/api/session
 - `proxyRules`: Rules indicating which proxies to use.
 - `proxyBypassRules`: Rules indicating which URLs should bypass the proxy settings.
 
-## Noi Extensions
+## 🧩 Noi Extensions
 
 [📁 extensions](./extensions)
 
@@ -104,12 +104,12 @@ Learn more: [electronjs/doc](https://www.electronjs.org/docs/latest/api/extensio
 | [@noi/ask](https://github.com/lencx/Noi/tree/main/extensions/noi-ask) | 0.1.7 | The best assistant for batch asking and quick typing of prompts. |
 | [@noi/ask-custom](https://github.com/lencx/Noi/tree/main/extensions/noi-ask-custom) | 0.1.0 | The best assistant for batch asking and quick typing of prompts. |
 | [@noi/export-chatgpt](https://github.com/lencx/Noi/tree/main/extensions/noi-export-chatgpt) | 0.1.0 | ChatGPT chat history export, supports PDF, Image, and Markdown formats. |
-| [@noi/reset](https://github.com/lencx/Noi/tree/main/extensions/noi-reset) | 0.1.0 | Reset certain website styles to enhance compatibility with Noi. |
+| [@noi/reset](https://github.com/lencx/Noi/tree/main/extensions/noi-reset) | 0.1.1 | Reset certain website styles to enhance compatibility with Noi. |
 <!-- EXTENSIONS_END -->
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lencx/Noi&type=Timeline)](https://star-history.com/#lencx/Noi&Timeline)
 
-# Noi Languages
+# 🌐 Noi Languages
 
 [📁 locales](./locales)
 
@@ -126,7 +126,7 @@ Learn more: [electronjs/doc](https://www.electronjs.org/docs/latest/api/extensio
 - `it`: Italiano
 - `tr`: Türkçe
 
-## FAQ
+## ⚠️ FAQ
 
 ### macOS
 
