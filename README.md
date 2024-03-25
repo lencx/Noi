@@ -9,34 +9,122 @@
 
 ## Feature
 
-- Support for loading any URL and system tray
-- Theme Mode (Light/Dark)
-- Multiple Languages
-- Prompt Management
-- AI Batch Questioning
-- ...
+Introducing Noi: an AI-enhanced, customizable browser designed to streamline your digital experience:
+
+- **Browser**: Noi not only includes curated AI websites but also allows the addition of any URL, providing a tailored browsing experience ([Noi Configs](./configs)).
+- **Prompts Management**: Offers robust customization options including the addition, synchronization, batch tagging, and removal of prompts.
+- **Noi Ask**: Enables sending batch messages to multiple AI chats, streamlining the process of interacting with various AI services simultaneously ([Noi Extensions](./extensions)). Entries made via Noi Ask are stored locally, ensuring easy access for future review or bookmarking.
+- **Themes**: `Light`/`Dark`/`System`/`Monochromatic`/`Frosted Texture`
+- **Noi Cache Mode**: Noi reimagines interaction without the traditional concept of browser tabs. In this mode, links accessed via the sidebar are cached for quick swapping (accessible via `Menu -> Settings -> Noi Cache Mode`).
+- **Cookie Data Isolation**: Supports the use of multiple accounts on the same website, catering to diverse user requirements.
+- **Discover More**: There are numerous details waiting for your discovery...
 
 ## Install
 
 [🕒 History versions...](https://github.com/lencx/Noi/releases)
 
 - **macOS**
-  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0.dmg)
-  - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0-arm64.dmg)
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.4.0/Noi_macos_0.4.0.dmg)
+  - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.4.0/Noi_macos_0.4.0-arm64.dmg)
 - **Windows**
-  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi-win32-x64-0.3.0-setup.exe)
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.4.0/Noi-win32-x64-0.4.0-setup.exe)
 - **Linux**
-  - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_linux_0.3.0.AppImage)
-  - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.3.0/noi_linux_amd64_0.3.0.deb)
+  - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.4.0/Noi_linux_0.4.0.AppImage)
+  - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.4.0/noi_linux_amd64_0.4.0.deb)
 
 |Preview|Preview|
 |---|---|
-|![theme-dark](./website/static/readme/noi-theme-dark.jpg)|![noi-settings](./website/static/readme/noi-settings.jpg)|
-|![settings-prompts](./website/static/readme/noi-prompt.jpg)|![batch-ask](./website/static/readme/noi-prompt-use.jpg)|
+|![theme-dark-1](./website/static/readme/noi-theme-dark-1.png)|![theme-dark-2](./website/static/readme/noi-theme-dark-2.png)|
+|![theme-light-1](./website/static/readme/noi-theme-light-1.png)|![theme-light-2](./website/static/readme/noi-theme-light-2.png)|
+|![noi-settings](./website/static/readme/noi-settings.png)|![noi-prompts](./website/static/readme/noi-prompts.png)|
 
----
+## Noi Configs
+
+[📁 configs](./configs)
+
+### Noi Mode
+
+To set up a custom sync link, follow the steps below:
+
+- **Step 1**: Open the settings (on macOS: `cmd`+`,`, on Windows: `ctrl`+`,`)
+- **Step 2**: Edit the URL in `Mode Sync`
+- **Step 3** or **Step 4**: Click the `sync` button to start synchronizing data
+
+> [!NOTE]
+> The `custom url` will not be overwritten. If you wish to use your own URL as a data source, please refer to the data format in `noi.mode.json`.
+
+![Mode Sync](./website/static/configs/noi-mode-sync.png)
+
+#### Sync URL
+
+- [AI](./noi.mode.json): Popular AI websites and communities (e.g., ChatGPT, Bard, Claude, Poe, etc.).
+
+  ```bash
+  https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.json
+  ```
+
+- [AI（内陆版）](./noi.mode.cn.json): 主流 AI 及国内 AI（如：通义千问、扣子、豆包、智谱清言、讯飞星火、文心一言等）。
+
+  ```bash
+  https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.cn.json
+  ```
+
+#### noi.mode.json
+
+Here is a detailed description of some fields:
+
+- `name`: Name (optional, has no significance)
+- `version`: Version change
+- `sync`: URL information (optional, has no significance)
+- `modes[]`:
+  - `id`: A unique identifier (use a random string; do not use formats like `noi:xxx` or `noi@xxx` as these are reserved for internal use within Noi)
+  - `parent`: The parent folder this item belongs to (supports nesting)
+  - `text`: Name
+  - `url`: Link
+  - `dir`: Whether it is a folder, default is `false`
+
+### Proxy
+
+Learn more: [electronjs/docs](https://www.electronjs.org/docs/latest/api/session#sessetproxyconfig)
+
+- `proxyRules`: Rules indicating which proxies to use.
+- `proxyBypassRules`: Rules indicating which URLs should bypass the proxy settings.
+
+## Noi Extensions
+
+[📁 extensions](./extensions)
+
+Note that Noi does not support the full range of Chrome extensions APIs. See Supported Extensions APIs for more details on what is supported.
+
+Learn more: [electronjs/doc](https://www.electronjs.org/docs/latest/api/extensions)
+
+<!-- EXTENSIONS_START -->
+| Name | Version | Description |
+| --- | --- | --- |
+| [@noi/ask](https://github.com/lencx/Noi/tree/main/extensions/noi-ask) | 0.1.7 | The best assistant for batch asking and quick typing of prompts. |
+| [@noi/ask-custom](https://github.com/lencx/Noi/tree/main/extensions/noi-ask-custom) | 0.1.0 | The best assistant for batch asking and quick typing of prompts. |
+| [@noi/export-chatgpt](https://github.com/lencx/Noi/tree/main/extensions/noi-export-chatgpt) | 0.1.0 | ChatGPT chat history export, supports PDF, Image, and Markdown formats. |
+| [@noi/reset](https://github.com/lencx/Noi/tree/main/extensions/noi-reset) | 0.1.0 | Reset certain website styles to enhance compatibility with Noi. |
+<!-- EXTENSIONS_END -->
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lencx/Noi&type=Timeline)](https://star-history.com/#lencx/Noi&Timeline)
+
+# Noi Languages
+
+[📁 locales](./locales)
+
+- `en`: English
+- `zh`: 简体中文
+- `zh_Hant`: 繁體中文
+- `ja`: 日本語
+- `ko`: 한국어
+- `fr`: Français
+- `es`: Español
+- `pt`: Português
+- `ru`: Русский
+- `de`: Deutsch
+- `it`: Italiano
+- `tr`: Türkçe
 
 ## FAQ
 
@@ -49,12 +137,6 @@ xattr -cr /Applications/Noi.app
 ```
 
 ![mac-install-error](./website/static/readme/mac-install-error.jpg)
-
-## TODO
-
-- Notes
-- Toolset
-- Plugin system
 
 ## 中国用户
 

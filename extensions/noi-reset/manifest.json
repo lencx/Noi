@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "@noi/reset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-reset",
   "description": "Reset certain website styles to enhance compatibility with Noi.",
   "content_scripts": [
@@ -9,7 +9,15 @@
       "matches": [
         "https://vscode.dev/*"
       ],
-      "js": ["main.js"],
+      "js": ["darg.js"],
+      "run_at": "document_end",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["scrollbar.js"],
       "run_at": "document_end",
       "world": "MAIN"
     }

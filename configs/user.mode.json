@@ -1,0 +1,15 @@
+{
+  "name": "Noi User Mode",
+  "mode_main": "noi://about",
+  "mode_tray": "https://chat.openai.com",
+  "mode_partition": "",
+  "ua_main": "",
+  "ua_tray": "",
+  "noi_ask": [
+    "noi:chatgpt",
+    "noi:claude",
+    "noi:gemini",
+    "noi:poe"
+  ],
+  "modes": []
+}
