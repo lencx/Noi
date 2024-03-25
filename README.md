@@ -57,7 +57,7 @@ To set up a custom sync link, follow the steps below:
 
 #### Sync URL
 
-- [AI](./noi.mode.json): Popular AI websites and communities (e.g., ChatGPT, Bard, Claude, Poe, etc.).
+- [AI](./noi.mode.json): Popular AI websites and communities (e.g., ChatGPT, Gemini, Claude, Poe, etc.).
 
   ```bash
   https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.json
