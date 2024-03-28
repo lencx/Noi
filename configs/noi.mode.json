@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
   "modes": [
     {
@@ -104,6 +104,12 @@
       "parent": "noi@ai",
       "text": "YOU",
       "url": "https://you.com"
+    },
+    {
+      "id": "noi:suno",
+      "parent": "noi@ai",
+      "text": "Suno AI",
+      "url": "https://app.suno.ai"
     },
     {
       "id": "noi:github",
