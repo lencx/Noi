@@ -130,13 +130,19 @@ Learn more: [electronjs/doc](https://www.electronjs.org/docs/latest/api/extensio
 
 ### macOS
 
-If you encounter the error message "Noi" is damaged and can't be opened. You should move it to the Trash. while installing software on macOS, it may be due to security settings restrictions in macOS. To solve this problem, please try the following command in Terminal:
+If you encounter the error message "Noi" is damaged and can't be opened. You should move it to the Trash. while installing software on macOS, it may be due to security settings restrictions in macOS.
+
+![mac-install-error](./website/static/readme/mac-install-error.jpg)
+
+To solve this problem, please choose Apple menu  > System Preferences, then click Security & Privacy and choose General tab:
+
+![](./website/static/readme/fix-mac-install-error.png)
+
+or try the following command in Terminal:
 
 ```bash
 xattr -cr /Applications/Noi.app
 ```
-
-![mac-install-error](./website/static/readme/mac-install-error.jpg)
 
 ## 中国用户
 
