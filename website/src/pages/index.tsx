@@ -2,7 +2,7 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-const noiVersion = '0.3.0';
+const noiVersion = '0.4.0';
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
