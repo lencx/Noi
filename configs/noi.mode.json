@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
   "modes": [
     {
@@ -88,6 +88,12 @@
       "url": "https://groq.com"
     },
     {
+      "id": "noi:lechatmistral",
+      "parent": "noi@ai",
+      "text": "Le Chat Mistral",
+      "url": "https://chat.mistral.ai/chat"
+    },
+    {
       "id": "noi:pi",
       "parent": "noi@ai",
       "text": "Pi",
@@ -106,10 +112,16 @@
       "url": "https://you.com"
     },
     {
+      "id": "noi:midjourney",
+      "parent": "noi@ai",
+      "text": "Midjourney",
+      "url": "https://www.midjourney.com"
+    },
+    {
       "id": "noi:suno",
       "parent": "noi@ai",
       "text": "Suno AI",
-      "url": "https://app.suno.ai"
+      "url": "https://suno.com"
     },
     {
       "id": "noi:github",
