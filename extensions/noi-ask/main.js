@@ -45,7 +45,7 @@ class NoiAsk {
 
 class OpenAIAsk extends NoiAsk {
   static name = 'ChatGPT';
-  static url = 'https://chat.openai.com';
+  static url = 'https://chatgpt.com';
 
   static submit() {
     const btn = document.querySelector('button[data-testid="send-button"]');
@@ -322,7 +322,7 @@ class GroqAsk extends NoiAsk {
 
 class SunoAsk extends NoiAsk {
   static name = 'Suno AI';
-  static url = 'https://app.suno.ai';
+  static url = 'https://suno.com';
 
   static submit() {
     const btn = Array.from(document.querySelectorAll('button')).find(i => i.innerText.includes('Create'));

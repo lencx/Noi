@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
   "name": "@noi/ask",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
   "description": "The best assistant for batch asking and quick typing of prompts.",
   "content_scripts": [
     {
       "matches": [
-        "https://chat.openai.com/*",
+        "https://chatgpt.com/*",
         "https://gemini.google.com/*",
         "https://poe.com/*",
         "https://claude.ai/*",
@@ -22,7 +22,7 @@
         "https://chatglm.cn/*",
         "https://www.doubao.com/*",
         "https://tongyi.aliyun.com/qianwen/*",
-        "https://app.suno.ai/*"
+        "https://suno.com/*"
       ],
       "js": ["main.js"],
       "run_at": "document_end",
