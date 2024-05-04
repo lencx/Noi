@@ -1,7 +1,7 @@
 {
   "name": "Noi User Mode",
   "mode_main": "noi://about",
-  "mode_tray": "https://chat.openai.com",
+  "mode_tray": "https://chatgpt.com",
   "mode_partition": "",
   "ua_main": "",
   "ua_tray": "",

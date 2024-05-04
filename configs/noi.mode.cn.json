@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.cn.json",
   "modes": [
     {
@@ -37,7 +37,7 @@
       "id": "noi:chatgpt",
       "parent": "noi@ai",
       "text": "ChatGPT",
-      "url": "https://chat.openai.com"
+      "url": "https://chatgpt.com"
     },
     {
       "id": "noi:claude",
