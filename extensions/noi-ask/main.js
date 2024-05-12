@@ -299,14 +299,8 @@ class TongyiAsk extends NoiAsk {
   static url = 'https://tongyi.aliyun.com/qianwen';
 
   static submit() {
-    const inputElement = document.querySelector('textarea');
-    if (inputElement) {
-      const nextElement = inputElement.nextElementSibling;
-      if (nextElement) {
-        const btn = nextElement.querySelector('div[class^="chatBtn"]');
-        if (btn) btn.click();
-      }
-    }
+    const btn = document.querySelector('div[class*=operateBtn]');
+    if (btn) btn.click();
   }
 }
 
