@@ -48,7 +48,8 @@ class OpenAIAsk extends NoiAsk {
   static url = 'https://chatgpt.com';
 
   static submit() {
-    const btn = document.querySelector('button[data-testid="send-button"]');
+    const selector = "form > div > div.flex.w-full.items-center > div > div > button";
+    const btn = document.querySelector(selector);
     if (btn) this.autoClick(btn);
   }
 }
