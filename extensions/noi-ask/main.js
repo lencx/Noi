@@ -48,7 +48,13 @@ class OpenAIAsk extends NoiAsk {
   static url = 'https://chatgpt.com';
 
   static submit() {
-    const btn = document.querySelector('button[data-testid="send-button"]');
+    let btn = document.querySelector('button[data-testid="send-button"]');
+    if (!btn) {
+      // ChatGPT paid version is running on a different UI, it does not have `data-testid`.
+      // Luckily svg is unique on the whole page
+      const svg = document.querySelectorAll('svg[class*="icon-2xl"]')[0];
+      btn = svg.parentElement;
+    }
     if (btn) this.autoClick(btn);
   }
 }
