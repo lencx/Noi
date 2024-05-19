@@ -57,13 +57,13 @@ To set up a custom sync link, follow the steps below:
 
 #### Sync URL
 
-- [AI](./noi.mode.json): Popular AI websites and communities (e.g., ChatGPT, Gemini, Claude, Poe, etc.).
+- [AI](configs/noi.mode.json): Popular AI websites and communities (e.g., ChatGPT, Gemini, Claude, Poe, etc.).
 
   ```bash
   https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.json
   ```
 
-- [AI（内陆版）](./noi.mode.cn.json): 主流 AI 及国内 AI（如：通义千问、扣子、豆包、智谱清言、讯飞星火、文心一言等）。
+- [AI（内陆版）](configs/noi.mode.cn.json): 主流 AI 及国内 AI（如：通义千问、扣子、豆包、智谱清言、讯飞星火、文心一言等）。
 
   ```bash
   https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.cn.json
