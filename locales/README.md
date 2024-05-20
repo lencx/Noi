@@ -12,3 +12,4 @@
 - `de`: Deutsch
 - `it`: Italiano
 - `tr`: Türkçe
+- `hu`: Magyar
