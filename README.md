@@ -114,6 +114,7 @@ Learn more: [electronjs/doc](https://www.electronjs.org/docs/latest/api/extensio
 [📁 locales](./locales)
 
 - `en`: English
+- `fa`: فارسی
 - `zh`: 简体中文
 - `zh_Hant`: 繁體中文
 - `ja`: 日本語
