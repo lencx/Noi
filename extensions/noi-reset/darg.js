@@ -11,4 +11,5 @@ function removeAppRegion() {
   }
 }
 
-setTimeout(removeAppRegion, 3000);
+setTimeout(removeAppRegion, 1000);
+window.NoiUtils?.changeURL?.('noi@reset:drag', () => setTimeout(removeAppRegion, 1000));
