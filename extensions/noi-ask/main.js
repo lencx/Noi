@@ -47,6 +47,19 @@ class OpenAIAsk extends NoiAsk {
   static name = 'ChatGPT';
   static url = 'https://chatgpt.com';
 
+  static sync(message) {
+    if (document.querySelector('form textarea')) {
+      this.sync(message);
+    } else {
+      const inputElement = document.querySelector('form #prompt-textarea');
+      if (inputElement) {
+        inputElement.focus();
+        inputElement.innerHTML = '';
+        document.execCommand('insertText', false, message);
+      }
+    }
+  }
+
   static submit() {
     const forms = document.querySelectorAll('main form');
     const form = forms[forms.length - 1];
