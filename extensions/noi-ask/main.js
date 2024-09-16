@@ -54,8 +54,13 @@ class OpenAIAsk extends NoiAsk {
       const inputElement = document.querySelector('form #prompt-textarea');
       if (inputElement) {
         inputElement.focus();
-        inputElement.innerHTML = '';
-        document.execCommand('insertText', false, message);
+        inputElement.innerHTML = ''; // Clear existing content
+        const lines = message.split('\n');
+        lines.forEach(line => {
+          const p = document.createElement('p');
+          p.textContent = line; // Use textContent to prevent HTML injection
+          inputElement.appendChild(p);
+        });
       }
     }
   }
