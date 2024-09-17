@@ -6,6 +6,7 @@
 - `ja`: 日本語
 - `ko`: 한국어
 - `fr`: Français
+- `hu`: Hungarian
 - `es`: Español
 - `pt`: Português
 - `ru`: Русский
