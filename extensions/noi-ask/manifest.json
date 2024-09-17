@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "@noi/ask",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
   "description": "The best assistant for batch asking and quick typing of prompts.",
   "content_scripts": [
