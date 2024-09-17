@@ -15,6 +15,7 @@
     { "code": "hu", "label": "Magyar" },
     { "code": "de", "label": "Deutsch" },
     { "code": "it", "label": "Italiano" },
+    { "code": "id", "label": "Indonesia" },
     { "code": "tr", "label": "Türkçe" }
   ]
 }
