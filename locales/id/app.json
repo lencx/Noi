@@ -1,0 +1,223 @@
+{
+  "lang": "Indonesia",
+  "sponsor": "Sponsori Noi",
+  "menu": {
+    "name": "Menu",
+    "about": "Tentang Noi",
+    "hide": "Sembunyikan Noi",
+    "hideOthers": "Sembunyikan Lainnya",
+    "quit": "Keluar dari Noi",
+    "unhide": "Tampilkan Semua",
+    "checkUpdates": "Periksa Pembaharuan",
+
+    "settings": "setelan",
+    "languages": "Bahasa",
+    "theme": {
+      "name": "Tema",
+      "light": "Terang",
+      "dark": "Gelap",
+      "system": "Sistem",
+      "monochromatic": "Monokromatik",
+      "frostedTexture": "Tekstur Buram"
+    },
+    "stayOnTop": "Tetap di Atas",
+    "lockSidebar": "Kunci Sidebar",
+    "showSidebar": "Tampilkan Sidebar",
+    "hideSidebar": "Sembunyikan Sidebar",
+    "noiCacheMode": "Mode Cache Noi",
+    "devTools": "Alat Pengembang",
+    "xQuit": "Klik [X] untuk Keluar",
+    "systemTray": "Baki Sistem",
+
+    "edit": "Ubah",
+    "undo": "Batalkan",
+    "redo": "Ulangi",
+    "pasteAndMatchStyle": "Tempel dan Cocokkan Gaya",
+    "delete": "Hapus",
+
+    "view": "Lihat",
+    "refresh": "Segarkan Halaman",
+    "goBack": "Kembali",
+    "goForward": "Maju",
+    "resetZoom": "Ukuran Asli",
+    "zoomIn": "Perbesar",
+    "zoomOut": "Perkecil",
+    "fullScreen": "Masuk ke Layar Penuh",
+
+    "help": "Bantuan",
+    "log": "Noi Log",
+    "gettingStarted": "Memulai",
+    "issues": "GitHub Issues",
+    "shareIdeas": "Berbagi Ide dan Masukan",
+
+    "defaultWebBrowser": "Browser web default",
+    "learnSpelling": "Belajar Ejaan",
+    "lookUpSelection": "Cari “{selection}”",
+    "searchWithGoogle": "Cari menggunakan Google",
+    "searchWithBing": "Cari menggunakan Bing",
+    "cut": "Potong",
+    "copy": "Salin",
+    "paste": "Tempel",
+    "selectAll": "Pilih Semua",
+    "saveImage": "Simpan Gambar",
+    "saveImageAs": "Simpan Gambar Sebagai…",
+    "saveVideo": "Simpan Vidio",
+    "saveVideoAs": "Simpan Vidio Sebagai…",
+    "copyLink": "Salin Tautan",
+    "saveLinkAs": "Salin Tautan Sebagai…",
+    "copyImage": "Salin Gambar",
+    "copyImageAddress": "Salin Alamat Gambar",
+    "copyVideoAddress": "Salin Alamat Vidio",
+    "inspect": "Periksa Elemen",
+    "services": "Layanan",
+    "reload": "Muat Ulang",
+    "rename": "Ubah Nama",
+    "user": "Pengguna",
+    "setSystemTray": "Tetapkan sebagai Baki Sistem",
+    "clearCache": "Hapus Data Cache",
+    "find": {
+      "name": "Temukan",
+      "findInPage": "Temukan dalam halaman…",
+      "findNext": "Temukan Selanjutnya",
+      "findPrevious": "Temukan Sebelumnya",
+      "jumpToSelection": "Lompat ke Pilihan"
+    }
+  },
+  "form": {
+    "name": "Nama",
+    "url": "URL",
+    "isolatedCookieStorage": "Penyimpanan Cookie Terisolasi",
+    "invalidURL": "Masukkan URL yang valid.",
+    "nameNotEmpty": "Nama tidak boleh kosong."
+  },
+  "sidebar": {
+    "warn": {
+      "urlDelete": "URL saat ini sedang digunakan.",
+      "dirDelete": "Direktori saat ini sedang digunakan.",
+      "trayDelete": "Baki sistem sedang menggunakan URL saat ini, tidak dapat dihapus."
+    },
+    "tip": {
+      "delete": "Tidak dapat dipulihkan setelah dihapus, apakah kamu yakin ingin menghapus?",
+      "syncOverwrite": "Sinkronisasi akan menimpa semua data kecuali data khusus. Apakah kamu ingin melanjutkan?",
+      "syncReset": "Saat ini kamu sedang menggunakan versi terbaru. Sinkronisasi akan mengatur ulang semua data kecuali data khusus. Apakah kamu ingin melanjutkan?",
+      "syncOk": "Sinkronisasi berhasil",
+      "syncResetOk": "Reset berhasil"
+    }
+  },
+  "network": {
+    "error": {
+      "try": "Coba:",
+      "title": "Situs ini tidak dapat dihubungi",
+      "longRespond": "membutuhkan waktu terlalu lama untuk merespons.",
+      "checkConnection": "Sedang memeriksa koneksi",
+      "checkProxy": "Memeriksa proxy dan firewall"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": {
+        "name": "Umum",
+        "syncBookmarks": "Menyinkronkan Penanda",
+        "proxy": "Proxy",
+        "proxyRules": "Aturan",
+        "proxyBypassRules": "Bypass Aturan",
+        "promptLogLimit": "Batas log",
+        "promptLogArchiveLimit": "Batas Arsip Log",
+        "promptFavoritesLimit": "Batas Favorit",
+        "promptFavoritesArchiveLimit": "Batas Arsip Favorit"
+      },
+      "keyboardShortcuts": {
+        "name": "Pintasan Keyboard",
+        "recording": "Merekam...",
+        "globalShortcut": "Pintasan Umum",
+        "trayShortcut": "Pintasan Baki Sistem"
+      },
+      "extensions": "Ekstensi",
+      "prompts": {
+        "name": "Prompts",
+        "userPrompts": "Prompt Pengguna",
+        "promptTags": "Tag Prompt",
+        "customSync": "Sinkronisasi Khusus"
+      }
+    },
+    "confirm": {
+      "delete": "Apakah kamu yakin ingin menghapus catatan ini?",
+      "batchEnable": "Apakah kamu yakin ingin mengaktifkan prompt ini?",
+      "batchDelete": "Apakah kamu yakin ingin menghapus prompt ini?",
+      "batchDisable": "Apakah kamu yakin ingin menonaktifkan prompt ini?",
+      "batchUse": "Apakah kamu yakin ingin menggunakan prompt ini?",
+      "batchTagsAdd": "Apakah kamu yakin ingin menambahkan tag ini?",
+      "batchTagsDelete": "Apakah kamu yakin ingin menghapus tag ini?"
+    },
+    "message": {
+      "added": "Ditambahkan",
+      "synced": "Tersinkronisasi",
+      "invalidData": "Data Tidak Valid",
+      "missingActAndPrompt": "Kolom yang tidak diisi: 'act', 'prompt'. Coba gunakan 'Alias' untuk mengganti nama.",
+      "missingManifest": "File manifest.json tidak ada atau tidak valid.",
+      "checkExtension": "Silakan periksa kembali direktori ekstensi:",
+      "existExtension": "Ekstensi sudah ada."
+    },
+    "tip": {
+      "proxyRules": "Aturan yang menunjukkan proksi mana yang akan digunakan.",
+      "proxyBypassRules": "Aturan yang menunjukkan URL mana yang harus melewati setelan proksi.",
+      "shortcutRule": "Aturan Pintasan",
+      "modifierKeys": "Kunci pengubah",
+      "regularKeys": "Kunci biasa",
+      "noiExtension": "Perhatikan bahwa Noi tidak mendukung seluruh API ekstensi Chrome. Lihat API Ekstensi yang Didukung untuk detail lebih lanjut tentang apa saja yang didukung.",
+      "noiCacheMode": "Menyimpan status halaman web untuk akses ulang dengan cepat, mirip dengan tab browser. Perekaman status secara terus menerus akan meningkatkan penggunaan memori, terutama ketika sering mengakses tautan bilah sisi yang berbeda. Untuk mengurangi dampak memori, terutama saat sistem mengalami kelambatan, pertimbangkan untuk menonaktifkan atau memulai ulang cache setelah beberapa kali peralihan.",
+      "promptLogLimit": "Jumlah maksimum prompt yang akan disimpan dalam log (10-1.000), setelan default 300.",
+      "promptLogArchiveLimit_1": "Jumlah maksimum prompt yang dapat disimpan dalam satu file arsip (1.000-10.000), setelan default 1.000.",
+      "promptLogArchiveLimit_2": "1. File yang sedang diarsipkan: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Konvensi penamaan untuk file arsip yang telah selesai: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, dimana YYYY.MM.DD.HH.mm.ss masing-masing mewakili waktu mulai dan waktu akhir. Sebagai contoh: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
+    },
+    "table": {
+      "name": "Nama",
+      "extension": "Ekstensi",
+      "description": "Deskripsi",
+      "version": "Versi",
+      "tag": "Tag",
+      "color": "Warna",
+      "lastUpdate": "Terakhir Diperbaharui",
+      "usageCount": "Jumlah Penggunaan"
+    }
+  },
+  "action": {
+    "name": "Aksi",
+    "add": "Tambahkan",
+    "cancel": "Batalkan",
+    "create": "Buat",
+    "confirm": "Konfirmasi",
+    "detail": "Detil",
+    "delete": "Hapus",
+    "disable": "Nonaktifkan",
+    "edit": "Ubah",
+    "enable": "Aktifkan",
+    "export": "Ekspor",
+    "refresh": "Segarkan",
+    "reset": "Atur ulang",
+    "sync": "Sinkronisasi",
+    "save": "Simpan",
+    "search": "Cari",
+    "select": "Pilih",
+    "use": "Gunakan",
+    "copied": "Tersalin",
+    "batchAdd": "Penambahan Batch",
+    "batchDisable": "Penonaktifan Batch",
+    "batchEnable": "Pengaktifan Batch",
+    "batchDelete": "Penghapusan Batch",
+    "batchUse": "Gunakan secara Batch"
+  },
+  "prompt": {
+    "promptFavorite": "Prompts Favorite",
+    "promptLog": "Log Prompts",
+    "promptSend": "Kirim Prompt",
+    "newChat": "Percakapan baru",
+    "sendMessage": "Kirim pesan",
+    "resetPanel": "Atur Ulang Panel",
+    "promptCmd": "Command Prompt",
+    "sizeSmall": "Kecil",
+    "sizeMedium": "Sedang",
+    "sizeLarge": "Besar"
+  }
+}
