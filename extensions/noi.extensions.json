@@ -37,7 +37,7 @@
     {
       "name": "Thinking Claude",
       "description": "Makes Claude's thinking process expandable and collapsible",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "url": "https://github.com/lencx/Noi/tree/main/extensions/thinking-claude",
       "dirname": "thinking-claude",
       "disabled": false
