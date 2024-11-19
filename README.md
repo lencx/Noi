@@ -7,6 +7,13 @@
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
+> [!NOTE]
+> When installing for the first time, the **Noi Extensions** might not be the latest version. You will need to manually update the extensions from [lencx/Noi/extensions](https://github.com/lencx/Noi/tree/main/extensions) to your computer.
+>
+> You can locate this option in the settings or open the local extensions directory via the menu: **Help -> Noi UserData -> Extensions**.
+>
+> ![](./website/static/readme/noi-extensions.png)
+
 ## 🔥 Feature
 
 Introducing Noi: an AI-enhanced, customizable browser designed to streamline your digital experience:
