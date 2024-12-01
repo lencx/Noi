@@ -1,0 +1,223 @@
+{
+  "lang": "العربية",
+  "sponsor": "الراعي Noi",
+  "menu": {
+    "name": "القائمة",
+    "about": "عن Noi",
+    "hide": "إخفاء Noi",
+    "hideOthers": "إخفاء الآخرين",
+    "quit": "إنهاء Noi",
+    "unhide": "إظهار الكل",
+    "checkUpdates": "التحقق من التحديثات…",
+
+    "settings": "الإعدادات",
+    "languages": "اللغات",
+    "theme": {
+      "name": "السمة",
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "النظام",
+      "monochromatic": "أحادي اللون",
+      "frostedTexture": "نمط ضبابي"
+    },
+    "stayOnTop": "البقاء في المقدمة",
+    "lockSidebar": "قفل الشريط الجانبي",
+    "showSidebar": "إظهار الشريط الجانبي",
+    "hideSidebar": "إخفاء الشريط الجانبي",
+    "noiCacheMode": "وضع التخزين المؤقت لـ Noi",
+    "devTools": "أدوات المطور",
+    "xQuit": "انقر [X] للخروج",
+    "systemTray": "علبة النظام",
+
+    "edit": "تحرير",
+    "undo": "تراجع",
+    "redo": "إعادة",
+    "pasteAndMatchStyle": "لصق ومطابقة النمط",
+    "delete": "حذف",
+
+    "view": "عرض",
+    "refresh": "تحديث الصفحة",
+    "goBack": "الرجوع",
+    "goForward": "التقدم للأمام",
+    "resetZoom": "الحجم الفعلي",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "fullScreen": "دخول ملء الشاشة",
+
+    "help": "مساعدة",
+    "log": "سجل Noi",
+    "gettingStarted": "البدء",
+    "issues": "مشاكل GitHub",
+    "shareIdeas": "مشاركة الأفكار والملاحظات",
+
+    "defaultWebBrowser": "المتصفح الافتراضي",
+    "learnSpelling": "تعلم الإملاء",
+    "lookUpSelection": "البحث عن “{selection}”",
+    "searchWithGoogle": "البحث باستخدام Google",
+    "searchWithBing": "البحث باستخدام Bing",
+    "cut": "قص",
+    "copy": "نسخ",
+    "paste": "لصق",
+    "selectAll": "تحديد الكل",
+    "saveImage": "حفظ الصورة",
+    "saveImageAs": "حفظ الصورة باسم…",
+    "saveVideo": "حفظ الفيديو",
+    "saveVideoAs": "حفظ الفيديو باسم…",
+    "copyLink": "نسخ الرابط",
+    "saveLinkAs": "حفظ الرابط باسم…",
+    "copyImage": "نسخ الصورة",
+    "copyImageAddress": "نسخ عنوان الصورة",
+    "copyVideoAddress": "نسخ عنوان الفيديو",
+    "inspect": "فحص العنصر",
+    "services": "الخدمات",
+    "reload": "إعادة تحميل",
+    "rename": "إعادة تسمية",
+    "user": "المستخدم",
+    "setSystemTray": "تعيين كعلبة النظام",
+    "clearCache": "مسح بيانات التخزين المؤقت",
+    "find": {
+      "name": "بحث",
+      "findInPage": "البحث في الصفحة…",
+      "findNext": "بحث عن التالي",
+      "findPrevious": "بحث عن السابق",
+      "jumpToSelection": "الانتقال إلى التحديد"
+    }
+  },
+  "form": {
+    "name": "الاسم",
+    "url": "الرابط",
+    "isolatedCookieStorage": "تخزين الكوكيز المعزول",
+    "invalidURL": "يرجى إدخال رابط صالح.",
+    "nameNotEmpty": "لا يمكن أن يكون الاسم فارغًا."
+  },
+  "sidebar": {
+    "warn": {
+      "urlDelete": "الرابط الحالي قيد الاستخدام.",
+      "dirDelete": "الدليل الحالي قيد الاستخدام.",
+      "trayDelete": "علبة النظام تستخدم الرابط الحالي، لا يمكن حذفه."
+    },
+    "tip": {
+      "delete": "لا يمكن استعادته بعد الحذف، هل أنت متأكد أنك تريد الحذف؟",
+      "syncOverwrite": "ستؤدي المزامنة إلى الكتابة فوق جميع البيانات باستثناء البيانات المخصصة. هل تريد المتابعة؟",
+      "syncReset": "أنت حاليًا على أحدث إصدار. ستؤدي المزامنة إلى إعادة تعيين جميع البيانات باستثناء البيانات المخصصة. هل تريد المتابعة؟",
+      "syncOk": "تمت المزامنة بنجاح",
+      "syncResetOk": "تمت إعادة التعيين بنجاح"
+    }
+  },
+  "network": {
+    "error": {
+      "try": "جرب:",
+      "title": "لا يمكن الوصول إلى هذا الموقع",
+      "longRespond": "استغرق وقتًا طويلًا للرد.",
+      "checkConnection": "تحقق من الاتصال",
+      "checkProxy": "تحقق من الوكيل والجدار الناري"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": {
+        "name": "عام",
+        "syncBookmarks": "مزامنة الإشارات المرجعية",
+        "proxy": "الوكيل",
+        "proxyRules": "القواعد",
+        "proxyBypassRules": "قواعد الاستثناء",
+        "promptLogLimit": "حد السجل",
+        "promptLogArchiveLimit": "حد أرشيف السجل",
+        "promptFavoritesLimit": "حد المفضلة",
+        "promptFavoritesArchiveLimit": "حد أرشيف المفضلة"
+      },
+      "keyboardShortcuts": {
+        "name": "اختصارات لوحة المفاتيح",
+        "recording": "تسجيل…",
+        "globalShortcut": "اختصار عالمي",
+        "trayShortcut": "اختصار علبة النظام"
+      },
+      "extensions": "الإضافات",
+      "prompts": {
+        "name": "المطالبات",
+        "userPrompts": "مطالبات المستخدم",
+        "promptTags": "علامات المطالبات",
+        "customSync": "مزامنة مخصصة"
+      }
+    },
+    "confirm": {
+      "delete": "هل أنت متأكد أنك تريد حذف هذا السجل؟",
+      "batchEnable": "هل تريد تمكين هذه المطالبات؟",
+      "batchDelete": "هل تريد حذف هذه المطالبات؟",
+      "batchDisable": "هل تريد تعطيل هذه المطالبات؟",
+      "batchUse": "هل تريد استخدام هذه المطالبات؟",
+      "batchTagsAdd": "هل تريد إضافة هذه العلامات؟",
+      "batchTagsDelete": "هل تريد حذف هذه العلامات؟"
+    },
+    "message": {
+      "added": "تمت الإضافة",
+      "synced": "تمت المزامنة",
+      "invalidData": "بيانات غير صالحة",
+      "missingActAndPrompt": "الحقول مفقودة: 'act'، 'prompt'. جرب استخدام 'Alias' لإعادة التسمية.",
+      "missingManifest": "ملف manifest.json مفقود أو غير صالح.",
+      "checkExtension": "يرجى إعادة فحص دليل الامتداد:",
+      "existExtension": "الامتداد موجود بالفعل."
+    },
+    "tip": {
+      "proxyRules": "قواعد تحدد أي الوكلاء سيتم استخدامهم.",
+      "proxyBypassRules": "قواعد تحدد أي الروابط يجب أن تتجاوز إعدادات الوكيل.",
+      "shortcutRule": "قاعدة الاختصار",
+      "modifierKeys": "مفاتيح التعديل",
+      "regularKeys": "المفاتيح العادية",
+      "noiExtension": "لاحظ أن Noi لا يدعم المجموعة الكاملة من واجهات برمجة تطبيقات امتدادات Chrome. انظر واجهات برمجة التطبيقات المدعومة للمزيد من التفاصيل.",
+      "noiCacheMode": "يخزن حالات صفحات الويب لإعادة الوصول السريع، مشابهًا للتبويبات في المتصفح. زيادة التسجيل المستمر للحالات يزيد من استخدام الذاكرة، خاصة عند الوصول المتكرر إلى روابط الشريط الجانبي المختلفة. لتخفيف تأثير الذاكرة، خاصة خلال بطء النظام، ضع في اعتبارك تعطيل أو إعادة تشغيل التخزين المؤقت بعد التبديلات المتعددة.",
+      "promptLogLimit": "الحد الأقصى لعدد المطالبات التي سيتم الاحتفاظ بها في السجل (10-1,000)، والافتراضي هو 300.",
+      "promptLogArchiveLimit_1": "الحد الأقصى لعدد المطالبات التي يمكن تخزينها في ملف أرشيف واحد (1,000-10,000)، والافتراضي هو 1,000.",
+      "promptLogArchiveLimit_2": "1. الملف الذي يتم أرشفته حاليًا: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. اتفاقية التسمية لملفات الأرشيف المكتملة: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json، حيث يمثل YYYY.MM.DD.HH.mm.ss أوقات البدء والانتهاء على التوالي. على سبيل المثال: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
+    },
+    "table": {
+      "name": "اسم",
+      "extension": "امتداد",
+      "description": "تعريف",
+      "version": "إصدار",
+      "tag": "Tag",
+      "color": "لون",
+      "lastUpdate": "آخر تحديث",
+      "usageCount": "عدد الاستخدام"
+    }
+  },
+  "action": {
+    "name": "عملية",
+    "add": "أضف",
+    "cancel": "الغ",
+    "create": "أنشئ",
+    "confirm": "أكّد",
+    "detail": "تفاصيل",
+    "delete": "احذف",
+    "disable": "عطّل",
+    "edit": "حرّر",
+    "enable": "فعّل",
+    "export": "صدّر",
+    "refresh": "أنعش",
+    "reset": "إعادة ضبط",
+    "sync": "زامن",
+    "save": "احفظ",
+    "search": "ابحث",
+    "select": "حدّد",
+    "use": "استعمل",
+    "copied": "منسوخ",
+    "batchAdd": "إضافة دفعة",
+    "batchDisable": "تعطيل دفعة",
+    "batchEnable": "تفعيل دفعة",
+    "batchDelete": "حذف دفعة",
+    "batchUse": "استعمال دفعة"
+  },
+  "prompt": {
+    "promptFavorite": "المطالبات المفضلة",
+    "promptLog": "سجل المطالبات",
+    "promptSend": "إرسال سريع",
+    "newChat": "دردشة جديدة",
+    "sendMessage": "أرسل رسالة",
+    "resetPanel": "إعادة تعيين اللوحة",
+    "promptCmd": "أمر موجه",
+    "sizeSmall": "صغير",
+    "sizeMedium": "متوسط",
+    "sizeLarge": "كبير"
+  }
+}
