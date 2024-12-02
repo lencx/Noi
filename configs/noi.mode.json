@@ -154,6 +154,12 @@
       "url": "https://vscode.dev"
     },
     {
+      "id": "noi:projectidx",
+      "parent": "noi@dev",
+      "text": "Project IDX",
+      "url": "https://idx.google.com"
+    },
+    {
       "id": "noi:x",
       "parent": "noi@community",
       "text": "X",

@@ -202,6 +202,12 @@
       "url": "https://vscode.dev"
     },
     {
+      "id": "noi:projectidx",
+      "parent": "noi@dev",
+      "text": "Project IDX",
+      "url": "https://idx.google.com"
+    },
+    {
       "id": "noi:qqmail",
       "parent": "noi@email",
       "text": "QQ 邮箱",
