@@ -94,6 +94,12 @@
       "url": "https://pi.ai/talk"
     },
     {
+      "id": "noi:notebooklm",
+      "parent": "noi@ai",
+      "text": "NotebookLM",
+      "url": "https://notebooklm.google.com"
+    },
+    {
       "id": "noi:coze",
       "parent": "noi@ai",
       "text": "Coze",
@@ -128,6 +134,12 @@
       "parent": "noi@aiCN",
       "text": "豆包",
       "url": "https://www.doubao.com"
+    },
+    {
+      "id": "noi:jimeng",
+      "parent": "noi@aiCN",
+      "text": "即梦 AI",
+      "url": "https://jimeng.jianying.com"
     },
     {
       "id": "noi:chatglm",

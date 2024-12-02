@@ -100,6 +100,12 @@
       "url": "https://pi.ai/talk"
     },
     {
+      "id": "noi:notebooklm",
+      "parent": "noi@ai",
+      "text": "NotebookLM",
+      "url": "https://notebooklm.google.com"
+    },
+    {
       "id": "noi:coze",
       "parent": "noi@ai",
       "text": "Coze",
