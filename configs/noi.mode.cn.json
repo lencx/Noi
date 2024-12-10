@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.cn.json",
   "modes": [
     {
@@ -94,6 +94,12 @@
       "url": "https://pi.ai/talk"
     },
     {
+      "id": "noi:notebooklm",
+      "parent": "noi@ai",
+      "text": "NotebookLM",
+      "url": "https://notebooklm.google.com"
+    },
+    {
       "id": "noi:coze",
       "parent": "noi@ai",
       "text": "Coze",
@@ -128,6 +134,12 @@
       "parent": "noi@aiCN",
       "text": "豆包",
       "url": "https://www.doubao.com"
+    },
+    {
+      "id": "noi:jimeng",
+      "parent": "noi@aiCN",
+      "text": "即梦 AI",
+      "url": "https://jimeng.jianying.com"
     },
     {
       "id": "noi:chatglm",
@@ -188,6 +200,12 @@
       "parent": "noi@dev",
       "text": "VS Code",
       "url": "https://vscode.dev"
+    },
+    {
+      "id": "noi:projectidx",
+      "parent": "noi@dev",
+      "text": "Project IDX",
+      "url": "https://idx.google.com"
     },
     {
       "id": "noi:qqmail",

@@ -341,6 +341,45 @@ class SunoAsk extends NoiAsk {
   }
 }
 
+class NotebooklmAsk extends NoiAsk {
+  static name = 'NotebookLM';
+  static url = 'https://notebooklm.google.com';
+
+  static submit() {
+    const btn = document.querySelector('form button[type="submit"]');
+    if (btn) btn.click();
+  }
+}
+
+class JimengAsk extends NoiAsk {
+  static name = 'Jimeng';
+  static url = 'https://jimeng.jianying.com';
+
+  static sync(message) {
+    // image generation
+    const inputElement = document.querySelector('#prompt-text-editor');
+    if (inputElement) {
+      inputElement.focus();
+      inputElement.innerHTML = '';
+
+      const span = document.createElement('span');
+      span.textContent = message;
+      inputElement.appendChild(span);
+
+      const inputEvent = new InputEvent('input', {
+        bubbles: true,
+        cancelable: true,
+      });
+      inputElement.dispatchEvent(inputEvent);
+    }
+  }
+
+  static submit() {
+    const btn = document.querySelector('[class*="generateButton"]');
+    if (btn) this.autoClick(btn);
+  }
+}
+
 window.NoiAsk = {
   OpenAIAsk,
   PoeAsk,
@@ -358,4 +397,6 @@ window.NoiAsk = {
   TongyiAsk,
   GroqAsk,
   SunoAsk,
+  NotebooklmAsk,
+  JimengAsk,
 };

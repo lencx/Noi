@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Thinking Claude",
+  "version": "0.1.2",
+  "description": "Let Claude think. Makes Claude's thinking process expandable and collapsible.",
+  "homepage": "https://github.com/lencx/Noi/tree/main/extensions/thinking-claude",
+  "content_scripts": [
+    {
+      "matches": ["https://*.claude.ai/*"],
+      "js": ["main.js"]
+    }
+  ]
+}

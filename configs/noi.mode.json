@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.json",
   "modes": [
     {
@@ -100,6 +100,12 @@
       "url": "https://pi.ai/talk"
     },
     {
+      "id": "noi:notebooklm",
+      "parent": "noi@ai",
+      "text": "NotebookLM",
+      "url": "https://notebooklm.google.com"
+    },
+    {
       "id": "noi:coze",
       "parent": "noi@ai",
       "text": "Coze",
@@ -146,6 +152,12 @@
       "parent": "noi@dev",
       "text": "VS Code",
       "url": "https://vscode.dev"
+    },
+    {
+      "id": "noi:projectidx",
+      "parent": "noi@dev",
+      "text": "Project IDX",
+      "url": "https://idx.google.com"
     },
     {
       "id": "noi:x",
