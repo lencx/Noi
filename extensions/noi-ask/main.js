@@ -70,6 +70,17 @@ class OpenAIAsk extends NoiAsk {
   }
 }
 
+class SoraAsk extends NoiAsk {
+  static name = 'Sora';
+  static url = 'https://sora.com';
+
+  static submit() {
+    const buttons = document.querySelectorAll('.surface-composer button');
+    const lastButton = buttons[buttons.length - 1];
+    if (lastButton) this.autoClick(lastButton);
+  }
+}
+
 class PoeAsk extends NoiAsk {
   static name = 'Poe';
   static url = 'https://poe.com';
@@ -382,6 +393,7 @@ class JimengAsk extends NoiAsk {
 
 window.NoiAsk = {
   OpenAIAsk,
+  SoraAsk,
   PoeAsk,
   ClaudeAsk,
   GeminiAsk,

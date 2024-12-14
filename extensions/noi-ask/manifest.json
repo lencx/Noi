@@ -1,13 +1,14 @@
 {
   "manifest_version": 3,
   "name": "@noi/ask",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "homepage": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
   "description": "The best assistant for batch asking and quick typing of prompts.",
   "content_scripts": [
     {
       "matches": [
         "https://chatgpt.com/*",
+        "https://sora.com/*",
         "https://gemini.google.com/*",
         "https://poe.com/*",
         "https://claude.ai/*",

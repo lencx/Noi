@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.cn.json",
   "modes": [
     {
@@ -50,6 +50,12 @@
       "parent": "noi@ai",
       "text": "Gemini",
       "url": "https://gemini.google.com"
+    },
+    {
+      "id": "noi:sora",
+      "parent": "noi@ai",
+      "text": "Sora",
+      "url": "https://sora.com"
     },
     {
       "id": "noi:poe",
