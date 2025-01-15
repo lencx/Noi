@@ -7,7 +7,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://chat.openai.com/*",
+        "https://chatgpt.com/*",
+        "https://sora.com/*",
         "https://gemini.google.com/*",
         "https://poe.com/*",
         "https://claude.ai/*",
@@ -22,7 +23,9 @@
         "https://chatglm.cn/*",
         "https://www.doubao.com/*",
         "https://tongyi.aliyun.com/qianwen/*",
-        "https://app.suno.ai/*",
+        "https://suno.com/*",
+        "https://notebooklm.google.com/*",
+        "https://jimeng.jianying.com/*",
         "https://chat.deepseek.com/*"
       ],
       "js": ["main.js"],
