@@ -302,7 +302,7 @@ class CozeCNAsk extends NoiAsk {
   }
 }
 
-class ChatGMLAsk extends NoiAsk {
+class ChatGLMAsk extends NoiAsk {
   static name = 'ChatGLM'; // 智谱清言
   static url = 'https://chatglm.cn';
 
@@ -318,6 +318,16 @@ class DoubaoAsk extends NoiAsk {
 
   static submit() {
     const btn = document.querySelector('#flow-end-msg-send');
+    if (btn) btn.click();
+  }
+}
+
+class DeepSeekAsk extends NoiAsk {
+  static name = 'DeepSeek'; // DeepSeek
+  static url = 'https://chat.deepseek.com';
+
+  static submit() {
+    const btn = document.querySelector('div[role="button"][aria-disabled]');
     if (btn) btn.click();
   }
 }
@@ -405,10 +415,11 @@ window.NoiAsk = {
   YouAsk,
   CozeCNAsk,
   DoubaoAsk,
-  ChatGMLAsk,
+  ChatGLMAsk,
   TongyiAsk,
   GroqAsk,
   SunoAsk,
   NotebooklmAsk,
   JimengAsk,
+  DeepSeekAsk,
 };
