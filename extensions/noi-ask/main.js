@@ -327,7 +327,7 @@ class DeepSeekAsk extends NoiAsk {
   static url = 'https://chat.deepseek.com';
 
   static submit() {
-    const btn = document.querySelector('div.f286936b div.ds-icon');
+    const btn = document.querySelector('div[role="button"][aria-disabled]');
     if (btn) btn.click();
   }
 }
