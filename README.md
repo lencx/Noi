@@ -18,7 +18,7 @@
 
 Introducing Noi: an AI-enhanced, customizable browser designed to streamline your digital experience:
 
-**AI Support: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai), [Gemini](https://gemini.google.com), [DeepSeek](https://chat.deepseek.com), [GitHub Copilot](https://github.com/copilot), [HuggingChat](https://huggingface.co/chat), ..., etc.**
+**AI Support: [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai), [Gemini](https://gemini.google.com), [DeepSeek](https://chat.deepseek.com), [GitHub Copilot](https://github.com/copilot), [HuggingChat](https://huggingface.co/chat), and more.**
 
 - **Browser**: Noi not only includes curated AI websites but also allows the addition of any URL, providing a tailored browsing experience ([Noi Configs](./configs)).
 - **Prompts Management**: Offers robust customization options including the addition, synchronization, batch tagging, and removal of prompts.
