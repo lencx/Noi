@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.cn.json",
   "modes": [
     {
@@ -50,6 +50,12 @@
       "parent": "noi@ai",
       "text": "Gemini",
       "url": "https://gemini.google.com"
+    },
+    {
+      "id": "noi:deepseek",
+      "parent": "noi@ai",
+      "text": "DeepSeek",
+      "url": "https://chat.deepseek.com"
     },
     {
       "id": "noi:sora",
