@@ -401,6 +401,26 @@ class JimengAsk extends NoiAsk {
   }
 }
 
+class GitHubCopilotAsk extends NoiAsk {
+  static name = 'GitHub';
+  static url = 'https://github.com/copilot';
+
+  static sync(message) {
+    const inputElement = document.querySelector('form #copilot-chat-textarea');
+    if (inputElement) {
+      inputElement.focus();
+      document.execCommand('undo');
+      document.execCommand('insertText', false, message);
+    }
+  }
+
+  static submit() {
+    const btns = document.querySelectorAll('form button');
+    const btn = btns[btns.length - 1];
+    if (btn) this.autoClick(btn);
+  }
+}
+
 window.NoiAsk = {
   OpenAIAsk,
   SoraAsk,
@@ -422,4 +442,5 @@ window.NoiAsk = {
   NotebooklmAsk,
   JimengAsk,
   DeepSeekAsk,
+  GitHubCopilotAsk,
 };
