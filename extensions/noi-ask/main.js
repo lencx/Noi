@@ -421,6 +421,16 @@ class GitHubCopilotAsk extends NoiAsk {
   }
 }
 
+class MetasoAsk extends NoiAsk {
+  static name = 'Metaso'; // 秘塔
+  static url = 'https://metaso.cn';
+
+  static submit() {
+    const btn = document.querySelector('button.send-arrow-button');
+    if (btn) btn.click();
+  }
+}
+
 window.NoiAsk = {
   OpenAIAsk,
   SoraAsk,
@@ -443,4 +453,5 @@ window.NoiAsk = {
   JimengAsk,
   DeepSeekAsk,
   GitHubCopilotAsk,
+  MetasoAsk,
 };
