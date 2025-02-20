@@ -58,6 +58,12 @@
       "url": "https://gemini.google.com"
     },
     {
+      "id": "noi:grok",
+      "parent": "noi@ai",
+      "text": "Grok",
+      "url": "https://grok.com"
+    },
+    {
       "id": "noi:deepseek",
       "parent": "noi@ai",
       "text": "DeepSeek",

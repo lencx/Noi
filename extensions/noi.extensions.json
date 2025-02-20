@@ -5,7 +5,7 @@
     {
       "name": "@noi/ask",
       "description": "The best assistant for batch asking and quick typing of prompts.",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask",
       "dirname": "noi-ask",
       "disabled": false
@@ -16,14 +16,6 @@
       "version": "0.1.0",
       "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-ask-custom",
       "dirname": "noi-ask-custom",
-      "disabled": false
-    },
-    {
-      "name": "@noi/export-chatgpt",
-      "description": "ChatGPT chat history export, supports PDF, Image, and Markdown formats.",
-      "version": "0.1.1",
-      "url": "https://github.com/lencx/Noi/tree/main/extensions/noi-export-chatgpt",
-      "dirname": "noi-export-chatgpt",
       "disabled": false
     },
     {

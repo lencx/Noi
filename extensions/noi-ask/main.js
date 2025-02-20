@@ -70,24 +70,13 @@ class OpenAIAsk extends NoiAsk {
   }
 }
 
-class SoraAsk extends NoiAsk {
-  static name = 'Sora';
-  static url = 'https://sora.com';
+class GrokAsk extends NoiAsk {
+  static name = 'Grok';
+  static url = 'https://grok.com';
 
   static submit() {
-    const buttons = document.querySelectorAll('.surface-composer button');
-    const lastButton = buttons[buttons.length - 1];
-    if (lastButton) this.autoClick(lastButton);
-  }
-}
-
-class PoeAsk extends NoiAsk {
-  static name = 'Poe';
-  static url = 'https://poe.com';
-
-  static submit() {
-    const btn = document.querySelectorAll('button[class*="ChatMessageSendButton_sendButton"]')[0];
-    if (btn) this.autoClick(btn);
+    const btn = document.querySelector('button[type="submit"]');
+    if (btn) btn.click();
   }
 }
 
@@ -179,6 +168,28 @@ class HuggingChatAsk extends NoiAsk {
   }
 }
 
+
+class SoraAsk extends NoiAsk {
+  static name = 'Sora';
+  static url = 'https://sora.com';
+
+  static submit() {
+    const buttons = document.querySelectorAll('.surface-composer button');
+    const lastButton = buttons[buttons.length - 1];
+    if (lastButton) this.autoClick(lastButton);
+  }
+}
+
+class PoeAsk extends NoiAsk {
+  static name = 'Poe';
+  static url = 'https://poe.com';
+
+  static submit() {
+    const btn = document.querySelectorAll('button[class*="ChatMessageSendButton_sendButton"]')[0];
+    if (btn) this.autoClick(btn);
+  }
+}
+
 class PerplexityAsk extends NoiAsk {
   static name = 'Perplexity';
   static url = 'https://www.perplexity.ai';
@@ -243,6 +254,36 @@ class CopilotAsk extends NoiAsk {
   }
 }
 
+class GitHubCopilotAsk extends NoiAsk {
+  static name = 'GitHub';
+  static url = 'https://github.com/copilot';
+
+  static sync(message) {
+    const inputElement = document.querySelector('form #copilot-chat-textarea');
+    if (inputElement) {
+      inputElement.focus();
+      document.execCommand('undo');
+      document.execCommand('insertText', false, message);
+    }
+  }
+
+  static submit() {
+    const btns = document.querySelectorAll('form button');
+    const btn = btns[btns.length - 1];
+    if (btn) this.autoClick(btn);
+  }
+}
+
+class NotebooklmAsk extends NoiAsk {
+  static name = 'NotebookLM';
+  static url = 'https://notebooklm.google.com';
+
+  static submit() {
+    const btn = document.querySelector('form button[type="submit"]');
+    if (btn) btn.click();
+  }
+}
+
 class PiAsk extends NoiAsk {
   static name = 'Pi';
   static url = 'https://pi.ai/talk';
@@ -282,6 +323,27 @@ class YouAsk extends NoiAsk {
 
   static submit() {
     const btn = document.querySelector('button[data-eventactionname="click_send"]');
+    if (btn) btn.click();
+  }
+}
+
+
+class GroqAsk extends NoiAsk {
+  static name = 'Groq';
+  static url = 'https://groq.com';
+
+  static submit() {
+    const btn = document.querySelector('form button[type="submit"]');
+    if (btn) btn.click();
+  }
+}
+
+class SunoAsk extends NoiAsk {
+  static name = 'Suno AI';
+  static url = 'https://suno.com';
+
+  static submit() {
+    const btn = Array.from(document.querySelectorAll('button')).find(i => i.innerText.includes('Create'));
     if (btn) btn.click();
   }
 }
@@ -342,36 +404,6 @@ class TongyiAsk extends NoiAsk {
   }
 }
 
-class GroqAsk extends NoiAsk {
-  static name = 'Groq';
-  static url = 'https://groq.com';
-
-  static submit() {
-    const btn = document.querySelector('form button[type="submit"]');
-    if (btn) btn.click();
-  }
-}
-
-class SunoAsk extends NoiAsk {
-  static name = 'Suno AI';
-  static url = 'https://suno.com';
-
-  static submit() {
-    const btn = Array.from(document.querySelectorAll('button')).find(i => i.innerText.includes('Create'));
-    if (btn) btn.click();
-  }
-}
-
-class NotebooklmAsk extends NoiAsk {
-  static name = 'NotebookLM';
-  static url = 'https://notebooklm.google.com';
-
-  static submit() {
-    const btn = document.querySelector('form button[type="submit"]');
-    if (btn) btn.click();
-  }
-}
-
 class JimengAsk extends NoiAsk {
   static name = 'Jimeng';
   static url = 'https://jimeng.jianying.com';
@@ -401,26 +433,6 @@ class JimengAsk extends NoiAsk {
   }
 }
 
-class GitHubCopilotAsk extends NoiAsk {
-  static name = 'GitHub';
-  static url = 'https://github.com/copilot';
-
-  static sync(message) {
-    const inputElement = document.querySelector('form #copilot-chat-textarea');
-    if (inputElement) {
-      inputElement.focus();
-      document.execCommand('undo');
-      document.execCommand('insertText', false, message);
-    }
-  }
-
-  static submit() {
-    const btns = document.querySelectorAll('form button');
-    const btn = btns[btns.length - 1];
-    if (btn) this.autoClick(btn);
-  }
-}
-
 class MetasoAsk extends NoiAsk {
   static name = 'Metaso'; // 秘塔
   static url = 'https://metaso.cn';
@@ -433,25 +445,26 @@ class MetasoAsk extends NoiAsk {
 
 window.NoiAsk = {
   OpenAIAsk,
-  SoraAsk,
-  PoeAsk,
   ClaudeAsk,
   GeminiAsk,
+  GrokAsk,
+  CopilotAsk,
   HuggingChatAsk,
   PerplexityAsk,
-  CopilotAsk,
+  NotebooklmAsk,
+  GitHubCopilotAsk,
   PiAsk,
+  GroqAsk,
+  PoeAsk,
+  SoraAsk,
+  SunoAsk,
   CozeAsk,
   YouAsk,
   CozeCNAsk,
   DoubaoAsk,
   ChatGLMAsk,
   TongyiAsk,
-  GroqAsk,
-  SunoAsk,
-  NotebooklmAsk,
   JimengAsk,
   DeepSeekAsk,
-  GitHubCopilotAsk,
   MetasoAsk,
 };
