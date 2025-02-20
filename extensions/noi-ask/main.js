@@ -174,7 +174,7 @@ class SoraAsk extends NoiAsk {
   static url = 'https://sora.com';
 
   static submit() {
-    const buttons = document.querySelectorAll('.surface-composer button');
+    const buttons = document.querySelectorAll('button[data-disabled]');
     const lastButton = buttons[buttons.length - 1];
     if (lastButton) this.autoClick(lastButton);
   }
@@ -185,7 +185,7 @@ class PoeAsk extends NoiAsk {
   static url = 'https://poe.com';
 
   static submit() {
-    const btn = document.querySelectorAll('button[class*="ChatMessageSendButton_sendButton"]')[0];
+    const btn = document.querySelector('button[data-button-send]');
     if (btn) this.autoClick(btn);
   }
 }
@@ -209,48 +209,24 @@ class CopilotAsk extends NoiAsk {
   static url = 'https://copilot.microsoft.com';
 
   static sync(message) {
-    // SERP Shadow DOM
-    const serpDOM = document.querySelector('.cib-serp-main');
-    // Action Bar Shadow DOM
-    const inputDOM = serpDOM.shadowRoot.querySelector('#cib-action-bar-main');
-    // Text Input Shadow DOM
-    const textInputDOM = inputDOM.shadowRoot.querySelector('cib-text-input');
-    // This inner cib-text-input Shadow DOM is not always present
-    const inputElement = textInputDOM ? textInputDOM.shadowRoot.querySelector('#searchbox') : inputDOM.shadowRoot.querySelector('#searchbox');
+    const inputElement = document.querySelector('#userInput');
     if (inputElement) {
-      this.simulateUserInput(inputElement, message);
+      const nativeTextareaSetter = Object.getOwnPropertyDescriptor(window.HTMLTextAreaElement.prototype, 'value').set;
+      nativeTextareaSetter.call(inputElement, message);
+      const inputEvent = new InputEvent('input', {
+        bubbles: true,
+        cancelable: true,
+      });
+      inputElement.dispatchEvent(inputEvent);
     }
-  }
-
-  static autoFocus() {
-    const serpDOM = document.querySelector('.cib-serp-main');
-    const inputDOM = serpDOM.shadowRoot.querySelector('#cib-action-bar-main');
-    const textInputDOM = inputDOM.shadowRoot.querySelector('cib-text-input');
-    const inputElement = textInputDOM ? textInputDOM.shadowRoot.querySelector('#searchbox') : inputDOM.shadowRoot.querySelector('#searchbox');
-    if (inputElement) {
-      inputElement.focus();
-    }
+    // if (inputElement) {
+    //   this.simulateUserInput(inputElement, message);
+    // }
   }
 
   static submit() {
-    try {
-      // Access SERP Shadow DOM
-      const serpDOM = document.querySelector('.cib-serp-main');
-      // Action Bar Shadow DOM
-      const actionDOM = serpDOM.shadowRoot.querySelector('#cib-action-bar-main');
-      // Submit Button
-      const submitButton = actionDOM.shadowRoot.querySelector('div.submit button');
-
-      if (submitButton) {
-        submitButton.click();
-        submitButton.focus();
-        setTimeout(() => {
-          submitButton.click();
-        }, 100)
-      }
-    } catch (e) {
-      console.error('Copilot submit error', e);
-    }
+    const btn = document.querySelector('button[aria-label="Submit message"]');
+    if (btn) this.autoClick(btn);
   }
 }
 
@@ -330,10 +306,20 @@ class YouAsk extends NoiAsk {
 
 class GroqAsk extends NoiAsk {
   static name = 'Groq';
-  static url = 'https://groq.com';
+  static url = 'https://chat.groq.com';
 
   static submit() {
     const btn = document.querySelector('form button[type="submit"]');
+    if (btn) btn.click();
+  }
+}
+
+class LeChatMistralAsk extends NoiAsk {
+  static name = 'LeChatMistral';
+  static url = 'https://chat.mistral.ai/chat';
+
+  static submit() {
+    const btn = document.querySelector('button[aria-label="Send question"]');
     if (btn) btn.click();
   }
 }
@@ -453,6 +439,7 @@ window.NoiAsk = {
   PerplexityAsk,
   NotebooklmAsk,
   GitHubCopilotAsk,
+  LeChatMistralAsk,
   PiAsk,
   GroqAsk,
   PoeAsk,
