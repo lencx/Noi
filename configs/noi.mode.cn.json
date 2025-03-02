@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.8",
+  "version": "0.1.11",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.cn.json",
   "modes": [
     {
@@ -52,6 +52,24 @@
       "url": "https://gemini.google.com"
     },
     {
+      "id": "noi:grok",
+      "parent": "noi@ai",
+      "text": "Grok",
+      "url": "https://grok.com"
+    },
+    {
+      "id": "noi:deepseek",
+      "parent": "noi@ai",
+      "text": "DeepSeek",
+      "url": "https://chat.deepseek.com"
+    },
+    {
+      "id": "noi:githubcopilot",
+      "parent": "noi@ai",
+      "text": "GitHub Copilot",
+      "url": "https://github.com/copilot"
+    },
+    {
       "id": "noi:sora",
       "parent": "noi@ai",
       "text": "Sora",
@@ -85,7 +103,7 @@
       "id": "noi:groq",
       "parent": "noi@ai",
       "text": "Groq",
-      "url": "https://groq.com"
+      "url": "https://chat.groq.com"
     },
     {
       "id": "noi:lechatmistral",
