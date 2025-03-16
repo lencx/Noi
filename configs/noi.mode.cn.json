@@ -1,6 +1,6 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.cn.json",
   "modes": [
     {
@@ -50,6 +50,12 @@
       "parent": "noi@ai",
       "text": "Gemini",
       "url": "https://gemini.google.com"
+    },
+    {
+      "id": "noi:qwen",
+      "parent": "noi@ai",
+      "text": "Qwen",
+      "url": "https://chat.qwen.ai"
     },
     {
       "id": "noi:grok",
@@ -158,6 +164,12 @@
       "parent": "noi@aiCN",
       "text": "豆包",
       "url": "https://www.doubao.com"
+    },
+    {
+      "id": "noi:yuanbao",
+      "parent": "noi@aiCN",
+      "text": "腾讯元宝",
+      "url": "https://yuanbao.tencent.com/chat"
     },
     {
       "id": "noi:jimeng",
