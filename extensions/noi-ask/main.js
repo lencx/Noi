@@ -381,7 +381,7 @@ class DeepSeekAsk extends NoiAsk {
 }
 
 class TongyiAsk extends NoiAsk {
-  static name = 'TongYi'; // 通义千问
+  static name = 'QianWen'; // 通义千问
   static url = 'https://tongyi.aliyun.com/qianwen';
 
   static submit() {
@@ -390,8 +390,18 @@ class TongyiAsk extends NoiAsk {
   }
 }
 
+class QwenAsk extends NoiAsk {
+  static name = 'Qwen'; // 千问
+  static url = 'https://chat.qwen.ai';
+
+  static submit() {
+    const btn = document.querySelector('button#send-message-button');
+    if (btn) btn.click();
+  }
+}
+
 class JimengAsk extends NoiAsk {
-  static name = 'Jimeng';
+  static name = 'Jimeng'; // 即梦
   static url = 'https://jimeng.jianying.com';
 
   static sync(message) {
@@ -429,6 +439,24 @@ class MetasoAsk extends NoiAsk {
   }
 }
 
+class YuanbaoAsk extends NoiAsk {
+  static name = 'YuanBao'; // 腾讯元宝
+  static url = 'https://yuanbao.tencent.com/chat';
+
+  static sync(message) {
+    const inputElement = document.querySelector('[contenteditable=true]');
+    if (inputElement) {
+      inputElement.focus();
+      inputElement.innerHTML = message;
+    }
+  }
+
+  static submit() {
+    const btn = document.querySelector('.icon-send');
+    if (btn) btn.click();
+  }
+}
+
 window.NoiAsk = {
   OpenAIAsk,
   ClaudeAsk,
@@ -451,7 +479,9 @@ window.NoiAsk = {
   DoubaoAsk,
   ChatGLMAsk,
   TongyiAsk,
+  QwenAsk,
   JimengAsk,
   DeepSeekAsk,
   MetasoAsk,
+  YuanbaoAsk,
 };
