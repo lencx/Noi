@@ -458,9 +458,13 @@ class YuanbaoAsk extends NoiAsk {
 }
 
 // TODO: Improve the sync method to handle more complex input scenarios
+// The purpose of this TODO is to enhance the sync method to handle more complex input scenarios, such as multiline messages or messages with special formatting.
 // TODO: Enhance the submit method to support additional AI chat platforms
+// The purpose of this TODO is to improve the submit method to support a wider range of AI chat platforms, ensuring compatibility with various services.
 // TODO: Add more AI chat platforms
+// The purpose of this TODO is to expand the list of supported AI chat platforms, providing users with more options for interacting with different AI services.
 // TODO: Refactor existing AI chat classes to improve code readability and maintainability
+// The purpose of this TODO is to refactor the existing AI chat classes to enhance code readability and maintainability, making it easier to manage and extend the codebase.
 
 window.NoiAsk = {
   OpenAIAsk,

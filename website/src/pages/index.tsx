@@ -57,6 +57,7 @@ export default function Home(): JSX.Element {
           <code className="px-2">xattr -cr /Applications/Noi.app</code>
         </div>
         {/* TODO: Create a user-friendly interface for managing AI chat implementations */}
+        {/* The purpose of this TODO is to develop a user-friendly interface that allows users to easily manage and configure various AI chat implementations within the application. This will enhance the user experience by providing a centralized and intuitive way to handle different AI chat services. */}
       </main>
     </Layout>
   );
