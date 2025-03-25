@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "build": "cd website && yarn install && yarn build",
+    "test": "# No commands available to run tests as there is no information on testing in the repository.",
+    "launch": "cd website && yarn install && yarn start"
+  }
+}

@@ -14,4 +14,6 @@
       "world": "MAIN"
     }
   ]
+  // TODO: Update the URL to match the custom AI Chat
+  // The purpose of this TODO is to ensure that the URL specified in the manifest.json file matches the URL of the custom AI chat service being implemented. This is necessary for the extension to correctly identify and interact with the custom AI chat service.
 }

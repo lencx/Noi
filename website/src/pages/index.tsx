@@ -1,4 +1,3 @@
-// import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
@@ -57,6 +56,8 @@ export default function Home(): JSX.Element {
           <p>If you encounter the error message "Noi" is damaged and can't be opened. You should move it to the Trash. while installing software on macOS, it may be due to security settings restrictions in macOS. To solve this problem, please try the following command in Terminal:</p>
           <code className="px-2">xattr -cr /Applications/Noi.app</code>
         </div>
+        {/* TODO: Create a user-friendly interface for managing AI chat implementations */}
+        {/* The purpose of this TODO is to develop a user-friendly interface that allows users to easily manage and configure various AI chat implementations within the application. This will enhance the user experience by providing a centralized and intuitive way to handle different AI chat services. */}
       </main>
     </Layout>
   );
