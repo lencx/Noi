@@ -29,5 +29,7 @@
   "global_shortcut": "CmdOrCtrl+Shift+N",
   "global_shortcut_tray": "CmdOrCtrl+Shift+M",
   "global_shortcut_prompt": "CmdOrCtrl+Alt+P",
-  "mode_sync": "https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.json"
+  "mode_sync": "https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.json",
+  // TODO: Add support for user-defined shortcuts to trigger specific AI chat actions
+  // TODO: Develop a system for synchronizing user preferences across different devices
 }

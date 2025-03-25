@@ -457,6 +457,11 @@ class YuanbaoAsk extends NoiAsk {
   }
 }
 
+// TODO: Improve the sync method to handle more complex input scenarios
+// TODO: Enhance the submit method to support additional AI chat platforms
+// TODO: Add more AI chat platforms
+// TODO: Refactor existing AI chat classes to improve code readability and maintainability
+
 window.NoiAsk = {
   OpenAIAsk,
   ClaudeAsk,

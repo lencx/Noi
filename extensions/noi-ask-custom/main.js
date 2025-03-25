@@ -33,7 +33,7 @@ class NoiAskCustom {
   }
 }
 
-// TODO: Implement your custom AI Chat
+// TODO: Implement your custom AI Chat functionalities
 // TODO: In manifest.json to match the url of your AI Chat
 // ref: https://github.com/lencx/Noi/tree/main/extensions/noi-ask
 class MyAsk extends NoiAskCustom {
@@ -59,3 +59,5 @@ window.NoiAsk = {
   // TODO: Add your AI Chat class here
   MyAsk,
 };
+
+// TODO: Identify and list all the TODO code comments throughout the entire codebase
