@@ -128,6 +128,27 @@ export async function recordBranchedMessage(sourceMessageId: string, newMessage:
   }
 }
 
+export async function getConversationHistory(conversationId: string) {
+  const session = driver.session();
+  try {
+    const result = await session.readTransaction(tx =>
+      tx.run(
+        `
+        MATCH (c:Conversation {conversationId: $conversationId})-[:HAS_MESSAGE]->(m:Message)
+        RETURN m ORDER BY m.timestamp
+        `,
+        { conversationId }
+      )
+    );
+    return result.records.map(record => record.get('m').properties);
+  } catch (error) {
+    console.error('Error fetching conversation history:', error);
+    throw error;
+  } finally {
+    await session.close();
+  }
+}
+
 function getSession() {
   return driver.session();
 }
