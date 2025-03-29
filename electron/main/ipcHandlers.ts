@@ -17,7 +17,6 @@ const providerIdToClassNameMap = {
   'noi:chatgpt': 'OpenAIAsk',
   'noi:claude': 'ClaudeAsk',
   'noi:gemini': 'GeminiAsk',
-  'noi:grok': 'GrokAsk',
   'noi:deepseek': 'DeepSeekAsk',
   'noi:githubcopilot': 'GitHubCopilotAsk',
   'noi:sora': 'SoraAsk',
