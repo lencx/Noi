@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "neo4j-driver": "^5.28.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0"
+  }
+}

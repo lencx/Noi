@@ -112,52 +112,10 @@
       "url": "https://chat.qwen.ai"
     },
     {
-      "id": "noi:groq",
-      "parent": "noi@ai",
-      "text": "Groq",
-      "url": "https://chat.groq.com"
-    },
-    {
-      "id": "noi:lechatmistral",
-      "parent": "noi@ai",
-      "text": "Le Chat Mistral",
-      "url": "https://chat.mistral.ai/chat"
-    },
-    {
-      "id": "noi:pi",
-      "parent": "noi@ai",
-      "text": "Pi",
-      "url": "https://pi.ai/talk"
-    },
-    {
       "id": "noi:notebooklm",
       "parent": "noi@ai",
       "text": "NotebookLM",
       "url": "https://notebooklm.google.com"
-    },
-    {
-      "id": "noi:coze",
-      "parent": "noi@ai",
-      "text": "Coze",
-      "url": "https://www.coze.com/home"
-    },
-    {
-      "id": "noi:you",
-      "parent": "noi@ai",
-      "text": "YOU",
-      "url": "https://you.com"
-    },
-    {
-      "id": "noi:midjourney",
-      "parent": "noi@ai",
-      "text": "Midjourney",
-      "url": "https://www.midjourney.com"
-    },
-    {
-      "id": "noi:suno",
-      "parent": "noi@ai",
-      "text": "Suno AI",
-      "url": "https://suno.com"
     },
     {
       "id": "noi:github",

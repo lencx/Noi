@@ -70,16 +70,6 @@ class OpenAIAsk extends NoiAsk {
   }
 }
 
-class GrokAsk extends NoiAsk {
-  static name = 'Grok';
-  static url = 'https://grok.com';
-
-  static submit() {
-    const btn = document.querySelector('button[type="submit"]');
-    if (btn) btn.click();
-  }
-}
-
 class ClaudeAsk extends NoiAsk {
   static name = 'Claude';
   static url = 'https://claude.ai';
@@ -260,116 +250,6 @@ class NotebooklmAsk extends NoiAsk {
   }
 }
 
-class PiAsk extends NoiAsk {
-  static name = 'Pi';
-  static url = 'https://pi.ai/talk';
-
-  static submit() {
-    const inputElement = document.querySelector('textarea[placeholder="Talk with Pi"]');
-    if (inputElement) {
-      const event = new KeyboardEvent('keydown', {
-        key: 'Enter',
-        view: window,
-        bubbles: true
-      });
-      inputElement.dispatchEvent(event);
-    }
-  }
-}
-
-class CozeAsk extends NoiAsk {
-  static name = 'Coze';
-  static url = 'https://www.coze.com/home';
-
-  static submit() {
-    const inputElement = document.querySelector('textarea');
-    if (inputElement) {
-      const nextElement = inputElement.nextElementSibling;
-      if (nextElement) {
-        const btn = nextElement.querySelector('button');
-        if (btn) btn.click();
-      }
-    }
-  }
-}
-
-class YouAsk extends NoiAsk {
-  static name = 'YOU';
-  static url = 'https://you.com';
-
-  static submit() {
-    const btn = document.querySelector('button[data-eventactionname="click_send"]');
-    if (btn) btn.click();
-  }
-}
-
-
-class GroqAsk extends NoiAsk {
-  static name = 'Groq';
-  static url = 'https://chat.groq.com';
-
-  static submit() {
-    const btn = document.querySelector('form button[type="submit"]');
-    if (btn) btn.click();
-  }
-}
-
-class LeChatMistralAsk extends NoiAsk {
-  static name = 'LeChatMistral';
-  static url = 'https://chat.mistral.ai/chat';
-
-  static submit() {
-    const btn = document.querySelector('button[aria-label="Send question"]');
-    if (btn) btn.click();
-  }
-}
-
-class SunoAsk extends NoiAsk {
-  static name = 'Suno AI';
-  static url = 'https://suno.com';
-
-  static submit() {
-    const btn = Array.from(document.querySelectorAll('button')).find(i => i.innerText.includes('Create'));
-    if (btn) btn.click();
-  }
-}
-
-class CozeCNAsk extends NoiAsk {
-  static name = 'Coze';
-  static url = 'https://www.coze.cn/home';
-
-  static submit() {
-    const inputElement = document.querySelector('textarea');
-    if (inputElement) {
-      const nextElement = inputElement.nextElementSibling;
-      if (nextElement) {
-        const btn = nextElement.querySelector('button');
-        if (btn) btn.click();
-      }
-    }
-  }
-}
-
-class ChatGLMAsk extends NoiAsk {
-  static name = 'ChatGLM'; // 智谱清言
-  static url = 'https://chatglm.cn';
-
-  static submit() {
-    const btn = document.querySelector('#search-input-box .enter img');
-    if (btn) btn.click();
-  }
-}
-
-class DoubaoAsk extends NoiAsk {
-  static name = 'Doubao'; // 豆包
-  static url = 'https://www.doubao.com';
-
-  static submit() {
-    const btn = document.querySelector('#flow-end-msg-send');
-    if (btn) btn.click();
-  }
-}
-
 class DeepSeekAsk extends NoiAsk {
   static name = 'DeepSeek'; // DeepSeek
   static url = 'https://chat.deepseek.com';
@@ -380,82 +260,18 @@ class DeepSeekAsk extends NoiAsk {
   }
 }
 
-class TongyiAsk extends NoiAsk {
-  static name = 'QianWen'; // 通义千问
-  static url = 'https://tongyi.aliyun.com/qianwen';
-
-  static submit() {
-    const btn = document.querySelector('div[class*=operateBtn]');
-    if (btn) btn.click();
-  }
-}
-
-class QwenAsk extends NoiAsk {
-  static name = 'Qwen'; // 千问
-  static url = 'https://chat.qwen.ai';
-
-  static submit() {
-    const btn = document.querySelector('button#send-message-button');
-    if (btn) btn.click();
-  }
-}
-
-class JimengAsk extends NoiAsk {
-  static name = 'Jimeng'; // 即梦
-  static url = 'https://jimeng.jianying.com';
-
-  static sync(message) {
-    // image generation
-    const inputElement = document.querySelector('#prompt-text-editor');
-    if (inputElement) {
-      inputElement.focus();
-      inputElement.innerHTML = '';
-
-      const span = document.createElement('span');
-      span.textContent = message;
-      inputElement.appendChild(span);
-
-      const inputEvent = new InputEvent('input', {
-        bubbles: true,
-        cancelable: true,
-      });
-      inputElement.dispatchEvent(inputEvent);
+// Define the globally accessible function window.NoiAskGlobal.rerouteInput
+window.NoiAskGlobal = {
+  rerouteInput(targetProviderClassName, textContent) {
+    const providerClass = window.NoiAsk[targetProviderClassName];
+    if (providerClass) {
+      providerClass.sync(textContent);
+      providerClass.submit();
+    } else {
+      console.error(`Provider class ${targetProviderClassName} not found`);
     }
   }
-
-  static submit() {
-    const btn = document.querySelector('[class*="generateButton"]');
-    if (btn) this.autoClick(btn);
-  }
-}
-
-class MetasoAsk extends NoiAsk {
-  static name = 'Metaso'; // 秘塔
-  static url = 'https://metaso.cn';
-
-  static submit() {
-    const btn = document.querySelector('button.send-arrow-button');
-    if (btn) btn.click();
-  }
-}
-
-class YuanbaoAsk extends NoiAsk {
-  static name = 'YuanBao'; // 腾讯元宝
-  static url = 'https://yuanbao.tencent.com/chat';
-
-  static sync(message) {
-    const inputElement = document.querySelector('[contenteditable=true]');
-    if (inputElement) {
-      inputElement.focus();
-      inputElement.innerHTML = message;
-    }
-  }
-
-  static submit() {
-    const btn = document.querySelector('.icon-send');
-    if (btn) btn.click();
-  }
-}
+};
 
 // TODO: Improve the sync method to handle more complex input scenarios
 // The purpose of this TODO is to enhance the sync method to handle more complex input scenarios, such as multiline messages or messages with special formatting.
@@ -470,27 +286,12 @@ window.NoiAsk = {
   OpenAIAsk,
   ClaudeAsk,
   GeminiAsk,
-  GrokAsk,
   CopilotAsk,
   HuggingChatAsk,
   PerplexityAsk,
   NotebooklmAsk,
   GitHubCopilotAsk,
-  LeChatMistralAsk,
-  PiAsk,
-  GroqAsk,
   PoeAsk,
   SoraAsk,
-  SunoAsk,
-  CozeAsk,
-  YouAsk,
-  CozeCNAsk,
-  DoubaoAsk,
-  ChatGLMAsk,
-  TongyiAsk,
-  QwenAsk,
-  JimengAsk,
   DeepSeekAsk,
-  MetasoAsk,
-  YuanbaoAsk,
 };
