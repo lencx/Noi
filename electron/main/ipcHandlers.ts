@@ -61,3 +61,10 @@ ipcMain.on('reroute-ai-output', async (event, { sourceMessageId, textContent, ta
     event.sender.send('reroute-status', { success: false, error: error.message });
   }
 });
+
+ipcMain.on('reroute-status', (event, { success, newMessageId, error }) => {
+  const mainWindow = BrowserWindow.getAllWindows()[0];
+  if (mainWindow) {
+    mainWindow.webContents.send('reroute-status', { success, newMessageId, error });
+  }
+});

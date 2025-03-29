@@ -9,7 +9,8 @@
     "noi:chatgpt",
     "noi:claude",
     "noi:gemini",
-    "noi:poe"
+    "noi:poe",
+    "noi_ask"
   ],
   "modes": []
 }
