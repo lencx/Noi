@@ -99,12 +99,10 @@ class ClaudeAsk extends NoiAsk {
 
   static submit() {
     // subsequent screens use this
-    let btn = document.querySelector('button[aria-label*="Send Message"]');
-    if (!btn) { // new chats use this
-      btn = document.querySelector('button:has(div svg)');
-    }
-    if (!btn) { // last ditch attempt
-      btn = document.querySelector('button:has(svg)');
+    let btn = document.querySelector('button[aria-label*="send message" i]');
+    if (!btn) {
+      const btns = document.querySelectorAll('fieldset button:has(svg)');
+      btn = btns[btns.length - 1];
     }
     if (btn) this.autoClick(btn);
   }
