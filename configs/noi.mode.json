@@ -34,6 +34,12 @@
       "text": "Email"
     },
     {
+      "id": "noi@music",
+      "parent": 0,
+      "dir": true,
+      "text": "Music"
+    },,
+    {
       "id": "noi@video",
       "parent": 0,
       "dir": true,
@@ -230,6 +236,12 @@
       "parent": "noi@email",
       "text": "Outlook",
       "url": "https://outlook.live.com"
+    },
+    {
+      "id": "noi:music",
+      "parent": "noi@music",
+      "text": "YouTube Music",
+      "url": "https://music.youtube.com"
     },
     {
       "id": "noi:youtube",
