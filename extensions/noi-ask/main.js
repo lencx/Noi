@@ -445,7 +445,7 @@ class YuanbaoAsk extends NoiAsk {
     const inputElement = document.querySelector('[contenteditable=true]');
     if (inputElement) {
       inputElement.focus();
-      inputElement.innerHTML = message;
+      inputElement.textContent = message;
     }
   }
 
