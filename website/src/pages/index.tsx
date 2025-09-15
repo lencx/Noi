@@ -35,8 +35,8 @@ export default function Home(): JSX.Element {
             <img src="/os/linux-logo.png" className="w-[40px] sm:w-[60px]" />
             <div className="font-bold">Linux</div>
             <div className="flex gap-2 justify-center">
-              <a href={`https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_linux_0.2.1.AppImage`}>AppImage</a>
-              <a href={`https://github.com/lencx/Noi/releases/download/v0.2.1/noi_linux_amd64_0.2.1.deb`}>amd64.deb</a>
+              <a href={`https://github.com/lencx/Noi/releases/download/v${noiVersion}/Noi_linux_${noiVersion}.AppImage`}>AppImage</a>
+              <a href={`https://github.com/lencx/Noi/releases/download/v${noiVersion}/noi_linux_amd64_${noiVersion}.deb`}>amd64.deb</a>
             </div>
           </div>
         </div>
