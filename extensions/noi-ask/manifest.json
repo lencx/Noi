@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://chatgpt.com/*",
+        "https://chat.openai.com/*",
         "https://sora.com/*",
         "https://gemini.google.com/*",
         "https://grok.com/*",
