@@ -1,0 +1,223 @@
+{
+  "lang": "Polski",
+  "sponsor": "Sponsor Noi",
+  "menu": {
+    "name": "Menu",
+    "about": "O Noi",
+    "hide": "Ukryj Noi",
+    "hideOthers": "Ukryj Inne",
+    "quit": "Zamknij Noi",
+    "unhide": "Pokaż Wszystkie",
+    "checkUpdates": "Sprawdź dostępne aktualizacje",
+
+    "settings": "Ustawienia",
+    "languages": "Języki",
+    "theme": {
+      "name": "Motyw",
+      "light": "Jasny",
+      "dark": "Ciemny",
+      "system": "Systemowy",
+      "monochromatic": "Monochromatyczny",
+      "frostedTexture": "Szroniona Faktura"
+    },
+    "stayOnTop": "Zawsze na Wierzchu",
+    "lockSidebar": "Zablokuj Pasek Boczny",
+    "showSidebar": "Pokaż Pasek Boczny",
+    "hideSidebar": "Ukryj Pasek Boczny",
+    "noiCacheMode": "Tryb Pamięci Cache Noi",
+    "devTools": "Narzędzia Deweloperskie",
+    "xQuit": "Kliknij [X], aby Wyjść",
+    "systemTray": "Zasobnik Systemowy",
+
+    "edit": "Edytuj",
+    "undo": "Cofnij",
+    "redo": "Ponów",
+    "pasteAndMatchStyle": "Wklej i Dopasuj Styl",
+    "delete": "Usuń",
+
+    "view": "Widok",
+    "refresh": "Odśwież Stronę",
+    "goBack": "Wróć",
+    "goForward": "Przejdź Dalej",
+    "resetZoom": "Rzeczywisty Rozmiar",
+    "zoomIn": "Powiększ",
+    "zoomOut": "Pomniejsz",
+    "fullScreen": "Przełącz na Pełny Ekran",
+
+    "help": "Pomoc",
+    "log": "Dziennik Noi",
+    "gettingStarted": "Pierwsze Kroki",
+    "issues": "Problemy na GitHub",
+    "shareIdeas": "Zostaw opinie lub podziel się pomysłami",
+
+    "defaultWebBrowser": "Domyślna Przeglądarka",
+    "learnSpelling": "Naucz Się Pisowni",
+    "lookUpSelection": "Wyszukaj „{selection}”",
+    "searchWithGoogle": "Wyszukaj za pomocą Google",
+    "searchWithBing": "Wyszukaj za pomocą Bing",
+    "cut": "Wytnij",
+    "copy": "Kopiuj",
+    "paste": "Wklej",
+    "selectAll": "Zaznacz Wszystko",
+    "saveImage": "Zapisz Obraz",
+    "saveImageAs": "Zapisz Obraz Jako…",
+    "saveVideo": "Zapisz Wideo",
+    "saveVideoAs": "Zapisz Wideo Jako…",
+    "copyLink": "Kopiuj Link",
+    "saveLinkAs": "Zapisz Link Jako…",
+    "copyImage": "Kopiuj Obraz",
+    "copyImageAddress": "Kopiuj Adres Obrazu",
+    "copyVideoAddress": "Kopiuj Adres Wideo",
+    "inspect": "Zbadaj Element",
+    "services": "Usługi",
+    "reload": "Przeładuj",
+    "rename": "Zmień Nazwę",
+    "user": "Użytkownik",
+    "setSystemTray": "Ustaw jako Zasobnik Systemowy",
+    "clearCache": "Wyczyść Dane Cache",
+    "find": {
+      "name": "Znajdź",
+      "findInPage": "Znajdź na stronie…",
+      "findNext": "Znajdź następne",
+      "findPrevious": "Znajdź poprzednie",
+      "jumpToSelection": "Przejdź do zaznaczenia"
+    }
+  },
+  "form": {
+    "name": "Nazwa",
+    "url": "URL",
+    "isolatedCookieStorage": "Izolowane przechowywanie ciasteczek",
+    "invalidURL": "Podaj poprawny adres URL.",
+    "nameNotEmpty": "Nazwa nie może być pusta."
+  },
+  "sidebar": {
+    "warn": {
+      "urlDelete": "Aktualny URL jest w użyciu.",
+      "dirDelete": "Aktualny katalog jest w użyciu.",
+      "trayDelete": "Zasobnik systemowy używa aktualnego URL, nie można go usunąć."
+    },
+    "tip": {
+      "delete": "Nie można odzyskać po usunięciu, czy na pewno chcesz usunąć?",
+      "syncOverwrite": "Synchronizacja nadpisze wszystkie dane poza danymi niestandardowymi. Czy chcesz kontynuować?",
+      "syncReset": "Jesteś na najnowszej wersji. Synchronizacja zresetuje wszystkie dane poza danymi niestandardowymi. Czy chcesz kontynuować?",
+      "syncOk": "Synchronizacja zakończona pomyślnie",
+      "syncResetOk": "Reset zakończony pomyślnie"
+    }
+  },
+  "network": {
+    "error": {
+      "try": "Spróbuj:",
+      "title": "Nie można uzyskać dostępu do tej witryny",
+      "longRespond": "zbyt długo nie odpowiada.",
+      "checkConnection": "Sprawdź połączenie",
+      "checkProxy": "Sprawdź ustawienia proxy i zapory"
+    }
+  },
+  "settings": {
+    "menu": {
+      "general": {
+        "name": "Ogólne",
+        "syncBookmarks": "Synchronizuj Zakładki",
+        "proxy": "Proxy",
+        "proxyRules": "Zasady",
+        "proxyBypassRules": "Zasady Ominięcia Proxy",
+        "promptLogLimit": "Limit Dziennika",
+        "promptLogArchiveLimit": "Limit Archiwum Dziennika",
+        "promptFavoritesLimit": "Limit Ulubionych",
+        "promptFavoritesArchiveLimit": "Limit Archiwum Ulubionych"
+      },
+      "keyboardShortcuts": {
+        "name": "Skróty Klawiaturowe",
+        "recording": "Nagrywanie…",
+        "globalShortcut": "Skrót Globalny",
+        "trayShortcut": "Skrót Zasobnika Systemowego"
+      },
+      "extensions": "Rozszerzenia",
+      "prompts": {
+        "name": "Podpowiedzi",
+        "userPrompts": "Podpowiedzi Użytkownika",
+        "promptTags": "Tagi Podpowiedzi",
+        "customSync": "Niestandardowa Synchronizacja"
+      }
+    },
+    "confirm": {
+      "delete": "Czy na pewno chcesz usunąć ten rekord?",
+      "batchEnable": "Czy na pewno chcesz włączyć te podpowiedzi?",
+      "batchDelete": "Czy na pewno chcesz usunąć te podpowiedzi?",
+      "batchDisable": "Czy na pewno chcesz wyłączyć te podpowiedzi?",
+      "batchUse": "Czy na pewno chcesz użyć tych podpowiedzi?",
+      "batchTagsAdd": "Czy na pewno chcesz dodać te tagi?",
+      "batchTagsDelete": "Czy na pewno chcesz usunąć te tagi?"
+    },
+    "message": {
+      "added": "Dodano",
+      "synced": "Zsynchronizowano",
+      "invalidData": "Nieprawidłowe Dane",
+      "missingActAndPrompt": "Brakujące pola: 'act', 'prompt'. Spróbuj użyć 'Alias', aby zmienić nazwę.",
+      "missingManifest": "Brakuje pliku manifest.json lub jest on nieprawidłowy.",
+      "checkExtension": "Sprawdź ponownie katalog rozszerzeń:",
+      "existExtension": "To rozszerzenie już istnieje."
+    },
+    "tip": {
+      "proxyRules": "Zasady wskazujące, które proxy należy używać.",
+      "proxyBypassRules": "Zasady wskazujące, które URL mają pomijać ustawienia proxy.",
+      "shortcutRule": "Zasada Skrótu",
+      "modifierKeys": "Klawisze Modyfikujące",
+      "regularKeys": "Klawisze Zwykłe",
+      "noiExtension": "Noi nie obsługuje pełnego zakresu interfejsów API rozszerzeń Chrome. Sprawdź Obsługiwane API Rozszerzeń, aby uzyskać więcej informacji.",
+      "noiCacheMode": "Przechowuje stany stron internetowych dla szybkiego ponownego dostępu, podobnie jak karty przeglądarki. Ciągłe nagrywanie stanu zwiększa użycie pamięci, szczególnie przy częstym dostępie do różnych linków w pasku bocznym. Aby zmniejszyć wpływ na pamięć, zwłaszcza podczas opóźnień systemowych, rozważ wyłączenie lub ponowne uruchomienie pamięci podręcznej po wielu przełącznikach.",
+      "promptLogLimit": "Maksymalna liczba podpowiedzi do zachowania w dzienniku (10-1000), domyślnie ustawiona na 300.",
+      "promptLogArchiveLimit_1": "Maksymalna liczba podpowiedzi, które można przechowywać w jednym pliku archiwum (1000-10 000), domyślnie ustawiona na 1000.",
+      "promptLogArchiveLimit_2": "1. Plik obecnie archiwizowany: {{file}}.archiving.json",
+      "promptLogArchiveLimit_3": "2. Konwencja nazewnictwa ukończonych plików archiwum: {{file}}_YYYY.MM.DD.HH.mm.ss_YYYY.MM.DD.HH.mm.ss.json, gdzie YYYY.MM.DD.HH.mm.ss reprezentuje odpowiednio czasy początkowy i końcowy. Na przykład: {{file}}_2024.01.01.12.00.00_2024.08.08.10.10.00.json"
+    },
+    "table": {
+      "name": "Nazwa",
+      "extension": "Rozszerzenie",
+      "description": "Opis",
+      "version": "Wersja",
+      "tag": "Tag",
+      "color": "Kolor",
+      "lastUpdate": "Ostatnia Aktualizacja",
+      "usageCount": "Liczba Użyć"
+    }
+  },
+  "action": {
+    "name": "Akcja",
+    "add": "Dodaj",
+    "cancel": "Anuluj",
+    "create": "Utwórz",
+    "confirm": "Potwierdź",
+    "detail": "Szczegóły",
+    "delete": "Usuń",
+    "disable": "Wyłącz",
+    "edit": "Edytuj",
+    "enable": "Włącz",
+    "export": "Eksportuj",
+    "refresh": "Odśwież",
+    "reset": "Resetuj",
+    "sync": "Synchronizuj",
+    "save": "Zapisz",
+    "search": "Szukaj",
+    "select": "Wybierz",
+    "use": "Użyj",
+    "copied": "Skopiowano",
+    "batchAdd": "Dodaj Hurtowo",
+    "batchDisable": "Wyłącz Hurtowo",
+    "batchEnable": "Włącz Hurtowo",
+    "batchDelete": "Usuń Hurtowo",
+    "batchUse": "Użyj Hurtowo"
+  },
+  "prompt": {
+    "promptFavorite": "Ulubione Podpowiedzi",
+    "promptLog": "Dziennik Podpowiedzi",
+    "promptSend": "Wyślij Podpowiedź",
+    "newChat": "Nowa rozmowa",
+    "sendMessage": "Wyślij wiadomość",
+    "resetPanel": "Zresetuj Panel",
+    "promptCmd": "Komenda Podpowiedzi",
+    "sizeSmall": "Mały",
+    "sizeMedium": "Średni",
+    "sizeLarge": "Duży"
+  }
+}
